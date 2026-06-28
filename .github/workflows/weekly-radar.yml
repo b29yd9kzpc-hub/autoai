@@ -16,7 +16,7 @@ concurrency:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
@@ -35,12 +35,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
         run: python -m src.ai_github_radar
 
       - name: Save snapshot and report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/snapshot.json reports/latest.md
+          git add data/snapshot.json data/analysis_cache.json reports/latest.md
           git diff --cached --quiet || git commit -m "chore: update weekly AI radar"
           git push
