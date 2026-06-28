@@ -1,20 +1,42 @@
 {
   "github_api_version": "2026-03-10",
-  "language": "",
+  "trending": {
+    "period": "weekly",
+    "spoken_language": "any",
+    "programming_language": "any",
+    "preserve_github_order": true,
+    "max_candidates": 25,
+    "metadata_workers": 5
+  },
+  "supplemental_search": true,
   "minimum_stars": 20,
   "minimum_weekly_star_gain": 10,
   "new_project_days": 14,
-  "active_within_days": 180,
-  "results_per_query": 50,
+  "results_per_query": 30,
   "search_delay_seconds": 2.1,
   "report_size": {
-    "rising": 8,
-    "new": 8,
-    "hot": 8
+    "official": 10,
+    "rising": 5,
+    "new": 3
+  },
+  "deepseek": {
+    "enabled": true,
+    "model": "deepseek-v4-pro",
+    "base_url": "https://api.deepseek.com",
+    "max_projects_per_run": 18,
+    "max_readme_chars": 6000
   },
   "categories": [
     {
       "name": "AI Agent",
+      "keywords": [
+        "ai agent",
+        "ai-agent",
+        "ai agents",
+        "agentic",
+        "autonomous agent",
+        "multi-agent"
+      ],
       "queries": [
         "topic:ai-agent",
         "topic:autonomous-agents",
@@ -23,6 +45,14 @@
     },
     {
       "name": "RAG / 知识库",
+      "keywords": [
+        "retrieval augmented",
+        "retrieval-augmented",
+        "rag",
+        "ai knowledge base",
+        "ai search",
+        "knowledge assistant"
+      ],
       "queries": [
         "topic:rag",
         "topic:retrieval-augmented-generation",
@@ -31,6 +61,15 @@
     },
     {
       "name": "AI 编程",
+      "keywords": [
+        "ai coding",
+        "coding agent",
+        "code assistant",
+        "coding assistant",
+        "developer agent",
+        "claude code",
+        "vibe coding"
+      ],
       "queries": [
         "topic:ai-coding-assistant",
         "topic:code-assistant",
@@ -39,6 +78,13 @@
     },
     {
       "name": "AI 工作流",
+      "keywords": [
+        "ai automation",
+        "ai workflow",
+        "llm workflow",
+        "workflow automation",
+        "agent workflow"
+      ],
       "queries": [
         "topic:ai-automation",
         "topic:llm-workflow",
@@ -47,6 +93,14 @@
     },
     {
       "name": "图像 / 视频",
+      "keywords": [
+        "ai image",
+        "image generation",
+        "video generation",
+        "ai video",
+        "multimodal app",
+        "generative media"
+      ],
       "queries": [
         "topic:ai-image-generation",
         "topic:ai-video",
@@ -55,6 +109,14 @@
     },
     {
       "name": "语音 / 音频",
+      "keywords": [
+        "voice assistant",
+        "ai voice",
+        "text-to-speech",
+        "speech-to-text",
+        "transcription",
+        "voice agent"
+      ],
       "queries": [
         "topic:voice-assistant",
         "topic:text-to-speech",
@@ -63,6 +125,14 @@
     },
     {
       "name": "本地 AI 客户端",
+      "keywords": [
+        "local ai",
+        "llm ui",
+        "ai assistant",
+        "ai chat",
+        "chat interface",
+        "ai productivity"
+      ],
       "queries": [
         "topic:local-ai",
         "topic:llm-ui",
@@ -71,20 +141,47 @@
     },
     {
       "name": "MCP 应用",
+      "keywords": [
+        "model context protocol",
+        "mcp server",
+        "mcp client",
+        "mcp servers",
+        "mcp tools"
+      ],
       "queries": [
         "topic:model-context-protocol",
         "topic:mcp-server",
         "\"MCP client\" in:name,description"
       ]
+    },
+    {
+      "name": "其他 AI 应用",
+      "keywords": [
+        "ai-powered",
+        "powered by ai",
+        "llm application",
+        "generative ai app",
+        "artificial intelligence assistant"
+      ],
+      "queries": [
+        "\"AI-powered\" in:name,description topic:llm"
+      ]
     }
   ],
   "exclude_keywords": [
     "awesome list",
+    "awesome-",
     "checklist",
+    "course",
     "course materials",
+    "format specification",
     "learning resources",
     "paper collection",
     "prompt collection",
+    "skills for ai agents",
+    "skills collection",
+    "system prompts",
+    "tutorial",
     "tutorial collection",
     "model weights",
     "training dataset",
