@@ -1,4 +1,292 @@
 {
   "version": 1,
-  "repositories": {}
+  "repositories": {
+    "calesthio/OpenMontage": {
+      "readme_sha": "0801102f175c3bb5af5b3fcdc087a04b7459f3d6",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:36.347139+00:00",
+      "analysis": {
+        "summary_zh": "首个开源智能视频制作系统，含12流水线、52工具、500+智能技能。",
+        "application": "通过自然语言指令，驱动AI助手完成从研究、脚本到素材生成、编辑合成的全流程视频制作，支持图像视频和真实视频剪辑。",
+        "use_cases": [
+          "科幻预告片生成",
+          "动画短片制作",
+          "历史纪录片合成",
+          "产品广告自动生成"
+        ],
+        "target_users": "内容创作者、视频制作爱好者、AI开发者"
+      }
+    },
+    "DeusData/codebase-memory-mcp": {
+      "readme_sha": "cb5e90aa203942d21c3309da96a320777b788de0",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:40.144156+00:00",
+      "analysis": {
+        "summary_zh": "高性能代码智能MCP服务器，毫秒级索引代码库生成持久知识图谱。",
+        "application": "为AI编码代理提供代码结构查询，支持搜索、追踪、架构分析等，通过知识图谱降低令牌消耗，加速代码理解。",
+        "use_cases": [
+          "代码库索引与搜索",
+          "依赖与调用链分析",
+          "架构可视化",
+          "死代码与安全检测"
+        ],
+        "target_users": "使用AI编码助手的开发者"
+      }
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "readme_sha": "cd66ead9346842ca55849c41c6833cd5611cb7ef",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:43.978007+00:00",
+      "analysis": {
+        "summary_zh": "使用AI代理一键逆向克隆网站为Next.js项目模板",
+        "application": "通过AI代理检查网站，提取设计元素和资源，生成组件规格并并行构建，将任意网站转换为现代Next.js代码库。",
+        "use_cases": [
+          "平台迁移（WordPress等转Next.js）",
+          "恢复丢失的源代码",
+          "学习生产网站的布局和动画实现"
+        ],
+        "target_users": "需要迁移或逆向网站代码的开发者"
+      }
+    },
+    "interviewstreet/hiring-agent": {
+      "readme_sha": "0396ef45f211d934a02c57dab7e358cb999870af",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:47.939903+00:00",
+      "analysis": {
+        "summary_zh": "AI 简历评分工具，从 PDF 提取信息并公平评估。",
+        "application": "解析 PDF 简历为结构化 JSON，结合 GitHub 数据增强，利用 LLM 进行量化评估，输出公平、可解释的打分结果。",
+        "use_cases": [
+          "自动筛选简历",
+          "技术人才评估",
+          "GitHub 项目分析",
+          "招聘流程优化"
+        ],
+        "target_users": "招聘团队、HR 和技术面试官"
+      }
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "readme_sha": "25a84d3118cf13568b55018795bde570da0f1e74",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:51.434376+00:00",
+      "analysis": {
+        "summary_zh": "LLM驱动的跨市场股票智能分析系统，支持自动报告与多平台推送。",
+        "application": "通过AI模型聚合多市场行情、新闻与舆情，生成包含评分、趋势、买卖点位的决策报告，并可定时推送到企业微信、Telegram等平台。",
+        "use_cases": [
+          "多市场自选股智能分析",
+          "AI生成投资决策报告",
+          "实时新闻与舆情监控",
+          "自动化多渠道推送"
+        ],
+        "target_users": "个人投资者、交易员、金融分析师"
+      }
+    },
+    "stablyai/orca": {
+      "readme_sha": "00989a01325066e0c2436ab5ab957431bcc5df81",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:55.251413+00:00",
+      "analysis": {
+        "summary_zh": "Orca 是并行 AI 代理编排开发环境，支持多代理协同工作。",
+        "application": "Orca 允许开发者在独立工作树中并行运行 Codex、ClaudeCode 等编码代理，比较结果并合并最佳方案，同时提供移动监控、终端分割、设计模式等工具。",
+        "use_cases": [
+          "并行运行多个 AI 编码代理",
+          "移动端监控和指挥代理",
+          "远程 SSH 工作树执行代理",
+          "集成 GitHub 和 Linear 任务管理"
+        ],
+        "target_users": "需要高效编排多 AI 代理的开发者"
+      }
+    },
+    "Panniantong/Agent-Reach": {
+      "readme_sha": "039a06ce3ecf1d4fad3391435ed77ba566a9211d",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:12:58.737128+00:00",
+      "analysis": {
+        "summary_zh": "为 AI 代理提供免配置的互联网读写能力，支持多平台搜索与内容提取。",
+        "application": "通过 CLI 工具集成，让 AI 代理无需 API 费用即可读取 YouTube、Twitter、Reddit、B站、小红书等平台内容，并支持全网搜索与 RSS 订阅。",
+        "use_cases": [
+          "视频字幕提取与总结",
+          "社交媒体舆情分析",
+          "全网语义搜索",
+          "RSS 源监控"
+        ],
+        "target_users": "需增强互联网访问能力的 AI 代理与开发者"
+      }
+    },
+    "jamiepine/voicebox": {
+      "readme_sha": "34ef1c0c8d37ea17406bac396bffe7b8ae6b83e3",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:02.190222+00:00",
+      "analysis": {
+        "summary_zh": "开源的本地AI语音工作室，可克隆语音、生成语音和听写。",
+        "application": "一款本地运行的AI语音工具，支持语音克隆、多引擎文本转语音、全局热键听写输入，并为AI代理提供语音输出。",
+        "use_cases": [
+          "语音克隆与生成",
+          "全局听写输入",
+          "AI代理语音交互",
+          "多语言语音合成"
+        ],
+        "target_users": "需要本地语音合成、克隆和听写的开发者和创作者"
+      }
+    },
+    "aws/agent-toolkit-for-aws": {
+      "readme_sha": "746b2078c5477b9c1a8006b1026fb694410ed5aa",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:05.862728+00:00",
+      "analysis": {
+        "summary_zh": "AWS 官方提供的 AI 代理 AWS 开发工具集，含 MCP 服务器、技能和插件。",
+        "application": "为 AI 编程代理提供 AWS 服务技能和配置，支持在 Claude Code、Codex、Cursor 等平台构建、部署和管理 AWS 应用，涵盖核心开发、AI 代理构建、数据分析及 DevSecOps。",
+        "use_cases": [
+          "AI 编程代理辅助 AWS 应用开发与部署",
+          "构建和管理 AWS 上的 AI 代理",
+          "数据湖、分析与 ETL 工作流实现",
+          "安全事件调查与渗透测试"
+        ],
+        "target_users": "使用 AI 编程代理的 AWS 开发者"
+      }
+    },
+    "alibaba/page-agent": {
+      "readme_sha": "c5c4ea7d87e348b506ce3b4eb85cd314c6053367",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:09.844424+00:00",
+      "analysis": {
+        "summary_zh": "运行在网页内的 AI 代理，通过自然语言操控界面。",
+        "application": "通过注入 JavaScript 实现自然语言驱动网页操作，无需浏览器扩展或截图，可集成到 SaaS 产品中作为 AI 助手，实现表单自动填充、多页任务等。",
+        "use_cases": [
+          "SaaS 产品 AI 助手",
+          "智能表单填充",
+          "无障碍操作",
+          "跨标签页代理"
+        ],
+        "target_users": "Web 开发者、SaaS 产品团队、需要浏览器自动化的用户"
+      }
+    },
+    "DietrichGebert/ponytail": {
+      "readme_sha": "597adf84b4207edd47ff2d1a9d11e0ff27d445ab",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:13.788549+00:00",
+      "analysis": {
+        "summary_zh": "让AI代理像最懒的资深开发者一样思考，用最少代码完成任务。",
+        "application": "通过提示工程技能，让AI代理优先选择原生浏览器功能或极简实现，减少不必要的代码、令牌和成本，同时保持安全性。",
+        "use_cases": [
+          "AI代理代码生成优化",
+          "减少前端过度开发",
+          "自动化任务中的代码量控制",
+          "AI辅助编程的效率工具"
+        ],
+        "target_users": "使用AI代理进行开发的程序员"
+      }
+    },
+    "topoteretes/cognee": {
+      "readme_sha": "66f1dacb736de3b90d801d7c7426b2ff43fc845e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:18.324123+00:00",
+      "analysis": {
+        "summary_zh": "开源 AI 记忆平台，为智能体提供跨会话的持久长期记忆和自托管知识图谱引擎。",
+        "application": "为 AI 智能体提供统一的数据摄取、知识图谱构建与向量搜索，实现持久记忆、上下文管理和跨智能体知识共享。",
+        "use_cases": [
+          "构建公司知识库以统一多源数据",
+          "为智能体提供持久长期记忆",
+          "增强智能体上下文管理与知识共享",
+          "构建可信赖的智能体系统，支持审计与隔离"
+        ],
+        "target_users": "AI 智能体开发者、需要为智能体添加记忆功能的研究者和工程师"
+      }
+    },
+    "hugohe3/ppt-master": {
+      "readme_sha": "4b60912e2521034010b5a06a00334c0175b9bbd7",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:22.480751+00:00",
+      "analysis": {
+        "summary_zh": "AI从文档生成可编辑PPTX，支持模板和语音旁白",
+        "application": "将任意文档转为原生可编辑的PPTX，包含形状、动画、语音旁白，可遵循自定义模板，非图片形式幻灯片",
+        "use_cases": [
+          "从文档生成演示文稿",
+          "基于模板创建PPT",
+          "自动添加语音旁白",
+          "制作学术或商业幻灯片"
+        ],
+        "target_users": "需要快速生成PPT的办公人员、教育者、研究者"
+      }
+    },
+    "NousResearch/hermes-agent": {
+      "readme_sha": "4caad13ce20ef00b1650f1951b5157ac8b018ad1",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:27.035746+00:00",
+      "analysis": {
+        "summary_zh": "自进化的AI代理，具备学习循环和跨平台支持，可自主创建技能。",
+        "application": "一个能自我改进的AI代理，通过经验创建技能并在使用中优化，支持本地、云端、服务器等多种部署，提供终端、聊天平台等交互界面，适用于自动化任务和知识管理。",
+        "use_cases": [
+          "自主技能学习和任务自动化",
+          "跨平台对话（Telegram、Discord等）",
+          "定时执行自然语言任务",
+          "生成用于模型训练的操作轨迹"
+        ],
+        "target_users": "需要自进化AI代理的开发者和高级用户"
+      }
+    },
+    "HKUDS/Vibe-Trading": {
+      "readme_sha": "f7061ccb740a39628754ff366cbb5776316449ab",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:30.827612+00:00",
+      "analysis": {
+        "summary_zh": "Vibe-Trading 是一款个人量化交易智能体，支持算法交易、回测与多智能体协作。",
+        "application": "通过 LLM 驱动的交易代理，提供策略回测、实时信号生成和影子账户分析，助力量化交易决策。",
+        "use_cases": [
+          "策略回测与验证",
+          "实时交易信号生成",
+          "影子账户规则提取",
+          "多智能体交易协作"
+        ],
+        "target_users": "量化交易者、算法交易员和金融科技爱好者"
+      }
+    },
+    "Forsy-AI/agent-apprenticeship": {
+      "readme_sha": "34184e2a8c50149e7f6a4350e3b5b1e703129d47",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:34.980638+00:00",
+      "analysis": {
+        "summary_zh": "一个让AI代理通过执行任务持续改进和积累经验的开源生态系统。",
+        "application": "提供命令行工具，支持本地代理在多种专业任务上运行自动化工作流循环，生成可复用的学习信号和经验包，并可共享至生态中以改进未来代理。",
+        "use_cases": [
+          "自动化代理工作流循环",
+          "生成可复用代理学习信号",
+          "共享和复用代理工作经验",
+          "多领域任务价值评估"
+        ],
+        "target_users": "AI代理开发者、研究人员及希望提升代理性能的用户。"
+      }
+    },
+    "winsznx/theeleven": {
+      "readme_sha": "43d93223fb949c695e3b63b1f7702093f4fcb162",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:39.355706+00:00",
+      "analysis": {
+        "summary_zh": "基于AI代理的足球实时预测市场平台",
+        "application": "11个AI代理实时分析足球比赛并创建二元预测市场，用户通过无gas签名用USDT0竞猜，基于Uniswap v4自定义钩子结算。",
+        "use_cases": [
+          "实时比赛事件预测市场",
+          "AI代理自动开市与结算",
+          "无需gas的USDT0投注",
+          "2026年世界杯赛事应用"
+        ],
+        "target_users": "足球迷、DeFi用户、预测市场参与者"
+      }
+    },
+    "Plaer1/junction": {
+      "readme_sha": "2a113bc3a35a4964c0349b512846119db5ec680f",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-28T13:13:43.389797+00:00",
+      "analysis": {
+        "summary_zh": "VS Code 本地 AI 编程代理的统一聊天侧边栏。",
+        "application": "在 VS Code 中通过统一聊天界面连接并切换多种本地 AI 编程代理后端，支持拖拽文件、模型选择、Markdown 渲染和多种聊天布局。",
+        "use_cases": [
+          "与本地 AI 代理交互编程",
+          "多代理后端统一切换",
+          "拖拽文件添加上下文",
+          "自定义动画启动屏幕"
+        ],
+        "target_users": "使用 VS Code 和本地 AI 代理的开发者。"
+      }
+    }
+  }
 }
