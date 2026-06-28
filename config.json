@@ -1,0 +1,96 @@
+{
+  "github_api_version": "2026-03-10",
+  "language": "",
+  "minimum_stars": 20,
+  "minimum_weekly_star_gain": 10,
+  "new_project_days": 14,
+  "active_within_days": 180,
+  "results_per_query": 50,
+  "search_delay_seconds": 2.1,
+  "report_size": {
+    "rising": 8,
+    "new": 8,
+    "hot": 8
+  },
+  "categories": [
+    {
+      "name": "AI Agent",
+      "queries": [
+        "topic:ai-agent",
+        "topic:autonomous-agents",
+        "\"ai agent\" in:name,description"
+      ]
+    },
+    {
+      "name": "RAG / 知识库",
+      "queries": [
+        "topic:rag",
+        "topic:retrieval-augmented-generation",
+        "\"AI knowledge base\" in:name,description"
+      ]
+    },
+    {
+      "name": "AI 编程",
+      "queries": [
+        "topic:ai-coding-assistant",
+        "topic:code-assistant",
+        "\"AI coding\" in:name,description"
+      ]
+    },
+    {
+      "name": "AI 工作流",
+      "queries": [
+        "topic:ai-automation",
+        "topic:llm-workflow",
+        "\"AI workflow\" in:name,description"
+      ]
+    },
+    {
+      "name": "图像 / 视频",
+      "queries": [
+        "topic:ai-image-generation",
+        "topic:ai-video",
+        "\"AI image\" in:name,description"
+      ]
+    },
+    {
+      "name": "语音 / 音频",
+      "queries": [
+        "topic:voice-assistant",
+        "topic:text-to-speech",
+        "\"AI voice\" in:name,description"
+      ]
+    },
+    {
+      "name": "本地 AI 客户端",
+      "queries": [
+        "topic:local-ai",
+        "topic:llm-ui",
+        "\"local AI\" in:name,description"
+      ]
+    },
+    {
+      "name": "MCP 应用",
+      "queries": [
+        "topic:model-context-protocol",
+        "topic:mcp-server",
+        "\"MCP client\" in:name,description"
+      ]
+    }
+  ],
+  "exclude_keywords": [
+    "awesome list",
+    "checklist",
+    "course materials",
+    "learning resources",
+    "paper collection",
+    "prompt collection",
+    "tutorial collection",
+    "model weights",
+    "training dataset",
+    "pretraining dataset",
+    "cuda kernel",
+    "inference engine",
+    "distributed training framework"
+  ]
+}

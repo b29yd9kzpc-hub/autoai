@@ -1,0 +1,46 @@
+name: AI GitHub Weekly Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每周一北京时间 09:00（GitHub Actions 使用 UTC）
+    - cron: "0 1 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-ai-github-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect and notify
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: python -m src.ai_github_radar
+
+      - name: Save snapshot and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot.json reports/latest.md
+          git diff --cached --quiet || git commit -m "chore: update weekly AI radar"
+          git push
