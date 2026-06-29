@@ -18,19 +18,19 @@
       }
     },
     "DeusData/codebase-memory-mcp": {
-      "readme_sha": "cb5e90aa203942d21c3309da96a320777b788de0",
+      "readme_sha": "c1c17f9f8a286865df7f644eeb1de564050bdf00",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-06-28T13:12:40.144156+00:00",
+      "analyzed_at": "2026-06-29T05:30:44.631068+00:00",
       "analysis": {
-        "summary_zh": "高性能代码智能MCP服务器，毫秒级索引代码库生成持久知识图谱。",
-        "application": "为AI编码代理提供代码结构查询，支持搜索、追踪、架构分析等，通过知识图谱降低令牌消耗，加速代码理解。",
+        "summary_zh": "高性能代码智能MCP服务器，毫秒级索引代码库为持久知识图谱，支持158种语言。",
+        "application": "将代码库索引为知识图谱，供AI编码代理进行结构查询、调用链追踪、死代码检测等，减少token消耗，提升代码探索效率。",
         "use_cases": [
           "代码库索引与搜索",
-          "依赖与调用链分析",
-          "架构可视化",
-          "死代码与安全检测"
+          "调用链分析",
+          "架构影响分析",
+          "死代码检测"
         ],
-        "target_users": "使用AI编码助手的开发者"
+        "target_users": "使用AI编码代理的开发者，需高效代码理解"
       }
     },
     "JCodesMore/ai-website-cloner-template": {
@@ -81,35 +81,35 @@
       }
     },
     "stablyai/orca": {
-      "readme_sha": "00989a01325066e0c2436ab5ab957431bcc5df81",
+      "readme_sha": "b449142d82dcbd9434b89b931a409b18a7d00d58",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-06-28T13:12:55.251413+00:00",
+      "analyzed_at": "2026-06-29T05:30:49.267733+00:00",
       "analysis": {
-        "summary_zh": "Orca 是并行 AI 代理编排开发环境，支持多代理协同工作。",
-        "application": "Orca 允许开发者在独立工作树中并行运行 Codex、ClaudeCode 等编码代理，比较结果并合并最佳方案，同时提供移动监控、终端分割、设计模式等工具。",
+        "summary_zh": "Orca是AI代理并行编排工具，支持桌面和移动端。",
+        "application": "支持并行运行多种编码代理(如Codex、ClaudeCode)，提供隔离的工作树、移动端监控、终端分屏、设计模式、GitHub/Linear集成、SSH远程工作树、AI差异注释、文件拖拽等功能。",
         "use_cases": [
-          "并行运行多个 AI 编码代理",
-          "移动端监控和指挥代理",
-          "远程 SSH 工作树执行代理",
-          "集成 GitHub 和 Linear 任务管理"
+          "并行运行多个AI编码代理并比较结果",
+          "在移动端监控和引导代理任务",
+          "在隔离的工作树中安全试验代码",
+          "通过SSH在远程服务器上运行代理"
         ],
-        "target_users": "需要高效编排多 AI 代理的开发者"
+        "target_users": "追求高效开发的100x构建者"
       }
     },
     "Panniantong/Agent-Reach": {
-      "readme_sha": "039a06ce3ecf1d4fad3391435ed77ba566a9211d",
+      "readme_sha": "980858d3cb2f8477c88f6e3c7689c8203324bf24",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-06-28T13:12:58.737128+00:00",
+      "analyzed_at": "2026-06-29T05:30:53.027493+00:00",
       "analysis": {
-        "summary_zh": "为 AI 代理提供免配置的互联网读写能力，支持多平台搜索与内容提取。",
-        "application": "通过 CLI 工具集成，让 AI 代理无需 API 费用即可读取 YouTube、Twitter、Reddit、B站、小红书等平台内容，并支持全网搜索与 RSS 订阅。",
+        "summary_zh": "为AI Agent一键安装免费互联网访问能力的工具箱",
+        "application": "通过CLI为AI Agent提供Twitter、Reddit、YouTube、B站、小红书等多平台免费搜索与内容提取，无需API付费",
         "use_cases": [
+          "社交媒体内容监控与分析",
+          "多平台搜索与信息聚合",
           "视频字幕提取与总结",
-          "社交媒体舆情分析",
-          "全网语义搜索",
-          "RSS 源监控"
+          "GitHub仓库与Issue分析"
         ],
-        "target_users": "需增强互联网访问能力的 AI 代理与开发者"
+        "target_users": "需要为AI Agent扩展多平台免费搜索能力的开发者"
       }
     },
     "jamiepine/voicebox": {
@@ -225,19 +225,19 @@
       }
     },
     "HKUDS/Vibe-Trading": {
-      "readme_sha": "f7061ccb740a39628754ff366cbb5776316449ab",
+      "readme_sha": "80dca40a8b7ec5f6ca5e7c8e224247751464ff33",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-06-28T13:13:30.827612+00:00",
+      "analyzed_at": "2026-06-29T05:31:01.001283+00:00",
       "analysis": {
-        "summary_zh": "Vibe-Trading 是一款个人量化交易智能体，支持算法交易、回测与多智能体协作。",
-        "application": "通过 LLM 驱动的交易代理，提供策略回测、实时信号生成和影子账户分析，助力量化交易决策。",
+        "summary_zh": "基于多AI代理的自动交易系统，支持策略生成与回测",
+        "application": "通过自然语言指令驱动LLM代理进行金融数据分析、策略规则提取、回测与信号生成，实现个性化算法交易。",
         "use_cases": [
-          "策略回测与验证",
-          "实时交易信号生成",
-          "影子账户规则提取",
-          "多智能体交易协作"
+          "自然语言驱动的策略开发与回测",
+          "影子账户交易规则自动提取",
+          "多AI代理协作的市场分析",
+          "跨平台量化交易环境快速部署"
         ],
-        "target_users": "量化交易者、算法交易员和金融科技爱好者"
+        "target_users": "量化交易开发者、金融数据分析师、AI代理研究者"
       }
     },
     "Forsy-AI/agent-apprenticeship": {
@@ -286,6 +286,22 @@
           "自定义动画启动屏幕"
         ],
         "target_users": "使用 VS Code 和本地 AI 代理的开发者。"
+      }
+    },
+    "safishamsi/graphify": {
+      "readme_sha": "1f81ae07b728d33ab48371f85fa5b2bb9df2b1f5",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-06-29T05:30:57.073304+00:00",
+      "analysis": {
+        "summary_zh": "将代码、文档等转化为可查询知识图谱的AI编程助手技能。",
+        "application": "在AI编程助手中运行/graphify命令，将项目文件夹（代码、文档、图片等）映射为知识图谱，支持交互式可视化和查询。",
+        "use_cases": [
+          "项目代码结构可视化",
+          "跨文件概念关联查询",
+          "文档与代码统一检索",
+          "多模态数据分析"
+        ],
+        "target_users": "使用AI编程助手（如Claude Code、Cursor）的开发者。"
       }
     }
   }
