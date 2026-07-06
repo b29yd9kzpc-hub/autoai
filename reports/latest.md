@@ -1,135 +1,135 @@
-# AI GitHub 周报｜2026-06-29
+# AI GitHub 周报｜2026-07-06
 
 口语任意｜编程语言任意｜GitHub Trending 本周榜
 
 ## 🔥 GitHub 官方本周 AI 应用榜
 
-1. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
-   官网第 1 名｜本周 +18.7k ⭐｜总计 27.4k｜Python｜AI 编程 / 语音 / 音频
-   中文简介：首个开源智能视频制作系统，含12流水线、52工具、500+智能技能。
-   应用说明：通过自然语言指令，驱动AI助手完成从研究、脚本到素材生成、编辑合成的全流程视频制作，支持图像视频和真实视频剪辑。
-   典型用途：科幻预告片生成、动画短片制作、历史纪录片合成、产品广告自动生成
-   适合用户：内容创作者、视频制作爱好者、AI开发者
+1. [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
+   官网第 2 名｜本周 +5.0k ⭐｜总计 10.5k｜Python｜AI Agent / AI 编程
+   中文简介：AI驱动的价值投资研究框架，集成巴菲特等四大师方法论和多Agent并行分析。
+   应用说明：为投资者提供系统化公司研究和决策支持，包括深度分析、财报解读、行业筛选和持仓管理，输出可操作的投资评级和价格区间。
+   典型用途：上市公司深度投资研究、财报精读与多视角解读、行业产业链扫描与公司筛选、投资组合审查与优化
+   适合用户：个人投资者和投研人员，追求价值投资方法论者。
 
-2. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-   官网第 2 名｜本周 +8.9k ⭐｜总计 20.2k｜C｜MCP 应用 / RAG / 知识库
-   中文简介：高性能代码智能MCP服务器，毫秒级索引代码库为持久知识图谱，支持158种语言。
-   应用说明：将代码库索引为知识图谱，供AI编码代理进行结构查询、调用链追踪、死代码检测等，减少token消耗，提升代码探索效率。
-   典型用途：代码库索引与搜索、调用链分析、架构影响分析、死代码检测
-   适合用户：使用AI编码代理的开发者，需高效代码理解
+2. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+   官网第 3 名｜本周 +4.4k ⭐｜总计 12.0k｜TypeScript｜AI Agent / AI 编程
+   中文简介：免费AI网关，统一端点接入237+提供商，含90+免费选项。
+   应用说明：为各类AI编程工具（如Claude Code、Cursor）提供统一API，支持自动切换免费的Claude/GPT/Gemini模型。
+   典型用途：免费使用多种大模型、节省AI开发成本、聚合API端点管理、本地运行保护隐私
+   适合用户：开发者、AI工具用户、成本敏感型团队
 
-3. [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)
-   官网第 6 名｜本周 +5.3k ⭐｜总计 23.1k｜TypeScript｜AI 编程 / AI Agent
-   中文简介：使用AI代理一键逆向克隆网站为Next.js项目模板
-   应用说明：通过AI代理检查网站，提取设计元素和资源，生成组件规格并并行构建，将任意网站转换为现代Next.js代码库。
-   典型用途：平台迁移（WordPress等转Next.js）、恢复丢失的源代码、学习生产网站的布局和动画实现
-   适合用户：需要迁移或逆向网站代码的开发者
+3. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)
+   官网第 6 名｜本周 +3.9k ⭐｜总计 12.2k｜Rust｜AI Agent
+   中文简介：终端代理多路复用器，统一管理多个 AI 编程代理的状态与终端视图。
+   应用说明：在单个终端中同时运行和监控多个编码代理，通过分栏、标签页和工作区组织界面，实时显示代理的阻塞/工作中/完成状态，支持后台持久化和远程重连。
+   典型用途：并行运行多个 AI 编码代理、在终端中监控代理工作状态、通过 SSH 远程管理代理会话、组织不同项目的代理工作空间
+   适合用户：需同时管理多个 AI 编码代理的开发者
 
-4. [interviewstreet/hiring-agent](https://github.com/interviewstreet/hiring-agent)
-   官网第 8 名｜本周 +2.0k ⭐｜总计 3.2k｜Python｜AI Agent
-   中文简介：AI 简历评分工具，从 PDF 提取信息并公平评估。
-   应用说明：解析 PDF 简历为结构化 JSON，结合 GitHub 数据增强，利用 LLM 进行量化评估，输出公平、可解释的打分结果。
-   典型用途：自动筛选简历、技术人才评估、GitHub 项目分析、招聘流程优化
-   适合用户：招聘团队、HR 和技术面试官
+4. [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
+   官网第 8 名｜本周 +3.0k ⭐｜总计 17.5k｜Rust｜本地 AI 客户端 / 语音 / 音频
+   中文简介：注重隐私的本地AI会议助手，支持实时转录与摘要生成。
+   应用说明：在本地设备上捕获会议音频、实时转写，并利用本地或兼容API的LLM生成摘要，适用于需要数据主权和隐私保护的会议场景。
+   典型用途：企业敏感会议记录与总结、离线环境下的会议转录、医疗、法律等合规领域的会议纪要生成、开发者的自托管会议智能方案
+   适合用户：重视数据隐私的企业用户、专业人士及开发者
 
-5. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
-   官网第 9 名｜本周 +7.0k ⭐｜总计 51.3k｜Python｜AI Agent
-   中文简介：LLM驱动的跨市场股票智能分析系统，支持自动报告与多平台推送。
-   应用说明：通过AI模型聚合多市场行情、新闻与舆情，生成包含评分、趋势、买卖点位的决策报告，并可定时推送到企业微信、Telegram等平台。
-   典型用途：多市场自选股智能分析、AI生成投资决策报告、实时新闻与舆情监控、自动化多渠道推送
-   适合用户：个人投资者、交易员、金融分析师
+5. [browser-use/video-use](https://github.com/browser-use/video-use)
+   官网第 9 名｜本周 +4.3k ⭐｜总计 15.1k｜Python｜AI 编程
+   中文简介：使用编程代理编辑视频的开源工具
+   应用说明：通过自然语言指令，让AI代理自动处理视频剪辑，包括去除语气词、自动调色、添加字幕和生成动画叠加层。
+   典型用途：自动剪辑播客或访谈中的冗余片段、生成营销视频的字幕和动画效果、为教程视频快速添加专业调色、批量处理旅行Vlog的剪辑和过渡
+   适合用户：视频创作者、开发者、内容营销人员
 
-6. [stablyai/orca](https://github.com/stablyai/orca)
-   官网第 10 名｜本周 +2.8k ⭐｜总计 8.7k｜TypeScript｜AI Agent / AI 编程
-   中文简介：Orca是AI代理并行编排工具，支持桌面和移动端。
-   应用说明：支持并行运行多种编码代理(如Codex、ClaudeCode)，提供隔离的工作树、移动端监控、终端分屏、设计模式、GitHub/Linear集成、SSH远程工作树、AI差异注释、文件拖拽等功能。
-   典型用途：并行运行多个AI编码代理并比较结果、在移动端监控和引导代理任务、在隔离的工作树中安全试验代码、通过SSH在远程服务器上运行代理
-   适合用户：追求高效开发的100x构建者
+6. [alibaba/page-agent](https://github.com/alibaba/page-agent)
+   官网第 10 名｜本周 +3.2k ⭐｜总计 24.1k｜TypeScript｜AI Agent
+   中文简介：页面内运行的GUI代理，用自然语言控制网页界面。
+   应用说明：无需浏览器扩展或后端，通过JavaScript直接在网页中集成AI代理，实现自然语言驱动的自动化操作和智能助手。
+   典型用途：SaaS产品AI助手、智能表单填写、无障碍自然语言交互、跨页面浏览器自动化
+   适合用户：Web开发者、SaaS产品团队、企业系统集成者
 
-7. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-   官网第 11 名｜本周 +7.7k ⭐｜总计 44.8k｜Python｜AI Agent
-   中文简介：为AI Agent一键安装免费互联网访问能力的工具箱
-   应用说明：通过CLI为AI Agent提供Twitter、Reddit、YouTube、B站、小红书等多平台免费搜索与内容提取，无需API付费
-   典型用途：社交媒体内容监控与分析、多平台搜索与信息聚合、视频字幕提取与总结、GitHub仓库与Issue分析
-   适合用户：需要为AI Agent扩展多平台免费搜索能力的开发者
+7. [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)
+   官网第 14 名｜本周 +3.4k ⭐｜总计 25.7k｜JavaScript｜AI 编程
+   中文简介：在 Claude Code 中调用 OpenAI Codex 进行代码审查和任务委派。
+   应用说明：通过斜杠命令在 Claude Code 工作流中直接使用 Codex，实现代码审查、对手审查、任务委托、会话转移和后台作业管理。
+   典型用途：代码审查（普通/对手式）、任务委派（修复、调查）、会话转移至 Codex、后台作业管理
+   适合用户：已使用 Claude Code 并想集成 Codex 的开发者
 
-8. [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
-   官网第 15 名｜本周 +3.9k ⭐｜总计 35.5k｜TypeScript｜语音 / 音频
-   中文简介：开源的本地AI语音工作室，可克隆语音、生成语音和听写。
-   应用说明：一款本地运行的AI语音工具，支持语音克隆、多引擎文本转语音、全局热键听写输入，并为AI代理提供语音输出。
-   典型用途：语音克隆与生成、全局听写输入、AI代理语音交互、多语言语音合成
-   适合用户：需要本地语音合成、克隆和听写的开发者和创作者
+8. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+   官网第 15 名｜本周 +7.9k ⭐｜总计 26.9k｜C｜MCP 应用 / RAG / 知识库
+   中文简介：高性能代码智能 MCP 服务器，将代码库快速索引为持久知识图谱。
+   应用说明：为 AI 编程代理提供代码智能，包括结构查询、调用链追踪、架构分析、死代码检测、跨服务链接和知识图谱可视化。
+   典型用途：代码库结构查询与依赖分析、API端点和跨服务调用链追踪、死代码与未使用资源检测、架构决策记录(ADR)管理
+   适合用户：需要代码智能的 AI 编程代理和开发者。
 
-9. [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)
-   官网第 16 名｜本周 +600 ⭐｜总计 1.6k｜Python｜AI Agent / MCP 应用
-   中文简介：AWS 官方提供的 AI 代理 AWS 开发工具集，含 MCP 服务器、技能和插件。
-   应用说明：为 AI 编程代理提供 AWS 服务技能和配置，支持在 Claude Code、Codex、Cursor 等平台构建、部署和管理 AWS 应用，涵盖核心开发、AI 代理构建、数据分析及 DevSecOps。
-   典型用途：AI 编程代理辅助 AWS 应用开发与部署、构建和管理 AWS 上的 AI 代理、数据湖、分析与 ETL 工作流实现、安全事件调查与渗透测试
-   适合用户：使用 AI 编程代理的 AWS 开发者
+9. [stablyai/orca](https://github.com/stablyai/orca)
+   官网第 16 名｜本周 +3.8k ⭐｜总计 12.5k｜TypeScript｜AI Agent / AI 编程
+   中文简介：Orca 是一款并行 AI 智能体编排工具，可在隔离工作树中同时运行多个编码代理。
+   应用说明：支持并行运行 Codex、ClaudeCode 等 AI 编码代理，通过隔离工作树对比结果，并提供移动端监控、终端分屏、设计模式、SSH 远程执行等功能。
+   典型用途：并行 AI 代理代码生成与对比、移动端远程监控与管理代理任务、集成 GitHub/Linear 的项目任务工作流、远程 SSH 服务器上的代理执行
+   适合用户：需要高效编排多 AI 代理的 100x 构建者和开发者
 
-10. [alibaba/page-agent](https://github.com/alibaba/page-agent)
-   官网第 17 名｜本周 +1.8k ⭐｜总计 20.5k｜TypeScript｜AI Agent
-   中文简介：运行在网页内的 AI 代理，通过自然语言操控界面。
-   应用说明：通过注入 JavaScript 实现自然语言驱动网页操作，无需浏览器扩展或截图，可集成到 SaaS 产品中作为 AI 助手，实现表单自动填充、多页任务等。
-   典型用途：SaaS 产品 AI 助手、智能表单填充、无障碍操作、跨标签页代理
-   适合用户：Web 开发者、SaaS 产品团队、需要浏览器自动化的用户
+10. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+   官网第 17 名｜本周 +7.4k ⭐｜总计 33.8k｜Python｜AI 编程 / 语音 / 音频
+   中文简介：开源智能体视频制作系统，用自然语言驱动全流程自动化。
+   应用说明：从文字描述或参考视频出发，AI代理自动完成调研、脚本、素材生成、剪辑与合成，产出完整视频。
+   典型用途：生成电影预告片和动画短片、制作产品广告和宣传视频、创作艺术化图像视频、基于参考视频自动重构内容
+   适合用户：视频创作者、营销人员、AI开发者与内容制作爱好者
 
 ## 🚀 AI 应用升星补充榜
 
 1. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-   本期 +2.4k ⭐（约 +17.1k/周）｜总计 65.2k｜JavaScript｜AI Agent
+   本期 +9.9k ⭐（约 +9.9k/周）｜总计 75.1k｜JavaScript｜AI Agent
    中文简介：让AI代理像最懒的资深开发者一样思考，用最少代码完成任务。
    应用说明：通过提示工程技能，让AI代理优先选择原生浏览器功能或极简实现，减少不必要的代码、令牌和成本，同时保持安全性。
    典型用途：AI代理代码生成优化、减少前端过度开发、自动化任务中的代码量控制、AI辅助编程的效率工具
    适合用户：使用AI代理进行开发的程序员
 
-2. [safishamsi/graphify](https://github.com/safishamsi/graphify)
-   本期 +697 ⭐（约 +4.9k/周）｜总计 73.8k｜Python｜RAG / 知识库 / AI 编程
-   中文简介：将代码、文档等转化为可查询知识图谱的AI编程助手技能。
-   应用说明：在AI编程助手中运行/graphify命令，将项目文件夹（代码、文档、图片等）映射为知识图谱，支持交互式可视化和查询。
-   典型用途：项目代码结构可视化、跨文件概念关联查询、文档与代码统一检索、多模态数据分析
-   适合用户：使用AI编程助手（如Claude Code、Cursor）的开发者。
+2. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+   本期 +6.7k ⭐（约 +6.7k/周）｜总计 51.5k｜Python｜AI Agent
+   中文简介：为AI Agent提供免费多平台网页内容获取能力的命令行工具
+   应用说明：通过CLI一站式让AI Agent获取Twitter、Reddit、YouTube等多平台内容，支持零配置或简单登录配置，免费开源，兼容多种Agent框架。
+   典型用途：多平台社交媒体内容搜索与提取、YouTube字幕下载与视频搜索、GitHub仓库信息读取与搜索、RSS源解析与监控
+   适合用户：需要为AI编程助手扩展互联网访问能力的开发者
 
-3. [topoteretes/cognee](https://github.com/topoteretes/cognee)
-   本期 +572 ⭐（约 +4.0k/周）｜总计 25.0k｜Python｜AI Agent / RAG / 知识库
-   中文简介：开源 AI 记忆平台，为智能体提供跨会话的持久长期记忆和自托管知识图谱引擎。
-   应用说明：为 AI 智能体提供统一的数据摄取、知识图谱构建与向量搜索，实现持久记忆、上下文管理和跨智能体知识共享。
-   典型用途：构建公司知识库以统一多源数据、为智能体提供持久长期记忆、增强智能体上下文管理与知识共享、构建可信赖的智能体系统，支持审计与隔离
-   适合用户：AI 智能体开发者、需要为智能体添加记忆功能的研究者和工程师
+3. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+   本期 +4.7k ⭐（约 +4.7k/周）｜总计 209.8k｜Python｜AI Agent
+   中文简介：一个具备自我学习和技能创建能力的开源 AI 代理，支持多平台多模型。
+   应用说明：可部署于云端或本地的通用 AI 助手，具备自主学习循环、跨平台多模型支持、计划任务和并行子代理功能。
+   典型用途：跨平台智能助理、自主技能学习与改进、计划任务自动化、研究数据收集与轨迹生成
+   适合用户：开发者、研究人员、自动化需求者
 
-4. [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
-   本期 +515 ⭐（约 +3.6k/周）｜总计 14.5k｜Python｜AI Agent
-   中文简介：基于多AI代理的自动交易系统，支持策略生成与回测
-   应用说明：通过自然语言指令驱动LLM代理进行金融数据分析、策略规则提取、回测与信号生成，实现个性化算法交易。
-   典型用途：自然语言驱动的策略开发与回测、影子账户交易规则自动提取、多AI代理协作的市场分析、跨平台量化交易环境快速部署
-   适合用户：量化交易开发者、金融数据分析师、AI代理研究者
+4. [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
+   本期 +3.6k ⭐（约 +3.6k/周）｜总计 56.9k｜Python｜RAG / 知识库
+   中文简介：压缩工具输出、日志、文件等内容以减少LLM token用量，支持库、代理和MCP服务器模式。
+   应用说明：在AI代理与LLM之间对工具输出、日志、RAG块、文件和对话历史进行压缩，减少60-95% token用量，同时保持回答质量。提供Python/TypeScript库、代理服务器和MCP服务器三种集成方式。
+   典型用途：减少AI代理的token消耗、压缩RAG检索块和对话历史、代理包装现有编码工具、通过MCP服务器集成压缩功能
+   适合用户：AI应用开发者、使用LLM的代理构建者
 
-5. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-   本期 +455 ⭐（约 +3.2k/周）｜总计 205.1k｜Python｜AI Agent
-   中文简介：自进化的AI代理，具备学习循环和跨平台支持，可自主创建技能。
-   应用说明：一个能自我改进的AI代理，通过经验创建技能并在使用中优化，支持本地、云端、服务器等多种部署，提供终端、聊天平台等交互界面，适用于自动化任务和知识管理。
-   典型用途：自主技能学习和任务自动化、跨平台对话（Telegram、Discord等）、定时执行自然语言任务、生成用于模型训练的操作轨迹
-   适合用户：需要自进化AI代理的开发者和高级用户
+5. [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+   本期 +3.5k ⭐（约 +3.5k/周）｜总计 18.0k｜Python｜AI Agent
+   中文简介：Vibe-Trading是个人量化交易代理，支持多智能体与LLM驱动交易。
+   应用说明：提供一键部署的交易代理，集成多智能体、LLM、回测和实时交易，支持A股、美股等市场。
+   典型用途：自动化交易策略执行、量化策略回测与优化、多市场实时交易监控、基于LLM的智能交易决策
+   适合用户：量化交易者、金融科技爱好者、开发者
 
 ## 🌱 近期新项目
 
-1. [Forsy-AI/agent-apprenticeship](https://github.com/Forsy-AI/agent-apprenticeship)
-   创建 9 天｜1.0k ⭐｜未知｜AI Agent
-   中文简介：一个让AI代理通过执行任务持续改进和积累经验的开源生态系统。
-   应用说明：提供命令行工具，支持本地代理在多种专业任务上运行自动化工作流循环，生成可复用的学习信号和经验包，并可共享至生态中以改进未来代理。
-   典型用途：自动化代理工作流循环、生成可复用代理学习信号、共享和复用代理工作经验、多领域任务价值评估
-   适合用户：AI代理开发者、研究人员及希望提升代理性能的用户。
+1. [Kulaxyz/self-learning-skills](https://github.com/Kulaxyz/self-learning-skills)
+   创建 7 天｜837 ⭐｜未知｜AI 编程
+   中文简介：让AI编程助手从调试中自动学习，将成功路径保存为技能。
+   应用说明：AI编码代理（如Claude Code、Cursor）在会话中识别并捕获调试成功的操作流程，将其持久化为可复用的技能文件，下次自动加载，避免重复学习。
+   典型用途：捕获调试成功的操作流程、自动保存项目特定知识、避免重复踩坑、跨会话复用经验
+   适合用户：使用AI编码代理的开发者
 
-2. [winsznx/theeleven](https://github.com/winsznx/theeleven)
-   创建 3 天｜702 ⭐｜TypeScript｜AI Agent
-   中文简介：基于AI代理的足球实时预测市场平台
-   应用说明：11个AI代理实时分析足球比赛并创建二元预测市场，用户通过无gas签名用USDT0竞猜，基于Uniswap v4自定义钩子结算。
-   典型用途：实时比赛事件预测市场、AI代理自动开市与结算、无需gas的USDT0投注、2026年世界杯赛事应用
-   适合用户：足球迷、DeFi用户、预测市场参与者
+2. [lycorp-jp/sim-use](https://github.com/lycorp-jp/sim-use)
+   创建 9 天｜583 ⭐｜Swift｜AI Agent
+   中文简介：为AI代理提供iOS/安卓模拟器屏幕观察与操作命令行工具
+   应用说明：提取屏幕可访问性树生成紧凑大纲供LLM推理，支持点击、滑动、输入等动作，无需坐标定位，实现快速观察-行动循环。
+   典型用途：AI开发者构建移动端代理自动化流程、移动应用自动化测试与验证、跨平台UI交互脚本编写、移动设备远程控制与演示
+   适合用户：AI代理开发者、移动自动化工程师
 
-3. [Plaer1/junction](https://github.com/Plaer1/junction)
-   创建 12 天｜648 ⭐｜TypeScript｜AI 编程 / 本地 AI 客户端
-   中文简介：VS Code 本地 AI 编程代理的统一聊天侧边栏。
-   应用说明：在 VS Code 中通过统一聊天界面连接并切换多种本地 AI 编程代理后端，支持拖拽文件、模型选择、Markdown 渲染和多种聊天布局。
-   典型用途：与本地 AI 代理交互编程、多代理后端统一切换、拖拽文件添加上下文、自定义动画启动屏幕
-   适合用户：使用 VS Code 和本地 AI 代理的开发者。
+3. [abundantbeing/hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
+   创建 12 天｜536 ⭐｜JavaScript｜AI Agent
+   中文简介：Hermes Agent的浏览器侧边栏扩展，连接网页上下文到本地或远程Hermes运行时。
+   应用说明：作为Hermes Agent的浏览器集成工具，在侧边栏中与AI交互，可获取当前网页内容、标签页等上下文，支持本地和远程API、工具调用、语音输入，并提供多种主题和诊断功能。
+   典型用途：网页内容摘要与解释、基于当前页面的对话与问答、多标签页管理快速命令（如/action-items）、调试Hermes运行时与诊断连接
+   适合用户：使用Hermes Agent的开发者及AI研究人员
