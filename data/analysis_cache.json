@@ -97,19 +97,19 @@
       }
     },
     "Panniantong/Agent-Reach": {
-      "readme_sha": "5df5d43bdb77929f7fffc1de6f3f1a24d2a7c000",
+      "readme_sha": "717b1fb90e9a8112e7bb06d1cc1a344b0f27f2fc",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-06T05:11:11.328014+00:00",
+      "analyzed_at": "2026-07-20T04:36:32.775147+00:00",
       "analysis": {
-        "summary_zh": "为AI Agent提供免费多平台网页内容获取能力的命令行工具",
-        "application": "通过CLI一站式让AI Agent获取Twitter、Reddit、YouTube等多平台内容，支持零配置或简单登录配置，免费开源，兼容多种Agent框架。",
+        "summary_zh": "为 AI Agent 提供互联网访问能力的免费 CLI 工具集",
+        "application": "通过统一命令行接口让 AI Agent 读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台内容，无需付费 API。",
         "use_cases": [
-          "多平台社交媒体内容搜索与提取",
-          "YouTube字幕下载与视频搜索",
-          "GitHub仓库信息读取与搜索",
-          "RSS源解析与监控"
+          "AI Agent 读取社交媒体内容",
+          "AI Agent 搜索网络信息",
+          "提取 YouTube/B站视频字幕",
+          "AI 辅助信息聚合与分析"
         ],
-        "target_users": "需要为AI编程助手扩展互联网访问能力的开发者"
+        "target_users": "使用 Claude Code、Cursor 等 AI Agent 的开发者"
       }
     },
     "jamiepine/voicebox": {
@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "a27caf74a07b6fa23c2fa1e8917a904b088aa76f",
+      "readme_sha": "c2e9b0e2ad83b64744db1648300bcdc20a800cc8",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-13T04:30:35.203839+00:00",
+      "analyzed_at": "2026-07-20T04:36:25.504259+00:00",
       "analysis": {
-        "summary_zh": "将懒惰高级开发思维注入AI代理，极致减少冗余代码。",
-        "application": "以规则阶梯引导AI在编码前自问必要性，优先使用原生方案，仅输出任务必需的最小代码，降低代码量、成本和延迟。",
+        "summary_zh": "让AI代理像最懒的资深开发者一样编程，以最精简代码实现需求。",
+        "application": "为AI编程代理提供技能，使其在生成代码前评估必要性，优先使用现有方案和最小化实现，从而减少代码量、降低成本和时间。",
         "use_cases": [
-          "AI辅助编程减码",
-          "代码审查优化",
-          "控制开发成本与延迟",
-          "培养YAGNI实践"
+          "代码生成优化",
+          "减少AI代理令牌消耗",
+          "加速开发任务",
+          "保持代码安全与简洁"
         ],
-        "target_users": "使用Claude等AI编程工具的开发者"
+        "target_users": "使用AI编码代理的开发者、追求高效精简代码的团队。"
       }
     },
     "topoteretes/cognee": {
@@ -209,35 +209,35 @@
       }
     },
     "NousResearch/hermes-agent": {
-      "readme_sha": "ba1322a389207c79032386e4053ac0e69a3c199d",
+      "readme_sha": "d78d6d57f04563f85c4b545703317bed77b6b9b5",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-06T05:11:15.536876+00:00",
+      "analyzed_at": "2026-07-20T04:36:29.132306+00:00",
       "analysis": {
-        "summary_zh": "一个具备自我学习和技能创建能力的开源 AI 代理，支持多平台多模型。",
-        "application": "可部署于云端或本地的通用 AI 助手，具备自主学习循环、跨平台多模型支持、计划任务和并行子代理功能。",
+        "summary_zh": "具备自我学习循环的AI代理，支持多模型和多平台。",
+        "application": "提供终端聊天、技能自创建/改进、记忆检索、定时自动化、子代理并行及跨平台消息集成，可在本地、云端或集群运行。",
         "use_cases": [
-          "跨平台智能助理",
-          "自主技能学习与改进",
-          "计划任务自动化",
-          "研究数据收集与轨迹生成"
+          "终端AI助手",
+          "跨平台聊天机器人",
+          "自动化任务调度",
+          "研究数据生成"
         ],
-        "target_users": "开发者、研究人员、自动化需求者"
+        "target_users": "需要自适应AI代理的开发者和研究人员"
       }
     },
     "HKUDS/Vibe-Trading": {
-      "readme_sha": "e8a0dcfece59c5f77fb93c08ebcf9853323660c4",
+      "readme_sha": "249e42747a9db300bf52338e89d11e8b734e820d",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-06T05:11:24.734470+00:00",
+      "analyzed_at": "2026-07-20T04:35:55.492991+00:00",
       "analysis": {
-        "summary_zh": "Vibe-Trading是个人量化交易代理，支持多智能体与LLM驱动交易。",
-        "application": "提供一键部署的交易代理，集成多智能体、LLM、回测和实时交易，支持A股、美股等市场。",
+        "summary_zh": "开源 AI 交易助手，支持策略开发、回测与实盘。",
+        "application": "提供命令行工具和 Web 界面，集成因子分析、新闻数据、多代理框架，用于自动化量化交易与回测。",
         "use_cases": [
-          "自动化交易策略执行",
-          "量化策略回测与优化",
-          "多市场实时交易监控",
-          "基于LLM的智能交易决策"
+          "策略开发与回测",
+          "多因子分析",
+          "自动化交易执行",
+          "市场新闻监控"
         ],
-        "target_users": "量化交易者、金融科技爱好者、开发者"
+        "target_users": "量化交易开发者、金融数据工程师"
       }
     },
     "Forsy-AI/agent-apprenticeship": {
@@ -497,19 +497,19 @@
       }
     },
     "iOfficeAI/OfficeCLI": {
-      "readme_sha": "06fd1469006f8cc375f222af04f0be11391991e7",
+      "readme_sha": "7530b03caa7180f7fd11edacb72d3c3c173e0933",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-13T04:30:16.689998+00:00",
+      "analyzed_at": "2026-07-20T04:36:02.758481+00:00",
       "analysis": {
-        "summary_zh": "专为AI代理设计的命令行Office套件，支持Word、Excel、PPT。",
-        "application": "通过CLI命令让AI代理读取、编辑和创建Office文档，内置HTML渲染引擎实现高保真预览，无需安装Office。",
+        "summary_zh": "专为AI代理设计的命令行办公套件，支持读写Word、Excel、PPT。",
+        "application": "为AI代理提供命令行接口，用于创建、读取、编辑和自动化Word、Excel和PowerPoint文件，无需安装Office。",
         "use_cases": [
-          "AI驱动的文档生成与编辑",
-          "自动化PPT创建",
-          "批量处理Excel电子表格",
-          "集成到AI代理工作流"
+          "AI代理自动生成和编辑办公文档",
+          "通过命令行实时预览和操作PPT",
+          "批量处理文档内容（增删改查）",
+          "集成到AI编码助手中作为技能使用"
         ],
-        "target_users": "AI开发者、AI代理用户、自动化办公人员"
+        "target_users": "AI代理开发者、自动化办公流程工程师"
       }
     },
     "alirezarezvani/claude-skills": {
@@ -545,19 +545,19 @@
       }
     },
     "Graphify-Labs/graphify": {
-      "readme_sha": "0a883e75b802e136bfffdbc17fff26bdfd087906",
+      "readme_sha": "970ebf179a5cedaec668024765a1f0fed3d1a4ef",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-13T04:30:39.562565+00:00",
+      "analyzed_at": "2026-07-20T04:36:21.475674+00:00",
       "analysis": {
-        "summary_zh": "将项目文件转化为可查询知识图谱的AI助手技能",
-        "application": "通过/graphify命令将代码、文档、图像等解析为知识图谱，支持路径追踪和概念解释，不依赖向量索引。",
+        "summary_zh": "将代码、文档等转为可查询知识图谱的AI工具。",
+        "application": "为AI编程助手提供技能，将项目代码、文档、图片等解析为知识图谱，支持查询概念、路径和解释。",
         "use_cases": [
           "代码库理解与导航",
-          "知识图谱查询与探索",
-          "多格式文件语义分析",
-          "社区检测与关系推断"
+          "文档知识图谱构建",
+          "跨文件关系追溯",
+          "项目结构可视化"
         ],
-        "target_users": "开发者、数据科学家、技术文档团队"
+        "target_users": "使用AI编程助手的开发者"
       }
     },
     "synthetic-sciences/openscience": {
@@ -606,6 +606,166 @@
           "通过MCP暴露应用操作"
         ],
         "target_users": "需要SaaS集成的AI代理开发者"
+      }
+    },
+    "Nutlope/hallmark": {
+      "readme_sha": "a615a8007804ee0912c2a94a4d987acdd75c3cbe",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:35:51.518228+00:00",
+      "analysis": {
+        "summary_zh": "一款避免AI感的设计技能，集成于Claude Code等编程助手。",
+        "application": "为编程助手提供设计技能，通过宏结构、主题、反模因检测和自审，产出多样化非模板UI。",
+        "use_cases": [
+          "生成非模板化 Web 界面",
+          "审计代码中的设计反模因",
+          "基于截图提取设计 DNA",
+          "自定义创意设计无预设主题"
+        ],
+        "target_users": "使用AI编程助手、追求独特设计的开发者"
+      }
+    },
+    "HKUDS/DeepTutor": {
+      "readme_sha": "55c816c3eb692c2409ab83ae2fbd50cbd017ce6a",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:35:58.955466+00:00",
+      "analysis": {
+        "summary_zh": "DeepTutor是终身个性化AI辅导系统，支持多智能体交互学习。",
+        "application": "提供个性化辅导、知识库问答、研究助手、互动学习等功能，通过CLI和Web界面实现。",
+        "use_cases": [
+          "个性化学习辅导",
+          "知识库文档问答",
+          "深度研究辅助",
+          "交互式教学工具"
+        ],
+        "target_users": "学生、教育者、研究人员、终身学习者"
+      }
+    },
+    "openai/codex": {
+      "readme_sha": "bb2a9d18c3f95ea1a16394a7131634ac1b1ae68e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:05.982440+00:00",
+      "analysis": {
+        "summary_zh": "OpenAI 发布的本地终端编码代理。",
+        "application": "Codex CLI 在终端中提供 AI 编码辅助，支持聊天、代码生成与执行，可集成 ChatGPT 计划或 API 密钥使用。",
+        "use_cases": [
+          "终端内 AI 编码辅助",
+          "代码生成与解释",
+          "本地文件系统操作",
+          "与 ChatGPT 账户集成"
+        ],
+        "target_users": "需要终端编码辅助的开发者"
+      }
+    },
+    "openinterpreter/openinterpreter": {
+      "readme_sha": "ab4b485e428d0ed3432b2f89e474a2f6d218f541",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:10.152850+00:00",
+      "analysis": {
+        "summary_zh": "面向低成本模型的终端编程代理，支持多种模型和工具集成。",
+        "application": "通过终端界面使用编码代理，支持命令执行、多模型切换、沙盒安全以及应用测试。",
+        "use_cases": [
+          "代码生成与执行",
+          "多模型编程辅助",
+          "Web与应用自动化测试",
+          "编辑器集成编程代理"
+        ],
+        "target_users": "使用终端编程的开发者和AI应用测试人员"
+      }
+    },
+    "tirth8205/code-review-graph": {
+      "readme_sha": "0b1d91c943bc37e97716475df1c1f1ec9320f435",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:14.326714+00:00",
+      "analysis": {
+        "summary_zh": "为AI编程工具构建代码结构图谱，提供精准上下文，减少冗余读取。",
+        "application": "通过Tree-sitter解析代码库，增量更新图谱，利用MCP为AI助手提供变更影响范围和风险评分，实现高效代码审查，大幅降低上下文消耗。",
+        "use_cases": [
+          "AI辅助代码审查",
+          "大型仓库的上下文缩减",
+          "多平台AI工具集成（Cursor、Claude Code等）",
+          "增量式代码图谱构建与查询"
+        ],
+        "target_users": "使用AI编程助手的开发者、大型代码库维护者"
+      }
+    },
+    "earendil-works/pi": {
+      "readme_sha": "130a412f0932bcaba865aaff0e49ab15ab74161e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:18.029111+00:00",
+      "analysis": {
+        "summary_zh": "统一LLM API、智能体运行时与终端编码助手的AI工具包",
+        "application": "提供多模型LLM接口、智能体循环与状态管理、终端UI及交互式编码CLI，用于构建和运行AI智能体",
+        "use_cases": [
+          "多模型LLM统一调用",
+          "智能体工具调用与状态管理",
+          "终端交互式编码助手",
+          "容器化安全隔离运行"
+        ],
+        "target_users": "AI开发者、智能体应用构建者、终端工具用户"
+      }
+    },
+    "coreyhaines31/marketingskills": {
+      "readme_sha": "ce1229ce22126825ff4fcc5fba3fee2262af8c55",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:36.943003+00:00",
+      "analysis": {
+        "summary_zh": "面向AI代理的营销技能集合，助力转换优化与增长。",
+        "application": "为技术营销人员提供AI代理可用的营销工作流与知识，覆盖CRO、SEO、广告、分析及增长工程等任务。",
+        "use_cases": [
+          "利用AI代理进行转化率优化与A/B测试",
+          "自动化SEO审计与内容优化",
+          "生成并迭代广告创意",
+          "构建增长实验与分析体系"
+        ],
+        "target_users": "技术营销人员、创业者及使用AI代理的开发者"
+      }
+    },
+    "nexu-io/motion-anything": {
+      "readme_sha": "7e9d5ca50362b5c2baee3035b2de4f5ba1348439",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:43.330579+00:00",
+      "analysis": {
+        "summary_zh": "基于自然语言驱动的智能动画创作引擎，支持多格式导出。",
+        "application": "用户通过一句感受描述，即可由AI驱动自动生成或编辑网页动画、启动视频，并支持组件级微调与多引擎集成。",
+        "use_cases": [
+          "自然语言生成动画页面",
+          "组件级动画实时编辑",
+          "一键导出多格式动效",
+          "融入设计生态系统协作"
+        ],
+        "target_users": "UI/UX设计师、动画师、前端开发者、创意人员"
+      }
+    },
+    "ronak-create/FableCut": {
+      "readme_sha": "2e1c20d98041764e0eb5f00fcbf7cd526b2dda88",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:47.191463+00:00",
+      "analysis": {
+        "summary_zh": "零依赖浏览器视频编辑器，AI代理可通过JSON时间轴驱动编辑。",
+        "application": "提供非线编视频编辑器，支持MCP/REST接口，允许AI代理与用户协同编辑项目JSON文件，实现实时预览。",
+        "use_cases": [
+          "AI驱动视频自动化编辑",
+          "多人协同视频项目编辑",
+          "零安装浏览器端视频剪辑",
+          "基于文本指令的视频创作"
+        ],
+        "target_users": "开发者、AI代理用户、需要自动化视频编辑的创作者"
+      }
+    },
+    "vshulcz/deja-vu": {
+      "readme_sha": "89e8bd82f34b0533b225b162da773ab5ab113dee",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-07-20T04:36:51.031909+00:00",
+      "analysis": {
+        "summary_zh": "为编码代理日志提供回溯搜索和MCP记忆的工具",
+        "application": "将Claude Code、Codex等代理的会话日志本地索引，支持快速搜索、跨代理记忆、同步、交接和自动回忆，无需联网。",
+        "use_cases": [
+          "搜索历史调试记录",
+          "跨代理共享问题解决方法",
+          "多机器同步会话记忆",
+          "代理间无缝切换上下文"
+        ],
+        "target_users": "使用编码代理（如Claude Code）的开发者"
       }
     }
   }
