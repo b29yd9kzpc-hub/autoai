@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 每周一北京时间 09:00（GitHub Actions 使用 UTC）
-    - cron: "0 1 * * 1"
+    - cron: "10 23 * * 0"
 
 permissions:
   contents: write
