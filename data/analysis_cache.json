@@ -321,19 +321,19 @@
       }
     },
     "diegosouzapw/OmniRoute": {
-      "readme_sha": "cc49454f00ea0fcc097a308e94a6384819e66d11",
+      "readme_sha": "6cde157bb9b9f5d983d526a6c3dcbac585eaf0bd",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:20.859032+00:00",
+      "analyzed_at": "2026-08-03T00:09:09.702908+00:00",
       "analysis": {
-        "summary_zh": "免费AI网关，聚合290+提供商，含90+免费层级，支持自动回退与Token压缩。",
-        "application": "统一API端点接入多AI模型，实现配额感知的自动路由、回退，以及RTK+Caveman压缩节省15-95%的令牌，并提供桌面/PWA仪表盘。",
+        "summary_zh": "免费AI网关，统一端点接入290+提供商、500+模型，含配额感知自动回退与Token压缩。",
+        "application": "聚合多AI提供商的免费额度，通过单一API端点提供服务，支持多种IDE/工具集成，自动切换可用模型以最大化免费使用。",
         "use_cases": [
-          "多AI提供商统一接入",
-          "免费Token池聚合与监控",
-          "开发工具（Claude Code、Cursor等）的免费后端",
-          "AI应用的成本优化与路由"
+          "统一AI模型API接入",
+          "免费额度聚合与自动调度",
+          "开发工具AI集成",
+          "Token使用优化"
         ],
-        "target_users": "使用多AI模型的开发者，寻求免费API和成本优化的团队。"
+        "target_users": "AI开发者、预算有限的个人或小型团队"
       }
     },
     "ogulcancelik/herdr": {
@@ -545,19 +545,19 @@
       }
     },
     "Graphify-Labs/graphify": {
-      "readme_sha": "a4f188f467b27d7cc8b7eee689c18ee2886c1ffc",
+      "readme_sha": "36a2235ba94c0d8d36e6bc5bc679b348710144db",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:36.613075+00:00",
+      "analyzed_at": "2026-08-03T00:09:15.473295+00:00",
       "analysis": {
-        "summary_zh": "将代码库、文档、SQL等转为可查询知识图谱的本地工具。",
-        "application": "通过AST解析构建项目知识图谱，支持路径追踪、概念解释和非向量化查询，适用于Claude Code、Cursor等AI助手。",
+        "summary_zh": "将代码库及其文档、配置、PDF等转换为可查询的知识图谱。",
+        "application": "通过本地AST解析生成代码知识图谱，支持在AI编码助手中查询代码关系，无需向量存储。",
         "use_cases": [
-          "代码库结构理解",
-          "跨文件概念关联查询",
-          "文档与代码一体化分析",
-          "本地优先的知识图谱生成"
+          "代码关系查询",
+          "知识图谱生成",
+          "代码文档分析",
+          "AI辅助开发"
         ],
-        "target_users": "开发者、AI辅助编程用户及代码分析需求者。"
+        "target_users": "使用AI编码工具的开发者"
       }
     },
     "synthetic-sciences/openscience": {
@@ -769,19 +769,19 @@
       }
     },
     "bojieli/ai-agent-book": {
-      "readme_sha": "065050ddd44aeddb3857870fe1abee69d9ea29aa",
+      "readme_sha": "ec670c1a1ba1bf171dd5a3c6b3bf81b33bb9c928",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:07.282327+00:00",
+      "analyzed_at": "2026-08-03T00:08:58.244893+00:00",
       "analysis": {
-        "summary_zh": "开源AI Agent书籍，详解设计原理与工程实践，含92个配套实验。",
-        "application": "围绕Agent=LLM+上下文+工具，提供从基础到多Agent协作的10章内容与代码，用于学习与开发AI代理。",
+        "summary_zh": "《深入理解 AI Agent》开源书籍，涵盖设计原理与工程实践。",
+        "application": "提供AI Agent核心理论、95个配套实验和13种语言版本，适合系统学习与动手实践。",
         "use_cases": [
-          "学习AI Agent原理与工程",
-          "实践上下文工程、RAG、工具使用",
-          "开发Coding Agent与多Agent系统",
-          "模型后训练与Agent评估"
+          "AI Agent 理论学习",
+          "动手实验与代码实践",
+          "多语言技术文档参考",
+          "离线阅读与技术查证"
         ],
-        "target_users": "AI开发者、研究者及想深入理解Agent的学习者。"
+        "target_users": "AI工程师、研究者、学生及Agent开发者"
       }
     },
     "koala73/worldmonitor": {
@@ -801,19 +801,19 @@
       }
     },
     "1jehuang/jcode": {
-      "readme_sha": "7b6b4e512902561d900ab8236c978b3704cc3113",
+      "readme_sha": "33505db8de148406fa32e606c93cb6482dd799c1",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:16.961091+00:00",
+      "analyzed_at": "2026-08-03T00:09:00.579429+00:00",
       "analysis": {
-        "summary_zh": "高性能多会话 AI 编程代理工具，极低内存占用。",
-        "application": "基于终端的 AI 编程代理，支持多会话、可定制化、高效内存使用，适合大规模项目开发。",
+        "summary_zh": "极致省内存的AI编程CLI助手，用Rust构建。",
+        "application": "终端内运行的AI编程代理，通过极低RAM占用实现多会话代码编写、重构和分析。",
         "use_cases": [
-          "AI 辅助编程",
-          "多会话代码管理",
-          "低资源环境开发",
-          "定制化工作流"
+          "代码编写",
+          "多会话并行开发",
+          "资源受限环境下的编程辅助",
+          "AI代理工具比较基准"
         ],
-        "target_users": "追求高性能、多任务处理的开发者"
+        "target_users": "追求内存效率的开发者、多项目开发者"
       }
     },
     "agegr/pi-web": {
@@ -878,6 +878,118 @@
           "模拟对话演练不同场景"
         ],
         "target_users": "有恋爱困惑、需关系建议的多元化用户"
+      }
+    },
+    "virgiliojr94/book-to-skill": {
+      "readme_sha": "5f0263ba556b48ae4d60d71d802a5cf23b5321fe",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:08:52.068146+00:00",
+      "analysis": {
+        "summary_zh": "将技术书 PDF 转为智能助手技能，支持按章检索。",
+        "application": "把 PDF、EPUB 等文档转为结构化技能，供 AI 编程助手按需加载，用于学习、参考和工作中快速获取内容。",
+        "use_cases": [
+          "把技术书籍转换为可查询的技能",
+          "整合内部文档为统一知识库",
+          "创建设计系统或品牌指南技能",
+          "合并研究论文与笔记为单一技能"
+        ],
+        "target_users": "开发者、技术写作者及需要频繁查阅文档者"
+      }
+    },
+    "ayghri/i-have-adhd": {
+      "readme_sha": "00e1e05fb0ea2f9006027eccf78db0685524c868",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:08:55.311845+00:00",
+      "analysis": {
+        "summary_zh": "让AI助手输出直奔主题、步骤化、无废话的ADHD友好回复。",
+        "application": "作为编程AI插件，修改回复风格：操作先行，编号步骤，省略寒暄与总结，仅给出可执行的具体下一步。",
+        "use_cases": [
+          "编程助手对话优化",
+          "ADHD用户信息获取",
+          "提高开发指令清晰度",
+          "减少AI无效输出"
+        ],
+        "target_users": "偏好直接、简洁回复的开发者及ADHD人群。"
+      }
+    },
+    "citrolabs/ego-lite": {
+      "readme_sha": "3b97f4ecca625eee7b659485c5a26abf4372f9b9",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:09:03.626672+00:00",
+      "analysis": {
+        "summary_zh": "为AI代理设计的极速浏览器，支持并行自动化任务，零成本零配置。",
+        "application": "允许AI代理（如Codex、Claude Code）在隔离空间中并行执行浏览器自动化任务，共享登录状态且不干扰用户浏览。",
+        "use_cases": [
+          "AI代理并行执行多浏览器任务",
+          "多空间同时运行自动化脚本",
+          "共享登录状态无需重复认证",
+          "提升复杂任务执行速度与成功率"
+        ],
+        "target_users": "需要AI代理执行浏览器自动化的开发者"
+      }
+    },
+    "earthtojake/text-to-cad": {
+      "readme_sha": "4275d40c9b0130080ca4fa9a0d2a271a0ea798c1",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:09:12.850036+00:00",
+      "analysis": {
+        "summary_zh": "面向CAD/CAE/CAM的AI代理技能库",
+        "application": "为AI代理提供生成、检查、切片和交付CAD及机器人描述文件的工作流，支持STEP/STL等格式输出。",
+        "use_cases": [
+          "文本或图像生成3D模型",
+          "机器人URDF/SDF建模",
+          "DXF工程图生成",
+          "3D打印切片与打印"
+        ],
+        "target_users": "CAD工程师、机器人开发者、硬件设计团队"
+      }
+    },
+    "drumih/turbo-fieldfare": {
+      "readme_sha": "e0734f591608fec12f1d5ecbcc3f28f356ae5d98",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:09:18.789251+00:00",
+      "analysis": {
+        "summary_zh": "在MacBook上以约2GB内存运行26B参数模型的推理引擎",
+        "application": "针对Gemma 4 26B-A4B模型的Swift+Metal运行时，通过仅加载1.35GB共享核心并将专家权重按需从SSD流式加载，实现极低内存大模型推理。",
+        "use_cases": [
+          "本地大模型聊天",
+          "低内存设备AI部署",
+          "命令行交互",
+          "OpenAI兼容API服务"
+        ],
+        "target_users": "拥有Apple Silicon Mac的开发者与本地AI用户"
+      }
+    },
+    "QwenAudio/qwen-audio-agent": {
+      "readme_sha": "970c363fad30bb8dde7c62a68e924e660bd42807",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:09:22.310103+00:00",
+      "analysis": {
+        "summary_zh": "实时语音Agent运行时，支持全双工对话与后台任务异步执行。",
+        "application": "用于构建始终在场的AI语音助手，可进行自然打断、多轮对话，并在后台处理工具调用、代码执行等任务，完成后自动回复结果。",
+        "use_cases": [
+          "语音控制智能家居或设备",
+          "编程助手，语音驱动代码编写与调试",
+          "实时信息查询与对话式任务管理",
+          "多模态交互，如语音搜索和操作"
+        ],
+        "target_users": "希望构建语音交互Agent的开发者与终端用户"
+      }
+    },
+    "makecindy/cindy": {
+      "readme_sha": "c6d1093d0d6ef6ed1cd18c7881656769809b7e81",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-03T00:09:25.742370+00:00",
+      "analysis": {
+        "summary_zh": "开源跨平台AI助手客户端，支持多模型与工具集成，开箱即用",
+        "application": "Cindy是一个开源AI代理，可整合Claude Code、Codex等模型与工具，直接在用户本地项目中执行实际任务，支持桌面与移动端。",
+        "use_cases": [
+          "本地项目自动化任务执行",
+          "多模型混合规划与并行处理",
+          "浏览器与手机控制",
+          "通过插件定制界面与交互"
+        ],
+        "target_users": "开发者、技术用户、希望本地运行AI代理的个人与团队"
       }
     }
   }
