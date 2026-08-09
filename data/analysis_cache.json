@@ -97,19 +97,19 @@
       }
     },
     "Panniantong/Agent-Reach": {
-      "readme_sha": "53055f706558775b04150e2f4efdb4d2080ec320",
+      "readme_sha": "30f36b33569b4ac82f1ac28fc5717ad2dd89cc40",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:44.123493+00:00",
+      "analyzed_at": "2026-08-09T23:42:47.602948+00:00",
       "analysis": {
-        "summary_zh": "让AI Agent一键获取互联网内容，支持多平台搜索与提取，无需API费用。",
-        "application": "通过CLI工具为AI Agent提供网页、社交媒体、视频平台的内容读取与搜索功能，零配置即可使用部分平台，复杂平台可配置Cookie登录。",
+        "summary_zh": "为AI代理提供免费、统一的互联网访问能力，涵盖Twitter、YouTube等多平台。",
+        "application": "通过CLI工具让AI代理无需API密钥即可搜索、抓取和阅读网页、社交媒体、视频平台等内容，并支持扩展配置。",
         "use_cases": [
-          "提取YouTube视频字幕与搜索",
-          "搜索Twitter、Reddit帖子与评论",
-          "读取小红书、B站内容",
-          "全网语义搜索"
+          "社交媒体内容抓取",
+          "YouTube字幕提取",
+          "全网语义搜索",
+          "GitHub仓库分析"
         ],
-        "target_users": "需要为AI Agent扩展互联网访问能力的开发者"
+        "target_users": "需要为AI代理增强联网能力的开发者"
       }
     },
     "jamiepine/voicebox": {
@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "c2e9b0e2ad83b64744db1648300bcdc20a800cc8",
+      "readme_sha": "c57811a01bcc35d103ef9532378cd22fc3005133",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-20T04:36:25.504259+00:00",
+      "analyzed_at": "2026-08-09T23:42:44.729984+00:00",
       "analysis": {
-        "summary_zh": "让AI代理像最懒的资深开发者一样编程，以最精简代码实现需求。",
-        "application": "为AI编程代理提供技能，使其在生成代码前评估必要性，优先使用现有方案和最小化实现，从而减少代码量、降低成本和时间。",
+        "summary_zh": "让 AI 代理像懒散资深开发者，用极少代码完成任务",
+        "application": "作为 Claude Code 等 AI 编码代理的插件，通过约束代理遵循极简原则，减少冗余代码生成，提升效率并保持安全性。",
         "use_cases": [
-          "代码生成优化",
-          "减少AI代理令牌消耗",
-          "加速开发任务",
-          "保持代码安全与简洁"
+          "减少 AI 代理生成多余代码",
+          "降低 API 调用成本与延迟",
+          "保持代码安全性与可访问性",
+          "训练代理遵循 YAGNI 原则"
         ],
-        "target_users": "使用AI编码代理的开发者、追求高效精简代码的团队。"
+        "target_users": "使用 AI 编码代理的开发者"
       }
     },
     "topoteretes/cognee": {
@@ -529,19 +529,19 @@
       }
     },
     "addyosmani/agent-skills": {
-      "readme_sha": "2a867a3f5675c3328926bb07b85bcb8a79d2b382",
+      "readme_sha": "f31b37f7fc881e76cf9ba9cedd74efad27d4d255",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-13T04:30:30.490874+00:00",
+      "analyzed_at": "2026-08-09T23:42:50.290660+00:00",
       "analysis": {
-        "summary_zh": "为AI编程代理提供工程化技能和工作流模板。",
-        "application": "提供一系列工程化技能和斜杠命令，覆盖从需求定义、规划、构建、测试到部署的完整开发生命周期，帮助AI代理遵循最佳实践。",
+        "summary_zh": "为AI编程代理提供生产级工程技能包",
+        "application": "通过预定义技能、质量门禁和最佳实践，引导AI代理在开发各阶段遵循一致的工作流程，提升代码质量与效率。",
         "use_cases": [
-          "自动执行代码审查与质量门控",
-          "驱动测试驱动开发流程",
-          "优化Web性能并简化代码",
-          "统一AI代理的开发工作流"
+          "自动化软件开发生命周期管理",
+          "强化代码审查与质量保证",
+          "实施测试驱动开发流程",
+          "优化Web性能与代码简化"
         ],
-        "target_users": "使用AI编程工具的软件工程师"
+        "target_users": "使用AI编码代理的开发人员与团队"
       }
     },
     "Graphify-Labs/graphify": {
@@ -689,19 +689,19 @@
       }
     },
     "earendil-works/pi": {
-      "readme_sha": "83a1ff8bad75eb3aade848b09ac8b1978d4264e1",
+      "readme_sha": "e68f9385df7e2bf7e8f1e8bca1257a20260b0281",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:26.745906+00:00",
+      "analyzed_at": "2026-08-09T23:42:53.135934+00:00",
       "analysis": {
-        "summary_zh": "AI代理工具包：统一LLM API、代理循环、TUI、编程代理CLI",
-        "application": "提供多提供商LLM统一接口，支持构建代理运行时、交互式编程代理和终端UI，用于自动化编程任务和代理开发",
+        "summary_zh": "统一LLM API、代理循环、TUI和编码代理CLI的AI工具包",
+        "application": "提供多供应商LLM统一接口、代理运行时和交互式编码代理CLI，支持终端界面和状态管理，用于构建和扩展AI代理。",
         "use_cases": [
-          "多提供商LLM集成",
-          "构建自动编程助手",
-          "终端用户界面开发",
-          "代理状态管理与工具调用"
+          "构建多功能AI代理",
+          "开发交互式编码助手",
+          "在终端使用统一LLM接口",
+          "实现代理状态与工具调用管理"
         ],
-        "target_users": "LLM应用开发者、自动化编程需求者"
+        "target_users": "AI开发者和需要编码代理的工程师"
       }
     },
     "coreyhaines31/marketingskills": {
@@ -769,19 +769,19 @@
       }
     },
     "bojieli/ai-agent-book": {
-      "readme_sha": "ec670c1a1ba1bf171dd5a3c6b3bf81b33bb9c928",
+      "readme_sha": "0a3ec158f4091f959ea0682c5d550ec5e0b7c8e4",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-03T00:08:58.244893+00:00",
+      "analyzed_at": "2026-08-09T23:42:41.788749+00:00",
       "analysis": {
-        "summary_zh": "《深入理解 AI Agent》开源书籍，涵盖设计原理与工程实践。",
-        "application": "提供AI Agent核心理论、95个配套实验和13种语言版本，适合系统学习与动手实践。",
+        "summary_zh": "开源AI Agent书籍，含10章正文、95个实验及多语言版本。",
+        "application": "提供AI Agent设计原理与工程实践教育，包括电子书、代码实验和在线阅读。",
         "use_cases": [
-          "AI Agent 理论学习",
-          "动手实验与代码实践",
-          "多语言技术文档参考",
-          "离线阅读与技术查证"
+          "学习AI Agent核心原理",
+          "实践95个配套实验",
+          "多语言离线阅读",
+          "参考生产级Agent设计"
         ],
-        "target_users": "AI工程师、研究者、学生及Agent开发者"
+        "target_users": "AI从业者、开发者、学生及研究人员"
       }
     },
     "koala73/worldmonitor": {
@@ -881,19 +881,19 @@
       }
     },
     "virgiliojr94/book-to-skill": {
-      "readme_sha": "5f0263ba556b48ae4d60d71d802a5cf23b5321fe",
+      "readme_sha": "56a57bc09fed09aad23257ef793fd78001b24ba2",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-03T00:08:52.068146+00:00",
+      "analyzed_at": "2026-08-09T23:42:28.514037+00:00",
       "analysis": {
-        "summary_zh": "将技术书 PDF 转为智能助手技能，支持按章检索。",
-        "application": "把 PDF、EPUB 等文档转为结构化技能，供 AI 编程助手按需加载，用于学习、参考和工作中快速获取内容。",
+        "summary_zh": "将技术书籍PDF转化为AI代理可即时调用的结构化技能文件。",
+        "application": "将技术书籍、文档或资料集转化为结构化技能（含核心模型、章节、术语表、模式等），供AI助手按需加载章节，避免幻觉，直接引用原文并降低token消耗。",
         "use_cases": [
-          "把技术书籍转换为可查询的技能",
-          "整合内部文档为统一知识库",
-          "创建设计系统或品牌指南技能",
-          "合并研究论文与笔记为单一技能"
+          "将技术书籍转化为AI助手可查询的知识库",
+          "整合内部文档、设计系统或研究论文为统一技能",
+          "为开发工具（如Claude Code）创建按需加载的参考资料",
+          "构建可更新、可折叠的知识库以减少上下文占用"
         ],
-        "target_users": "开发者、技术写作者及需要频繁查阅文档者"
+        "target_users": "开发者、技术写作者、需要频繁查阅技术资料的团队。"
       }
     },
     "ayghri/i-have-adhd": {
@@ -961,19 +961,19 @@
       }
     },
     "QwenAudio/qwen-audio-agent": {
-      "readme_sha": "970c363fad30bb8dde7c62a68e924e660bd42807",
+      "readme_sha": "8fdad9455d7e04fde87e2e2a86c43e8f9f762274",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-03T00:09:22.310103+00:00",
+      "analyzed_at": "2026-08-09T23:42:59.045139+00:00",
       "analysis": {
-        "summary_zh": "实时语音Agent运行时，支持全双工对话与后台任务异步执行。",
-        "application": "用于构建始终在场的AI语音助手，可进行自然打断、多轮对话，并在后台处理工具调用、代码执行等任务，完成后自动回复结果。",
+        "summary_zh": "实时语音交互运行时，让AI代理在对话中持续工作和响应。",
+        "application": "提供全双工实时语音交互，支持多任务并行处理与进度跟踪，可集成多种编码代理后端，适用于桌面助手或语音编程场景。",
         "use_cases": [
-          "语音控制智能家居或设备",
-          "编程助手，语音驱动代码编写与调试",
-          "实时信息查询与对话式任务管理",
-          "多模态交互，如语音搜索和操作"
+          "实时语音对话与交互",
+          "后台任务代理执行与状态报告",
+          "语音唤醒与桌面悬浮球控制",
+          "集成编码代理进行开发辅助"
         ],
-        "target_users": "希望构建语音交互Agent的开发者与终端用户"
+        "target_users": "需要语音AI助手和后台任务处理的开发者及桌面用户"
       }
     },
     "makecindy/cindy": {
@@ -990,6 +990,150 @@
           "通过插件定制界面与交互"
         ],
         "target_users": "开发者、技术用户、希望本地运行AI代理的个人与团队"
+      }
+    },
+    "zhaoxuya520/reverse-skill": {
+      "readme_sha": "059b340e9f22b675337e381cbd928366482c0ec3",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:19.006750+00:00",
+      "analysis": {
+        "summary_zh": "面向逆向工程和渗透测试的AI技能路由包，自动引导工具链与工作流。",
+        "application": "为AI编程客户端提供逆向与渗透任务的自动路由，按场景调用工具链（如jadx、Frida），并生成可复用工作流与经验库。",
+        "use_cases": [
+          "APK/Android逆向分析",
+          "二进制文件（ELF/PE）逆向",
+          "前端JS加密分析与CTF挑战",
+          "授权渗透测试工具链编排"
+        ],
+        "target_users": "安全研究员、渗透测试人员、逆向工程师"
+      }
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "readme_sha": "39d45a164ce2fe4e4e54de2bef732e4307452fbb",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:21.973137+00:00",
+      "analysis": {
+        "summary_zh": "面向AI Agent团队的记忆中枢，将对话、文档与代码转化为可复用记忆资产。",
+        "application": "提供Chat Memory、Skill、Wiki和CodeGraph四种记忆资产，支持自动提取、共享与跨Agent框架复用，帮助团队积累经验、减少重复工作。",
+        "use_cases": [
+          "Agent对话记忆与上下文保持",
+          "技能（Skill）沉淀与团队共享",
+          "文档与代码知识图谱构建",
+          "跨框架Agent记忆复用"
+        ],
+        "target_users": "AI Agent团队、开发者、需要知识积累的自动化工作组"
+      }
+    },
+    "esengine/DeepSeek-Reasonix": {
+      "readme_sha": "206317c2b435e7202b51f344dc57a859b3f6d3ed",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:24.768213+00:00",
+      "analysis": {
+        "summary_zh": "DeepSeek驱动的终端AI编程代理，注重缓存稳定性，可长时间运行。",
+        "application": "一个本地运行的单二进制编码代理，支持终端、桌面、浏览器和编辑器四种方式，提供规划、权限和沙箱功能。",
+        "use_cases": [
+          "自动代码生成与维护",
+          "长时间运行智能编程任务",
+          "多模型切换与组合",
+          "插件扩展开发工具链"
+        ],
+        "target_users": "使用终端和编辑器的开发者"
+      }
+    },
+    "unclebob/swarm-forge": {
+      "readme_sha": "981150281638458b72e31a9cd88a312ad8c0f14b",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:31.158960+00:00",
+      "analysis": {
+        "summary_zh": "一个基于 tmux 的多 AI 代理协作协调工具。",
+        "application": "协调多个 AI 代理在不同 git worktree 中协作开发，通过角色化 agent 完成编码、重构、架构等任务，适合构建自动化软件开发工作流。",
+        "use_cases": [
+          "自动化后端开发（two-pack 快速编码-清理循环）",
+          "紧凑规范开发（four-pack 含 Gherkin 规范与",
+          "全流程项目开发（six-pack 包括 QA、硬化等完整质量",
+          "多代理角色协作的开发工作流配置"
+        ],
+        "target_users": "希望用 AI 代理自动化软件开发的团队和个人。"
+      }
+    },
+    "vitali87/code-graph-rag": {
+      "readme_sha": "1f2c48b9f912d9d49e50690feccb8e924b3b9ba0",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:33.493703+00:00",
+      "analysis": {
+        "summary_zh": "多语言知识图谱RAG系统，解析代码库并支持自然语言查询与编辑",
+        "application": "解析多语言代码库为知识图谱，提供自然语言查询、代码检索、AST精确编辑、优化及死代码检测功能。",
+        "use_cases": [
+          "跨语言代码库智能问答",
+          "AST模式搜索与重构",
+          "代码优化与死代码检测",
+          "多语言分布式系统分析"
+        ],
+        "target_users": "使用多语言单体仓库的开发团队"
+      }
+    },
+    "livekit/agents": {
+      "readme_sha": "23c489a17fa5f790e4d8026a7c730a531f8bdce2",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:35.644202+00:00",
+      "analysis": {
+        "summary_zh": "构建实时语音AI代理的框架，支持多模态交互。",
+        "application": "用于创建可编程的实时语音代理，集成STT、LLM、TTS和WebRTC，实现对话、视觉理解等功能。",
+        "use_cases": [
+          "语音助手",
+          "实时翻译",
+          "电话客服机器人",
+          "视频会议AI"
+        ],
+        "target_users": "需要构建实时语音AI应用的开发者。"
+      }
+    },
+    "embabel/embabel-agent": {
+      "readme_sha": "3739d084e279bc508a68a5a6a8ad3aeec2ea94da",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:38.919569+00:00",
+      "analysis": {
+        "summary_zh": "JVM 上的多代理编排框架，支持动态规划和强类型领域模型。",
+        "application": "用于构建结合 LLM 交互与代码的智能代理流，支持动态目标路径规划和自适应执行，通过非 LLM AI 算法实现复杂任务组合。",
+        "use_cases": [
+          "构建自适应多代理系统",
+          "需要动态规划的任务自动化",
+          "结合领域模型的智能工作流",
+          "复杂业务逻辑的智能编排"
+        ],
+        "target_users": "需要构建智能代理系统的 Java/Kotlin 开发者"
+      }
+    },
+    "trycompai/crm": {
+      "readme_sha": "b61dda71600ac39c06e322c4a37a5a43327691e1",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:42:56.065778+00:00",
+      "analysis": {
+        "summary_zh": "面向AI代理的开源CRM，代理主动执行研究、记录和跟进。",
+        "application": "AI代理自主运行，收集证据并填入客户记录，支持无API密钥运行和人工审核弱证据，减少人工数据输入。",
+        "use_cases": [
+          "AI代理自动充实客户档案",
+          "基于证据的客户数据管理",
+          "自主安排后续跟进",
+          "不依赖外部API的CRM"
+        ],
+        "target_users": "希望减少CRM手动输入、信任AI代理的团队。"
+      }
+    },
+    "magicrew/doc7": {
+      "readme_sha": "63c21e40e16fa1fdec73360c5d12392dce62c9b6",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-09T23:43:02.762966+00:00",
+      "analysis": {
+        "summary_zh": "将文档转换为面向AI的视觉理解Markdown格式",
+        "application": "通过本地多模态模型将PDF、Office文档、扫描件、图表、公式等转换为可供AI搜索和推理的Markdown，无需OCR服务锁定。",
+        "use_cases": [
+          "文档批量转Markdown",
+          "学术论文公式图表提取",
+          "本地AI知识库构建",
+          "多格式文档统一解析"
+        ],
+        "target_users": "需要可检索、可被AI引用的文档内容的开发者"
       }
     }
   }
