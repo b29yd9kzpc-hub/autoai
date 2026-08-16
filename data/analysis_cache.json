@@ -193,35 +193,35 @@
       }
     },
     "hugohe3/ppt-master": {
-      "readme_sha": "4b60912e2521034010b5a06a00334c0175b9bbd7",
+      "readme_sha": "c843ec2a64e2f9ed2b7b4056628a534a5a5d0cf9",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-06-28T13:13:22.480751+00:00",
+      "analyzed_at": "2026-08-16T23:31:50.136677+00:00",
       "analysis": {
-        "summary_zh": "AI从文档生成可编辑PPTX，支持模板和语音旁白",
-        "application": "将任意文档转为原生可编辑的PPTX，包含形状、动画、语音旁白，可遵循自定义模板，非图片形式幻灯片",
+        "summary_zh": "AI将文档或主题转为原生PPT，支持形状、动画、图表与自定义模板。",
+        "application": "从PDF、DOCX或网页等材料中提取关键信息，组织叙事结构，生成可在PowerPoint中编辑的原生PPTX，包含原生形状、过渡动画、数据驱动的图表表格及基于演讲备注的音频旁白。",
         "use_cases": [
-          "从文档生成演示文稿",
-          "基于模板创建PPT",
-          "自动添加语音旁白",
-          "制作学术或商业幻灯片"
+          "自动生成演示文稿",
+          "文档转PPT",
+          "数据图表报告",
+          "自定义模板生成"
         ],
-        "target_users": "需要快速生成PPT的办公人员、教育者、研究者"
+        "target_users": "需要快速制作专业演示文稿的商务人士、教育者及开发者。"
       }
     },
     "NousResearch/hermes-agent": {
-      "readme_sha": "d78d6d57f04563f85c4b545703317bed77b6b9b5",
+      "readme_sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-20T04:36:29.132306+00:00",
+      "analyzed_at": "2026-08-16T23:31:45.638083+00:00",
       "analysis": {
-        "summary_zh": "具备自我学习循环的AI代理，支持多模型和多平台。",
-        "application": "提供终端聊天、技能自创建/改进、记忆检索、定时自动化、子代理并行及跨平台消息集成，可在本地、云端或集群运行。",
+        "summary_zh": "可自我改进的AI代理，具备学习循环与多平台支持。",
+        "application": "提供终端界面、多平台消息集成、技能自建与记忆系统，支持计划任务和并行子代理。",
         "use_cases": [
-          "终端AI助手",
-          "跨平台聊天机器人",
-          "自动化任务调度",
-          "研究数据生成"
+          "个人助理",
+          "自动化任务",
+          "研究辅助",
+          "跨平台交互"
         ],
-        "target_users": "需要自适应AI代理的开发者和研究人员"
+        "target_users": "开发者、研究人员及需要自动化任务的高级用户。"
       }
     },
     "HKUDS/Vibe-Trading": {
@@ -1009,19 +1009,19 @@
       }
     },
     "TencentCloud/TencentDB-Agent-Memory": {
-      "readme_sha": "39d45a164ce2fe4e4e54de2bef732e4307452fbb",
+      "readme_sha": "780664937b7b6d760ca9686df7817446567c8678",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:21.973137+00:00",
+      "analyzed_at": "2026-08-16T23:31:40.719695+00:00",
       "analysis": {
-        "summary_zh": "面向AI Agent团队的记忆中枢，将对话、文档与代码转化为可复用记忆资产。",
-        "application": "提供Chat Memory、Skill、Wiki和CodeGraph四种记忆资产，支持自动提取、共享与跨Agent框架复用，帮助团队积累经验、减少重复工作。",
+        "summary_zh": "腾讯云推出的团队级AI Agent记忆中心，将对话、文档和代码转化为可复用记忆资产。",
+        "application": "提供Memory Core、Hub和Proxy三个服务，支持Claude Code等框架通过代理零代码接入，实现共享记忆与技能复用。",
         "use_cases": [
-          "Agent对话记忆与上下文保持",
-          "技能（Skill）沉淀与团队共享",
-          "文档与代码知识图谱构建",
-          "跨框架Agent记忆复用"
+          "跨会话记忆共享",
+          "多Agent团队协作",
+          "技能与知识沉淀",
+          "零代码代理集成"
         ],
-        "target_users": "AI Agent团队、开发者、需要知识积累的自动化工作组"
+        "target_users": "使用AI Agent的开发者、团队及企业用户"
       }
     },
     "esengine/DeepSeek-Reasonix": {
@@ -1057,19 +1057,19 @@
       }
     },
     "vitali87/code-graph-rag": {
-      "readme_sha": "1f2c48b9f912d9d49e50690feccb8e924b3b9ba0",
+      "readme_sha": "76fb16b62fc3c14f2cd5d2168ba055ad7392cfb1",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:33.493703+00:00",
+      "analyzed_at": "2026-08-16T23:31:26.994452+00:00",
       "analysis": {
-        "summary_zh": "多语言知识图谱RAG系统，解析代码库并支持自然语言查询与编辑",
-        "application": "解析多语言代码库为知识图谱，提供自然语言查询、代码检索、AST精确编辑、优化及死代码检测功能。",
+        "summary_zh": "基于知识图谱的多语言代码库 RAG 工具",
+        "application": "解析代码结构构建知识图谱，支持自然语言查询、编辑和优化代码。",
         "use_cases": [
-          "跨语言代码库智能问答",
-          "AST模式搜索与重构",
-          "代码优化与死代码检测",
-          "多语言分布式系统分析"
+          "代码库问答",
+          "代码结构分析",
+          "死代码检测",
+          "AST 模式搜索替换"
         ],
-        "target_users": "使用多语言单体仓库的开发团队"
+        "target_users": "多语言 monorepo 开发与维护人员"
       }
     },
     "livekit/agents": {
@@ -1134,6 +1134,150 @@
           "多格式文档统一解析"
         ],
         "target_users": "需要可检索、可被AI引用的文档内容的开发者"
+      }
+    },
+    "cathrynlavery/diagram-design": {
+      "readme_sha": "bec7834e2075b592868581c72d34339deb70d301",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:09.273247+00:00",
+      "analysis": {
+        "summary_zh": "为Claude Code等AI编程助手提供29种编辑级图表生成技能，输出自包含HTML+SVG，无阴影，避免通用框图和Mermaid风格。",
+        "application": "作为AI编程助手的技能/插件，可生成多种静态HTML+SVG图表，支持品牌颜色匹配，可重绘draw.io或Mermaid源，提供明暗和编辑级样式。",
+        "use_cases": [
+          "技术架构图",
+          "流程图和时序图",
+          "数据模型和ER图",
+          "品牌内容配图"
+        ],
+        "target_users": "使用Claude Code等AI编程助手且需要高质量图表的开发者、技术作者。"
+      }
+    },
+    "semantica-agi/semantica": {
+      "readme_sha": "8b89fd5f6151247d5d7417e2a398c7017d5e7ff6",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:13.824348+00:00",
+      "analysis": {
+        "summary_zh": "为AI系统提供图原生基础设施，支持上下文管理、推理、溯源与知识图谱构建。",
+        "application": "提取企业数据构建上下文图和知识图谱，执行图分析与因果推理，并记录完整决策溯源，用于可解释、可审计的AI应用。",
+        "use_cases": [
+          "AI代理决策审计",
+          "企业知识图谱构建",
+          "合规与风险分析",
+          "图增强检索"
+        ],
+        "target_users": "AI/ML平台团队、数据平台团队、合规审计团队、受监管企业。"
+      }
+    },
+    "NVIDIA-NeMo/Switchyard": {
+      "readme_sha": "c697f6b69c2d0507db37094411fae8f8011df2d5",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:18.829307+00:00",
+      "analysis": {
+        "summary_zh": "Switchyard是一个Rust代理库，可在模型和提供商间路由LLM流量，保持OpenAI/Anthropic API兼容。",
+        "application": "LLM应用流量路由、协议翻译、A/B测试、成本/性能优化，支持自定义路由算法。",
+        "use_cases": [
+          "编码代理接入开源模型",
+          "多模型流量路由",
+          "A/B基准测试",
+          "成本优化"
+        ],
+        "target_users": "LLM应用开发者、需要多模型路由和成本优化的团队。"
+      }
+    },
+    "macro-inc/macro": {
+      "readme_sha": "5c1f46495934b6a72e5e7479d059d8a7986491f0",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:23.496365+00:00",
+      "analysis": {
+        "summary_zh": "集成邮件、聊天、文档、任务、Agent与CRM的一体化团队工作空间。",
+        "application": "提供统一界面管理邮件、消息、文档、任务、通话、文件及CRM，支持AI代理和跨模块@链接。",
+        "use_cases": [
+          "团队协作",
+          "客户关系管理",
+          "AI辅助办公",
+          "统一收件箱"
+        ],
+        "target_users": "需要一体化协作工具的中小团队或初创公司。"
+      }
+    },
+    "ToolJet/ToolJet": {
+      "readme_sha": "ef0f60704b78c40615da15f1a8e8eabd0cc04d39",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:31.937286+00:00",
+      "analysis": {
+        "summary_zh": "开源低代码平台，用于构建内部工具、仪表盘、工作流和AI代理。",
+        "application": "提供可视化应用构建器、拖拽式UI，集成80+数据源，支持数据库、API、SaaS应用和对象存储，可自托管或云部署。",
+        "use_cases": [
+          "内部工具开发",
+          "仪表盘构建",
+          "工作流自动化",
+          "AI代理生成"
+        ],
+        "target_users": "企业开发团队、业务人员、IT部门"
+      }
+    },
+    "unslothai/unsloth": {
+      "readme_sha": "e6612278d0f090f8b049bb0f741a3245448e10fb",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:36.453061+00:00",
+      "analysis": {
+        "summary_zh": "本地运行与训练LLM和扩散模型的桌面应用",
+        "application": "提供本地UI运行和微调LLM、扩散模型，支持多种模型和硬件，可远程访问。",
+        "use_cases": [
+          "本地模型微调",
+          "AI代理集成",
+          "图像生成",
+          "多模型部署"
+        ],
+        "target_users": "AI开发者、研究人员、本地模型爱好者"
+      }
+    },
+    "AMAP-ML/LongHorizon-Harness": {
+      "readme_sha": "c30ef9cb9cb20242cf21f3083cfe9e115dabd20d",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:54.043240+00:00",
+      "analysis": {
+        "summary_zh": "长时程计算机使用智能体的循环工程框架，支持桌面应用与CLI的持续任务执行。",
+        "application": "将Claude Code、Codex、DeepSeek等智能体封装为长期运行系统，通过规划-执行-验证-检查点循环，在桌面和终端中自动完成复杂多步任务，并支持失败恢复与状态保持。",
+        "use_cases": [
+          "跨桌面应用和CLI的自动化任务",
+          "长时程工作流执行与状态保存",
+          "多智能体后端统一集成与审计",
+          "终端基准测试与评估"
+        ],
+        "target_users": "需要长期自动运行计算机任务的研究者与开发者"
+      }
+    },
+    "fuxicodex/Fuxi": {
+      "readme_sha": "00c712b94c93c8770e0988839daeda014a5a2a42",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:31:57.821823+00:00",
+      "analysis": {
+        "summary_zh": "终端AI编码代理，可编辑代码、运行命令并驱动工具。",
+        "application": "在终端中提供AI驱动的编码辅助，支持代码读写、命令执行、工具调用及成本感知的多模型路由。",
+        "use_cases": [
+          "AI辅助编码",
+          "终端命令执行",
+          "多模型成本优化",
+          "自动化工具调用"
+        ],
+        "target_users": "希望提升编码效率的开发者。"
+      }
+    },
+    "sv-number/mcp-server": {
+      "readme_sha": "2c79a03f08d301f89c2cbcf365d94b32af0f4ea3",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-16T23:32:00.745673+00:00",
+      "analysis": {
+        "summary_zh": "提供手机号与短信验证码的MCP服务器，覆盖200+国家。",
+        "application": "为AI代理提供订购虚拟手机号、接收短信验证码、完成验证的API工具。",
+        "use_cases": [
+          "自动注册账户",
+          "接收验证码",
+          "AI代理集成",
+          "多国号码获取"
+        ],
+        "target_users": "需要自动验证手机号的AI应用开发者"
       }
     }
   }
