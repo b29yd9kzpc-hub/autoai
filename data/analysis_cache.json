@@ -769,19 +769,19 @@
       }
     },
     "bojieli/ai-agent-book": {
-      "readme_sha": "0a3ec158f4091f959ea0682c5d550ec5e0b7c8e4",
+      "readme_sha": "5c148dc00be954c632fbee28b46162a948f8e0ab",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:41.788749+00:00",
+      "analyzed_at": "2026-08-23T23:32:05.456817+00:00",
       "analysis": {
-        "summary_zh": "开源AI Agent书籍，含10章正文、95个实验及多语言版本。",
-        "application": "提供AI Agent设计原理与工程实践教育，包括电子书、代码实验和在线阅读。",
+        "summary_zh": "《深入理解AI Agent》开源书籍，含正文、PDF及103个配套实验。",
+        "application": "提供AI Agent设计原理与工程实践知识，涵盖LLM、工具、多智能体、RAG等，附可运行实验。",
         "use_cases": [
-          "学习AI Agent核心原理",
-          "实践95个配套实验",
-          "多语言离线阅读",
-          "参考生产级Agent设计"
+          "学习AI Agent基础",
+          "获取工程实践指导",
+          "运行配套实验",
+          "多语言阅读"
         ],
-        "target_users": "AI从业者、开发者、学生及研究人员"
+        "target_users": "AI开发者、学生及对智能体感兴趣者"
       }
     },
     "koala73/worldmonitor": {
@@ -1278,6 +1278,134 @@
           "多国号码获取"
         ],
         "target_users": "需要自动验证手机号的AI应用开发者"
+      }
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "readme_sha": "6099b70b3b693ad8e70d796e99726f68dde077b8",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:31:48.612099+00:00",
+      "analysis": {
+        "summary_zh": "利用AI大模型一键生成高清短视频的工具",
+        "application": "输入主题或关键词，自动生成视频脚本、匹配素材、添加字幕和背景音乐，合成高清短视频，支持WebUI和API。",
+        "use_cases": [
+          "生成YouTube Shorts或TikTok视频",
+          "批量制作Instagram Reels内容",
+          "自动化视频内容创作工作流",
+          "教育或营销短视频生成"
+        ],
+        "target_users": "内容创作者、营销人员、短视频运营者"
+      }
+    },
+    "volcengine/OpenViking": {
+      "readme_sha": "4d52d14eceac99f5bd042d436d26819ea0c8c357",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:31:51.947157+00:00",
+      "analysis": {
+        "summary_zh": "AI智能体的自进化上下文数据库，统一记忆、知识RAG与技能。",
+        "application": "以viking://虚拟文件系统存储记忆、资源和技能，支持分层加载、目录递归检索和会话记忆提取。",
+        "use_cases": [
+          "AI智能体上下文管理",
+          "长期记忆存储",
+          "知识库RAG",
+          "技能插件集成"
+        ],
+        "target_users": "需要为AI智能体构建可观测、高效上下文的开发者。"
+      }
+    },
+    "anthropics/claude-plugins-community": {
+      "readme_sha": "abe78e5fbe9b97f3d32aed7fe526b3aabf82fe9a",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:31:54.857535+00:00",
+      "analysis": {
+        "summary_zh": "Claude社区插件市场镜像，提供社区贡献插件。",
+        "application": "为Claude Cowork和Claude Code提供社区插件市场，包含审核通过的插件。",
+        "use_cases": [
+          "安装社区插件",
+          "浏览可用插件",
+          "提交插件审核",
+          "开发Claude扩展"
+        ],
+        "target_users": "Claude Cowork和Claude Code用户及插件开发者"
+      }
+    },
+    "apache/maka": {
+      "readme_sha": "58fc692e35c137190e8146b48632c651817cf9f7",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:31:58.094819+00:00",
+      "analysis": {
+        "summary_zh": "本地优先的AI代理工作区，记录模型消息和工具调用为追加日志。",
+        "application": "Apache孵化项目，提供桌面、CLI和评估三种界面，支持多模型、内置工具和沙箱审批，记录执行事实。",
+        "use_cases": [
+          "本地AI代理开发",
+          "工具调用记录审计",
+          "代理工作区管理",
+          "可复现实验评估"
+        ],
+        "target_users": "需要本地运行和记录AI代理的开发者"
+      }
+    },
+    "santifer/career-ops": {
+      "readme_sha": "189bf7a87421d590dac5e066159da8a803337494",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:32:02.073650+00:00",
+      "analysis": {
+        "summary_zh": "开源AI求职工具，扫描职位、评估并定制简历。",
+        "application": "在AI编码CLI中运行，将职位列表评估为结构化报告并打分，为每个职位生成ATS优化简历，跟踪申请进度。",
+        "use_cases": [
+          "批量评估职位列表",
+          "生成个性化简历",
+          "跟踪求职申请",
+          "识别虚假招聘"
+        ],
+        "target_users": "技术求职者、开发者、AI CLI用户"
+      }
+    },
+    "yetone/cumora": {
+      "readme_sha": "b6b19163a596ead6df26cb04b71db42a556127f8",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:32:09.389810+00:00",
+      "analysis": {
+        "summary_zh": "AI 代理与人类协作的跨平台团队聊天工具",
+        "application": "AI 代理和人类在同一聊天、看板、日历中协作，代理可认领工作、互发邮件，支持云端或自有模型。",
+        "use_cases": [
+          "多代理团队协作",
+          "AI 辅助项目管理",
+          "自动化邮件处理",
+          "跨平台团队沟通"
+        ],
+        "target_users": "需要 AI 代理参与协作的团队和开发者"
+      }
+    },
+    "Leonxlnx/unlazy": {
+      "readme_sha": "284ef31ac8f19fe4c3f6659e78808d4a174f6222",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:32:13.096246+00:00",
+      "analysis": {
+        "summary_zh": "AI 代理防懒惰技能，用深度树方法拆分任务并强制验收。",
+        "application": "通过可运行验收台账和检查脚本，防止 AI 代理在复杂任务中偷懒或过早完成，确保每个分支有充分时间和证据。",
+        "use_cases": [
+          "复杂任务深度拆解与执行",
+          "AI 输出验证与证据记录",
+          "多分支并行工作编排",
+          "防止模型过早结束任务"
+        ],
+        "target_users": "使用 Claude Code 或 Codex CLI 的 AI 代理开发者"
+      }
+    },
+    "cinderline/northcinder": {
+      "readme_sha": "a699e2e4548d708291ab01ee2902dc2bd10c0b6a",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-23T23:32:16.020456+00:00",
+      "analysis": {
+        "summary_zh": "开源MCP服务器，用于比较产品并在购买前征得买家同意。",
+        "application": "通过MCP协议连接AI应用，本地运行搜索和排名引擎，跨多个商店比较商品，并在购买前请求批准。",
+        "use_cases": [
+          "产品对比",
+          "购买批准",
+          "本地审计",
+          "隐私保护"
+        ],
+        "target_users": "希望自主控制购物决策的用户。"
       }
     }
   }
