@@ -2,19 +2,19 @@
   "version": 1,
   "repositories": {
     "calesthio/OpenMontage": {
-      "readme_sha": "ed9b2a918735c8c4e5003ce51b0af982d0b9e4bb",
+      "readme_sha": "0dae0149c8a92482d51d31b22428bf6eb95446c9",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-06T05:11:06.959847+00:00",
+      "analyzed_at": "2026-08-31T01:23:13.716147+00:00",
       "analysis": {
-        "summary_zh": "开源智能体视频制作系统，用自然语言驱动全流程自动化。",
-        "application": "从文字描述或参考视频出发，AI代理自动完成调研、脚本、素材生成、剪辑与合成，产出完整视频。",
+        "summary_zh": "开源智能视频制作系统，将AI编程助手变为完整视频工作室。",
+        "application": "通过自然语言描述，代理完成研究、脚本、素材生成、剪辑和合成，支持图像视频和真实素材视频制作。",
         "use_cases": [
-          "生成电影预告片和动画短片",
-          "制作产品广告和宣传视频",
-          "创作艺术化图像视频",
-          "基于参考视频自动重构内容"
+          "影视预告片制作",
+          "动画短片生成",
+          "产品宣传视频",
+          "社交媒体视频"
         ],
-        "target_users": "视频创作者、营销人员、AI开发者与内容制作爱好者"
+        "target_users": "视频创作者、开发者、AI爱好者"
       }
     },
     "DeusData/codebase-memory-mcp": {
@@ -641,19 +641,19 @@
       }
     },
     "openai/codex": {
-      "readme_sha": "bb2a9d18c3f95ea1a16394a7131634ac1b1ae68e",
+      "readme_sha": "06b02fced7db972084bf0188cb03f60375b51c1c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-20T04:36:05.982440+00:00",
+      "analyzed_at": "2026-08-31T01:23:10.166483+00:00",
       "analysis": {
-        "summary_zh": "OpenAI 发布的本地终端编码代理。",
-        "application": "Codex CLI 在终端中提供 AI 编码辅助，支持聊天、代码生成与执行，可集成 ChatGPT 计划或 API 密钥使用。",
+        "summary_zh": "OpenAI 推出的本地终端编码智能体，可作为编码助手。",
+        "application": "在终端中运行，与 ChatGPT 账户或 API 密钥配合，提供本地代码生成与辅助功能。",
         "use_cases": [
-          "终端内 AI 编码辅助",
-          "代码生成与解释",
-          "本地文件系统操作",
-          "与 ChatGPT 账户集成"
+          "终端编码辅助",
+          "命令行代码生成",
+          "结合 ChatGPT 账户进行编码",
+          "本地编码代理"
         ],
-        "target_users": "需要终端编码辅助的开发者"
+        "target_users": "使用终端并具有 ChatGPT 账户的开发者。"
       }
     },
     "openinterpreter/openinterpreter": {
@@ -993,19 +993,19 @@
       }
     },
     "zhaoxuya520/reverse-skill": {
-      "readme_sha": "059b340e9f22b675337e381cbd928366482c0ec3",
+      "readme_sha": "d8c4fcea66f42b18df83172bd05462efbcba436b",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:19.006750+00:00",
+      "analyzed_at": "2026-08-31T01:23:16.592506+00:00",
       "analysis": {
-        "summary_zh": "面向逆向工程和渗透测试的AI技能路由包，自动引导工具链与工作流。",
-        "application": "为AI编程客户端提供逆向与渗透任务的自动路由，按场景调用工具链（如jadx、Frida），并生成可复用工作流与经验库。",
+        "summary_zh": "面向AI编程客户端的逆向与渗透测试技能路由包",
+        "application": "自动识别任务类型，路由到合适工具链并执行可重复的工作流，支持APK、二进制、JS加密等多种场景。",
         "use_cases": [
-          "APK/Android逆向分析",
-          "二进制文件（ELF/PE）逆向",
-          "前端JS加密分析与CTF挑战",
-          "授权渗透测试工具链编排"
+          "APK逆向分析",
+          "二进制文件分析",
+          "前端JS加密破解",
+          "CTF挑战解题"
         ],
-        "target_users": "安全研究员、渗透测试人员、逆向工程师"
+        "target_users": "安全研究人员、渗透测试人员、逆向工程师"
       }
     },
     "TencentCloud/TencentDB-Agent-Memory": {
@@ -1281,19 +1281,19 @@
       }
     },
     "harry0703/MoneyPrinterTurbo": {
-      "readme_sha": "6099b70b3b693ad8e70d796e99726f68dde077b8",
+      "readme_sha": "ccd6fba99c5f1ed5717248e41a6e214319cab69c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-23T23:31:48.612099+00:00",
+      "analyzed_at": "2026-08-31T01:23:19.561182+00:00",
       "analysis": {
-        "summary_zh": "利用AI大模型一键生成高清短视频的工具",
-        "application": "输入主题或关键词，自动生成视频脚本、匹配素材、添加字幕和背景音乐，合成高清短视频，支持WebUI和API。",
+        "summary_zh": "基于 AI 大模型的一站式短视频自动生成工具",
+        "application": "根据主题或关键词自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频",
         "use_cases": [
-          "生成YouTube Shorts或TikTok视频",
-          "批量制作Instagram Reels内容",
-          "自动化视频内容创作工作流",
-          "教育或营销短视频生成"
+          "自动生成短视频",
+          "批量创作内容",
+          "快速制作营销视频",
+          "生成社交媒体视频"
         ],
-        "target_users": "内容创作者、营销人员、短视频运营者"
+        "target_users": "内容创作者、营销人员及短视频制作者"
       }
     },
     "volcengine/OpenViking": {
@@ -1329,19 +1329,19 @@
       }
     },
     "apache/maka": {
-      "readme_sha": "58fc692e35c137190e8146b48632c651817cf9f7",
+      "readme_sha": "a49eb3615f5f7e96b9d845489ddd090edb30291b",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-23T23:31:58.094819+00:00",
+      "analyzed_at": "2026-08-31T01:22:49.568926+00:00",
       "analysis": {
-        "summary_zh": "本地优先的AI代理工作区，记录模型消息和工具调用为追加日志。",
-        "application": "Apache孵化项目，提供桌面、CLI和评估三种界面，支持多模型、内置工具和沙箱审批，记录执行事实。",
+        "summary_zh": "本地优先的 AI 智能体工作区，记录消息和工具调用为可恢复日志。",
+        "application": "为开发者提供桌面、CLI 和评估入口，检查项目并在沙箱中运行工具，支持模型连接和会话恢复。",
         "use_cases": [
-          "本地AI代理开发",
-          "工具调用记录审计",
-          "代理工作区管理",
-          "可复现实验评估"
+          "代码项目检查与修改",
+          "自动化任务执行",
+          "可复现的基准测试",
+          "会话记录与恢复"
         ],
-        "target_users": "需要本地运行和记录AI代理的开发者"
+        "target_users": "需要本地化 AI 工作区的开发者。"
       }
     },
     "santifer/career-ops": {
@@ -1361,19 +1361,19 @@
       }
     },
     "yetone/cumora": {
-      "readme_sha": "b6b19163a596ead6df26cb04b71db42a556127f8",
+      "readme_sha": "1da1d121534f987c1ada53b040faa0df00099c1b",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-23T23:32:09.389810+00:00",
+      "analyzed_at": "2026-08-31T01:23:22.662094+00:00",
       "analysis": {
-        "summary_zh": "AI 代理与人类协作的跨平台团队聊天工具",
-        "application": "AI 代理和人类在同一聊天、看板、日历中协作，代理可认领工作、互发邮件，支持云端或自有模型。",
+        "summary_zh": "Cumora是一个跨平台团队聊天应用，AI代理与人类作为平等成员协作。",
+        "application": "提供团队聊天、看板、日历，支持云或本地运行AI代理，代理可持有记忆、认领工作、收发邮件。",
         "use_cases": [
-          "多代理团队协作",
-          "AI 辅助项目管理",
-          "自动化邮件处理",
-          "跨平台团队沟通"
+          "团队协作",
+          "自动化任务",
+          "项目管理",
+          "AI助手"
         ],
-        "target_users": "需要 AI 代理参与协作的团队和开发者"
+        "target_users": "需要AI代理参与协作的团队和个人"
       }
     },
     "Leonxlnx/unlazy": {
@@ -1406,6 +1406,118 @@
           "隐私保护"
         ],
         "target_users": "希望自主控制购物决策的用户。"
+      }
+    },
+    "MadsLorentzen/ai-job-search": {
+      "readme_sha": "770bdc71f0f49f94de9993b8394675894ba07b55",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:22:52.660773+00:00",
+      "analysis": {
+        "summary_zh": "基于 Claude Code 的 AI 求职框架，可自动评估职位、定制简历并撰写求职信。",
+        "application": "通过 Claude Code 实现职位抓取、匹配评分、定制 LaTeX 简历与求职信、面试准备的全流程自动化。",
+        "use_cases": [
+          "自动化职位搜索与评估",
+          "生成定制化简历和求职信",
+          "模拟面试准备",
+          "求职流程管理"
+        ],
+        "target_users": "求职者，尤其是技术岗位和丹麦市场求职者"
+      }
+    },
+    "anthropics/claude-plugins-official": {
+      "readme_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:22:55.840445+00:00",
+      "analysis": {
+        "summary_zh": "Claude Code 官方插件目录，管理高质量插件。",
+        "application": "提供 Anthropic 内部及第三方插件的集中管理和安装，支持命令、代理、技能等扩展。",
+        "use_cases": [
+          "插件发现与安装",
+          "MCP 服务器集成",
+          "自定义斜杠命令",
+          "技能包分发"
+        ],
+        "target_users": "Claude Code 用户和插件开发者"
+      }
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "readme_sha": "4e15094f3ae31b9b33ccef1c7abd7e587be68ea5",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:22:59.864101+00:00",
+      "analysis": {
+        "summary_zh": "将任意AI代理转化为AI科学家的开源技能库，涵盖生命科学、化学、医学等领域的163+技能和100+数据库。",
+        "application": "为AI代理提供可复用的科学工作流技能，支持生物信息学、化学信息学、临床研究、药物发现等复杂多步骤科研任务。",
+        "use_cases": [
+          "基因组与生物信息学分析",
+          "药物发现与化学信息学",
+          "蛋白质组学与质谱处理",
+          "临床研究与证据整合"
+        ],
+        "target_users": "科学家、研究者、AI开发者、生物医药领域从业者"
+      }
+    },
+    "Alishahryar1/free-claude-code": {
+      "readme_sha": "46de2efec7abb55384eebdeb363a3a34a6266a26",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:23:03.310366+00:00",
+      "analysis": {
+        "summary_zh": "免费使用多种编码AI代理的工具，聚合多提供商。",
+        "application": "提供免费使用Claude Code、Codex等编码AI的代理服务，聚合多个提供商，支持终端、IDE和手机。",
+        "use_cases": [
+          "免费使用Claude Code等编码AI",
+          "聚合多家AI提供商",
+          "多平台终端/IDE/手机协同",
+          "提供商故障自动切换"
+        ],
+        "target_users": "开发者、AI编码用户、寻求免费或低成本AI服务者"
+      }
+    },
+    "THU-MAIC/OpenMAIC": {
+      "readme_sha": "496f1dd765bea493f35b2b8f8ce9420e6b492332",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:23:06.857569+00:00",
+      "analysis": {
+        "summary_zh": "一键生成多智能体互动课堂的开源平台",
+        "application": "通过单个提示词生成完整课程，支持智能体工作台规划、修订课程，并可从上传材料构建内容。",
+        "use_cases": [
+          "课程生成",
+          "多智能体互动教学",
+          "智能体辅助课程设计",
+          "教育内容创作"
+        ],
+        "target_users": "教育工作者、课程设计者、在线学习平台开发者"
+      }
+    },
+    "duty1g/x64dbg-mcp-server": {
+      "readme_sha": "2de7906274eb4658a7f61bd12ee889bbbac5cf82",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:23:26.418195+00:00",
+      "analysis": {
+        "summary_zh": "x64dbg的MCP插件，支持AI助手通过HTTP控制调试器。",
+        "application": "让AI助手通过84个工具控制x64dbg，进行断点、单步、内存读取等调试操作，用于逆向工程和恶意软件分析。",
+        "use_cases": [
+          "AI辅助逆向工程",
+          "自动化恶意软件分析",
+          "调试器远程控制",
+          "二进制程序动态分析"
+        ],
+        "target_users": "逆向工程师、恶意软件分析师、安全研究员"
+      }
+    },
+    "XiaoDuoYa/codex-with-chatgpt": {
+      "readme_sha": "892d4d1575348931722d2bf1fa834dd8b0c4f1ef",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-08-31T01:23:30.510268+00:00",
+      "analysis": {
+        "summary_zh": "让ChatGPT网页版做规划，Codex只执行，无需API Key。",
+        "application": "通过OAuth保护的只读MCP连接，让ChatGPT按需读取代码来规划与审查，执行仍由Codex完成。",
+        "use_cases": [
+          "代码规划与审查",
+          "节省API额度",
+          "非技术人员辅助安装",
+          "编码会话辅助"
+        ],
+        "target_users": "ChatGPT付费用户和Codex编码代理使用者"
       }
     }
   }
