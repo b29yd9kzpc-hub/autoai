@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "c57811a01bcc35d103ef9532378cd22fc3005133",
+      "readme_sha": "1f05a43af5737eb41ffb8bef921304c8b431f2d2",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:44.729984+00:00",
+      "analyzed_at": "2026-09-07T00:55:24.352154+00:00",
       "analysis": {
-        "summary_zh": "让 AI 代理像懒散资深开发者，用极少代码完成任务",
-        "application": "作为 Claude Code 等 AI 编码代理的插件，通过约束代理遵循极简原则，减少冗余代码生成，提升效率并保持安全性。",
+        "summary_zh": "让 AI 代理像最懒的高级开发者一样，用最少代码完成任务。",
+        "application": "为 Claude Code 等 AI 代理提供技能提示，使其优先使用简单原生方案，减少过度构建，从而降低代码量、成本和耗时。",
         "use_cases": [
-          "减少 AI 代理生成多余代码",
-          "降低 API 调用成本与延迟",
-          "保持代码安全性与可访问性",
-          "训练代理遵循 YAGNI 原则"
+          "AI 辅助编程时减少冗余代码",
+          "优化 Claude Code 会话成本和速度",
+          "避免 AI 代理过度设计组件",
+          "团队引入 YAGNI 极简开发原则"
         ],
-        "target_users": "使用 AI 编码代理的开发者"
+        "target_users": "使用 Claude Code 或 AI 辅助开发的程序员和团队。"
       }
     },
     "topoteretes/cognee": {
@@ -689,19 +689,19 @@
       }
     },
     "earendil-works/pi": {
-      "readme_sha": "e68f9385df7e2bf7e8f1e8bca1257a20260b0281",
+      "readme_sha": "730033651bd95551b5e0c34189ec823d07a174b1",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:53.135934+00:00",
+      "analyzed_at": "2026-09-07T00:55:32.036224+00:00",
       "analysis": {
-        "summary_zh": "统一LLM API、代理循环、TUI和编码代理CLI的AI工具包",
-        "application": "提供多供应商LLM统一接口、代理运行时和交互式编码代理CLI，支持终端界面和状态管理，用于构建和扩展AI代理。",
+        "summary_zh": "Pi 是一个AI智能体工具包，包含统一LLM API、智能体循环、终端UI和编程智能体CLI。",
+        "application": "提供多提供商LLM统一接口，支持智能体工具调用和状态管理，内置交互式终端编程助手和可组合服务运行时。",
         "use_cases": [
-          "构建多功能AI代理",
-          "开发交互式编码助手",
-          "在终端使用统一LLM接口",
-          "实现代理状态与工具调用管理"
+          "构建AI编程助手",
+          "统一多模型API调用",
+          "开发终端交互应用",
+          "运行分布式服务"
         ],
-        "target_users": "AI开发者和需要编码代理的工程师"
+        "target_users": "AI应用开发者、编程智能体用户"
       }
     },
     "coreyhaines31/marketingskills": {
@@ -993,19 +993,19 @@
       }
     },
     "zhaoxuya520/reverse-skill": {
-      "readme_sha": "d8c4fcea66f42b18df83172bd05462efbcba436b",
+      "readme_sha": "2237ae04e1a41e1208f8d03a4255a2f1d93c266e",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:23:16.592506+00:00",
+      "analyzed_at": "2026-09-07T00:55:35.429288+00:00",
       "analysis": {
-        "summary_zh": "面向AI编程客户端的逆向与渗透测试技能路由包",
-        "application": "自动识别任务类型，路由到合适工具链并执行可重复的工作流，支持APK、二进制、JS加密等多种场景。",
+        "summary_zh": "AI驱动的逆向工程与安全研究技能路由包",
+        "application": "为AI编码客户端提供逆向、渗透测试和安全研究的自动化路由、工具链自举及知识库",
         "use_cases": [
           "APK逆向分析",
-          "二进制文件分析",
-          "前端JS加密破解",
-          "CTF挑战解题"
+          "二进制漏洞研究",
+          "CTF竞赛辅助",
+          "渗透测试自动化"
         ],
-        "target_users": "安全研究人员、渗透测试人员、逆向工程师"
+        "target_users": "安全研究员、逆向工程师、渗透测试人员"
       }
     },
     "TencentCloud/TencentDB-Agent-Memory": {
@@ -1281,19 +1281,19 @@
       }
     },
     "harry0703/MoneyPrinterTurbo": {
-      "readme_sha": "ccd6fba99c5f1ed5717248e41a6e214319cab69c",
+      "readme_sha": "5eb2421a20171a41ab069bd0ca4f9ba8e27edce2",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:23:19.561182+00:00",
+      "analyzed_at": "2026-09-07T00:55:39.063421+00:00",
       "analysis": {
-        "summary_zh": "基于 AI 大模型的一站式短视频自动生成工具",
-        "application": "根据主题或关键词自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频",
+        "summary_zh": "一键AI短视频生成工具，输入主题自动生成视频。",
+        "application": "根据主题或关键词自动生成视频脚本、匹配素材、添加字幕和背景音乐，合成高清短视频。",
         "use_cases": [
-          "自动生成短视频",
-          "批量创作内容",
-          "快速制作营销视频",
-          "生成社交媒体视频"
+          "生成YouTube Shorts",
+          "生成TikTok和Instagram Reels",
+          "自动创作营销视频",
+          "批量生产内容"
         ],
-        "target_users": "内容创作者、营销人员及短视频制作者"
+        "target_users": "内容创作者、营销人员、社交媒体运营"
       }
     },
     "volcengine/OpenViking": {
@@ -1441,19 +1441,19 @@
       }
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "readme_sha": "4e15094f3ae31b9b33ccef1c7abd7e587be68ea5",
+      "readme_sha": "8ce09b450241568839fd2e3aa3f5a658f40f889a",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:22:59.864101+00:00",
+      "analyzed_at": "2026-09-07T00:55:12.988893+00:00",
       "analysis": {
-        "summary_zh": "将任意AI代理转化为AI科学家的开源技能库，涵盖生命科学、化学、医学等领域的163+技能和100+数据库。",
-        "application": "为AI代理提供可复用的科学工作流技能，支持生物信息学、化学信息学、临床研究、药物发现等复杂多步骤科研任务。",
+        "summary_zh": "将 AI 代理转化为 AI 科学家的开源技能库",
+        "application": "提供 163 个科学技能和 100+ 数据库，支持生物信息学、药物发现等多领域复杂工作流。",
         "use_cases": [
-          "基因组与生物信息学分析",
-          "药物发现与化学信息学",
-          "蛋白质组学与质谱处理",
-          "临床研究与证据整合"
+          "生物信息学与基因组分析",
+          "化学信息学与药物发现",
+          "临床研究与数据分析",
+          "科学可视化与计算"
         ],
-        "target_users": "科学家、研究者、AI开发者、生物医药领域从业者"
+        "target_users": "科研人员、AI 开发者、数据科学家"
       }
     },
     "Alishahryar1/free-claude-code": {
@@ -1473,19 +1473,19 @@
       }
     },
     "THU-MAIC/OpenMAIC": {
-      "readme_sha": "496f1dd765bea493f35b2b8f8ce9420e6b492332",
+      "readme_sha": "dbf6d5e387d53a4d0ff0045ccff4517f7a2ffe27",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:23:06.857569+00:00",
+      "analyzed_at": "2026-09-07T00:55:04.011796+00:00",
       "analysis": {
-        "summary_zh": "一键生成多智能体互动课堂的开源平台",
-        "application": "通过单个提示词生成完整课程，支持智能体工作台规划、修订课程，并可从上传材料构建内容。",
+        "summary_zh": "开源多智能体互动课堂，一键生成沉浸式学习体验。",
+        "application": "通过聊天工作台规划课程，从材料构建和修订页面，支持幻灯片、测验、互动内容、视频导出等。",
         "use_cases": [
           "课程生成",
-          "多智能体互动教学",
-          "智能体辅助课程设计",
-          "教育内容创作"
+          "互动学习",
+          "多智能体教学",
+          "学习者自主探索"
         ],
-        "target_users": "教育工作者、课程设计者、在线学习平台开发者"
+        "target_users": "教育工作者、课程设计师、学习者"
       }
     },
     "duty1g/x64dbg-mcp-server": {
@@ -1505,19 +1505,147 @@
       }
     },
     "XiaoDuoYa/codex-with-chatgpt": {
-      "readme_sha": "892d4d1575348931722d2bf1fa834dd8b0c4f1ef",
+      "readme_sha": "16ec0933fd4bd1916ad68e5c94e6668c46cf2f4a",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:23:30.510268+00:00",
+      "analyzed_at": "2026-09-07T00:55:42.538694+00:00",
       "analysis": {
-        "summary_zh": "让ChatGPT网页版做规划，Codex只执行，无需API Key。",
-        "application": "通过OAuth保护的只读MCP连接，让ChatGPT按需读取代码来规划与审查，执行仍由Codex完成。",
+        "summary_zh": "将ChatGPT网页版作为Codex的规划与审查大脑，实现思考与执行分离。",
+        "application": "通过只读MCP桥接，让ChatGPT读取代码进行规划和审查，Codex负责执行，节省API额度。",
         "use_cases": [
-          "代码规划与审查",
-          "节省API额度",
-          "非技术人员辅助安装",
-          "编码会话辅助"
+          "编码任务规划",
+          "代码审查",
+          "自动化安装配置",
+          "节省API成本"
         ],
-        "target_users": "ChatGPT付费用户和Codex编码代理使用者"
+        "target_users": "使用Codex和ChatGPT的开发者，尤其付费订阅用户"
+      }
+    },
+    "magnitudedev/magnitude": {
+      "readme_sha": "db75e99f20aa2a06557fcdcbbd78e027c1f42d47",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:00.849641+00:00",
+      "analysis": {
+        "summary_zh": "开源本地推理服务器，为硬件推荐并运行最佳模型，集成多种代理。",
+        "application": "自动分析硬件、推荐适配模型并下载配置，使AI代理在本地运行模型，支持离线、私有。",
+        "use_cases": [
+          "本地AI代理模型服务",
+          "硬件适配模型推荐",
+          "私密离线推理",
+          "多代理集成"
+        ],
+        "target_users": "重视隐私、想免费使用本地模型的AI开发者和代理用户"
+      }
+    },
+    "Gitlawb/openclaude": {
+      "readme_sha": "88820f092b1b48a710792fa3c7cdf580899e08b8",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:06.672253+00:00",
+      "analysis": {
+        "summary_zh": "开源编码代理 CLI，支持多种 LLM 提供商",
+        "application": "OpenClaude 是一个终端优先的编码代理 CLI，支持多种云端和本地模型提供商，提供提示、工具、代理、MCP 和流式输出。",
+        "use_cases": [
+          "编码辅助",
+          "AI 代理执行",
+          "多模型接口",
+          "终端工作流"
+        ],
+        "target_users": "开发者、编码人员、AI 爱好者"
+      }
+    },
+    "debpalash/VoiceStudio": {
+      "readme_sha": "a9213028caa55f7bdd244f911ab967265f5ea3c5",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:09.710898+00:00",
+      "analysis": {
+        "summary_zh": "开源本地语音AI应用，支持声音克隆、配音、转录等。",
+        "application": "提供16种TTS和11种ASR引擎，实现完全本地化的语音克隆、视频配音、听写、有声书制作等，支持646种语言。",
+        "use_cases": [
+          "声音克隆",
+          "视频配音",
+          "语音转录",
+          "有声书制作"
+        ],
+        "target_users": "需要本地语音处理的内容创作者、开发者。"
+      }
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "readme_sha": "b08e3f4d7c36b090fba41d5307696f9a2cc3f276",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:16.714451+00:00",
+      "analysis": {
+        "summary_zh": "让AI编码代理通过MCP控制Chrome DevTools进行调试与自动化",
+        "application": "作为MCP服务器，让AI代理实时控制Chrome，提取性能数据、调试网络请求、实现可靠自动化操作",
+        "use_cases": [
+          "性能分析与追踪",
+          "浏览器自动化",
+          "网络请求调试",
+          "控制台消息检查"
+        ],
+        "target_users": "AI编码代理开发者、测试工程师、Web性能优化者"
+      }
+    },
+    "affaan-m/ECC": {
+      "readme_sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:20.413139+00:00",
+      "analysis": {
+        "summary_zh": "面向多AI编码代理的性能优化系统，提供技能、记忆与安全等功能。",
+        "application": "为Claude Code等AI编码工具提供技能、记忆、安全与研究优先开发支持，提升代理性能。",
+        "use_cases": [
+          "Claude Code 插件安装",
+          "AI 代理性能优化",
+          "代码开发辅助",
+          "多代理技能管理"
+        ],
+        "target_users": "使用AI编码代理的开发者"
+      }
+    },
+    "Imbad0202/academic-research-skills": {
+      "readme_sha": "2ceaa43026ec2859cdd940cb0bfe54f54469afae",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:27.987055+00:00",
+      "analysis": {
+        "summary_zh": "面向Claude Code的学术研究技能套件，覆盖从研究到发表的完整流程。",
+        "application": "提供研究规划、文献综述、写作、评审、修订等技能，通过插件方式集成到Claude Code，辅助用户进行学术工作。",
+        "use_cases": [
+          "研究规划与文献综述",
+          "学术写作与风格校准",
+          "引用验证与数据核查",
+          "同行评审模拟"
+        ],
+        "target_users": "使用Claude Code的学术研究人员与写作者"
+      }
+    },
+    "Player-YN/PawWork_ZhuaZhua": {
+      "readme_sha": "83aa38d0d53e337892c35cddc8ff160ad04baf97",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:46.102547+00:00",
+      "analysis": {
+        "summary_zh": "爪爪是一款选择优先的Chrome网络代理，可在页面上选择内容并生成可编辑办公文件。",
+        "application": "用户在活动页面上选择元素，描述期望结果，获取可编辑的表格、幻灯片、文档或网站文件。支持实时画布编辑和计划审批，无服务器，自带模型密钥。",
+        "use_cases": [
+          "对比表格生成",
+          "幻灯片制作",
+          "页面转可编辑网站",
+          "文档整理"
+        ],
+        "target_users": "常在浏览器中办公、需快速提取网页内容并转成可编辑文件的知识工作者。"
+      }
+    },
+    "2akouwu/reverify": {
+      "readme_sha": "cbd84df7f7fd0996c15b31bbe0af58cad43a6e59",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-07T00:55:49.802053+00:00",
+      "analysis": {
+        "summary_zh": "让AI提出主张，由确定性工具对照实际证据验证，防止AI幻觉。",
+        "application": "通过MCP服务器和CLI，对二进制文件进行反汇编、模拟执行等确定性分析，验证AI关于结构或行为的声明，并支持源码等价性测试。",
+        "use_cases": [
+          "恶意软件分析",
+          "CTF竞赛",
+          "逆向工程",
+          "AI响应事实核查"
+        ],
+        "target_users": "安全研究人员、逆向工程师、AI开发者"
       }
     }
   }
