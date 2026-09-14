@@ -1,125 +1,135 @@
-# AI GitHub 周报｜2026-09-07
+# AI GitHub 周报｜2026-09-14
 
 口语任意｜编程语言任意｜GitHub Trending 本周榜
 
 ## 🔥 GitHub 官方本周 AI 应用榜
 
-1. [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude)
-   官网第 2 名｜本周 +2.0k ⭐｜总计 3.7k｜TypeScript｜AI 编程
-   中文简介：开源本地推理服务器，为硬件推荐并运行最佳模型，集成多种代理。
-   应用说明：自动分析硬件、推荐适配模型并下载配置，使AI代理在本地运行模型，支持离线、私有。
-   典型用途：本地AI代理模型服务、硬件适配模型推荐、私密离线推理、多代理集成
-   适合用户：重视隐私、想免费使用本地模型的AI开发者和代理用户
+1. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+   官网第 1 名｜本周 +16.7k ⭐｜总计 44.3k｜Python｜AI 编程
+   中文简介：让编码助手输出更直接、适合ADHD用户的技能。
+   应用说明：作为Claude Code插件，通过规则约束AI回复，使其行动优先、步骤编号、无冗余，提升输出可读性。
+   典型用途：编程时获得直接答案、避免冗长AI回复、提高开发效率、定制个人编码助手风格
+   适合用户：需要清晰输出的程序员，尤其ADHD人群。
 
-2. [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)
-   官网第 3 名｜本周 +9.2k ⭐｜总计 32.4k｜TypeScript｜AI Agent
-   中文简介：开源多智能体互动课堂，一键生成沉浸式学习体验。
-   应用说明：通过聊天工作台规划课程，从材料构建和修订页面，支持幻灯片、测验、互动内容、视频导出等。
-   典型用途：课程生成、互动学习、多智能体教学、学习者自主探索
-   适合用户：教育工作者、课程设计师、学习者
+2. [affaan-m/ECC](https://github.com/affaan-m/ECC)
+   官网第 2 名｜本周 +7.3k ⭐｜总计 257.8k｜JavaScript｜AI Agent / AI 编程
+   中文简介：ECC是面向AI编码代理的性能优化系统，提供技能、记忆和安全功能。
+   应用说明：为Claude Code等AI编码工具提供技能、记忆、安全及研究优先的开发增强，提升代理性能。
+   典型用途：AI代理性能优化、代码生成增强、安全防护、开发工作流自动化
+   适合用户：使用Claude Code等AI编码工具的开发者
 
-3. [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude)
-   官网第 4 名｜本周 +1.9k ⭐｜总计 32.8k｜TypeScript｜AI Agent
-   中文简介：开源编码代理 CLI，支持多种 LLM 提供商
-   应用说明：OpenClaude 是一个终端优先的编码代理 CLI，支持多种云端和本地模型提供商，提供提示、工具、代理、MCP 和流式输出。
-   典型用途：编码辅助、AI 代理执行、多模型接口、终端工作流
-   适合用户：开发者、编码人员、AI 爱好者
+3. [mksglu/context-mode](https://github.com/mksglu/context-mode)
+   官网第 5 名｜本周 +2.1k ⭐｜总计 22.6k｜TypeScript｜AI 编程 / MCP 应用
+   中文简介：AI编码代理的上下文窗口优化工具，通过沙盒输出、会话记忆和路由降低上下文消耗。
+   应用说明：作为MCP服务器，压缩工具输出、持久化会话数据、强制执行跨17平台的代码化分析路由，以减少上下文占用。
+   典型用途：上下文窗口压缩、会话状态持久化、多平台AI代理路由、代码化分析
+   适合用户：使用AI编码代理的开发者
 
-4. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-   官网第 9 名｜本周 +7.5k ⭐｜总计 19.8k｜Python｜语音 / 音频
-   中文简介：开源本地语音AI应用，支持声音克隆、配音、转录等。
-   应用说明：提供16种TTS和11种ASR引擎，实现完全本地化的语音克隆、视频配音、听写、有声书制作等，支持646种语言。
-   典型用途：声音克隆、视频配音、语音转录、有声书制作
-   适合用户：需要本地语音处理的内容创作者、开发者。
+4. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+   官网第 6 名｜本周 +8.4k ⭐｜总计 137.3k｜JavaScript｜AI Agent
+   中文简介：Ponytail是一个AI编码技能包，让AI代理像懒惰高级开发者一样只写最必要代码。
+   应用说明：作为Claude Code等AI代理的插件或技能，通过提示工程让模型采用YAGNI原则，减少冗余代码生成，提升效率并降低成本。
+   典型用途：减少AI生成代码量、优化编程助手输出、提升开发效率、降低AI使用成本
+   适合用户：使用AI编程助手并希望减少冗余代码的开发者
 
-5. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-   官网第 11 名｜本周 +4.7k ⭐｜总计 43.3k｜Python｜AI Agent / AI 编程
-   中文简介：将 AI 代理转化为 AI 科学家的开源技能库
-   应用说明：提供 163 个科学技能和 100+ 数据库，支持生物信息学、药物发现等多领域复杂工作流。
-   典型用途：生物信息学与基因组分析、化学信息学与药物发现、临床研究与数据分析、科学可视化与计算
-   适合用户：科研人员、AI 开发者、数据科学家
+5. [obra/superpowers](https://github.com/obra/superpowers)
+   官网第 11 名｜本周 +4.1k ⭐｜总计 286.2k｜Shell｜AI Agent
+   中文简介：面向编码代理的软件开发方法论，基于可组合技能和初始指令。
+   应用说明：为编码代理提供规范工作流，自动触发技能，引导需求澄清、设计、TDD实现和子代理驱动开发。
+   典型用途：需求澄清与规格书生成、设计评审与实施计划制定、红绿TDD与代码质量保障、子代理驱动的自主开发
+   适合用户：使用编码代理的软件开发人员与团队
 
-6. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-   官网第 14 名｜本周 +965 ⭐｜总计 51.2k｜TypeScript｜MCP 应用 / AI 编程
+6. [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+   官网第 12 名｜本周 +2.7k ⭐｜总计 50.0k｜JavaScript｜AI Agent / AI 编程
+   中文简介：面向AI代理的营销技能集合，涵盖CRO、文案、SEO、分析等。
+   应用说明：为Claude Code等AI代理提供营销任务的可复用技能和最佳实践，如转化优化、文案撰写、SEO和增长工程。
+   典型用途：转化率优化、文案撰写、SEO审计、A/B测试
+   适合用户：技术营销人员和创始人
+
+7. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+   官网第 13 名｜本周 +736 ⭐｜总计 51.8k｜TypeScript｜MCP 应用 / AI 编程
    中文简介：让AI编码代理通过MCP控制Chrome DevTools进行调试与自动化
    应用说明：作为MCP服务器，让AI代理实时控制Chrome，提取性能数据、调试网络请求、实现可靠自动化操作
    典型用途：性能分析与追踪、浏览器自动化、网络请求调试、控制台消息检查
    适合用户：AI编码代理开发者、测试工程师、Web性能优化者
 
-7. [affaan-m/ECC](https://github.com/affaan-m/ECC)
-   官网第 15 名｜本周 +6.4k ⭐｜总计 251.3k｜JavaScript｜AI Agent / AI 编程
-   中文简介：面向多AI编码代理的性能优化系统，提供技能、记忆与安全等功能。
-   应用说明：为Claude Code等AI编码工具提供技能、记忆、安全与研究优先开发支持，提升代理性能。
-   典型用途：Claude Code 插件安装、AI 代理性能优化、代码开发辅助、多代理技能管理
-   适合用户：使用AI编码代理的开发者
+8. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
+   官网第 14 名｜本周 +7.1k ⭐｜总计 39.2k｜HTML｜AI 编程
+   中文简介：面向AI编码工具的38+编辑级图表设计技能，生成自包含HTML+SVG，无阴影、非Mermaid风格。
+   应用说明：为Claude Code、Codex等AI代理提供图表生成技能，支持架构图、流程图、序列图等39种编辑级图表，并可重绘draw.io/Mermaid源。
+   典型用途：生成技术博客配图、创建软件架构图、制作流程图和序列图、将现有图表重绘为编辑级风格
+   适合用户：使用AI编码工具的技术作者、开发者、设计师
 
-8. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-   官网第 18 名｜本周 +12.2k ⭐｜总计 129.4k｜JavaScript｜AI Agent
-   中文简介：让 AI 代理像最懒的高级开发者一样，用最少代码完成任务。
-   应用说明：为 Claude Code 等 AI 代理提供技能提示，使其优先使用简单原生方案，减少过度构建，从而降低代码量、成本和耗时。
-   典型用途：AI 辅助编程时减少冗余代码、优化 Claude Code 会话成本和速度、避免 AI 代理过度设计组件、团队引入 YAGNI 极简开发原则
-   适合用户：使用 Claude Code 或 AI 辅助开发的程序员和团队。
+9. [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)
+   官网第 15 名｜本周 +4.2k ⭐｜总计 36.5k｜TypeScript｜AI Agent
+   中文简介：一键生成多智能体互动课堂的开源平台
+   应用说明：通过智能体工作台规划和构建课程，支持生成幻灯片、测验、互动内容和视频，并可从资料中学习。
+   典型用途：课程自动生成、互动教学、多智能体学习、教育内容创作
+   适合用户：教师、教育内容创作者和在线课程设计师
 
-9. [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)
-   官网第 21 名｜本周 +2.3k ⭐｜总计 46.6k｜Python｜AI 编程
-   中文简介：面向Claude Code的学术研究技能套件，覆盖从研究到发表的完整流程。
-   应用说明：提供研究规划、文献综述、写作、评审、修订等技能，通过插件方式集成到Claude Code，辅助用户进行学术工作。
-   典型用途：研究规划与文献综述、学术写作与风格校准、引用验证与数据核查、同行评审模拟
-   适合用户：使用Claude Code的学术研究人员与写作者
+10. [Tencent/WeKnora](https://github.com/Tencent/WeKnora)
+   官网第 16 名｜本周 +1.3k ⭐｜总计 22.9k｜Go｜AI Agent / RAG / 知识库
+   中文简介：腾讯开源的企业级LLM知识框架，支持RAG问答、自主Agent和自动维护的Wiki。
+   应用说明：将原始文档转化为可查询的RAG知识库、自主推理Agent和自维护Wiki，并支持多数据源同步。
+   典型用途：企业知识库构建与问答、多步复杂任务自主代理、文档自动整理与Wiki生成、多租户企业级知识管理
+   适合用户：需要构建知识库和智能问答的企业及开发者
 
 ## 🚀 AI 应用升星补充榜
 
-1. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-   本期 +4.0k ⭐（约 +4.0k/周）｜总计 242.5k｜Python｜AI Agent
+1. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+   本期 +7.0k ⭐（约 +7.0k/周）｜总计 26.8k｜Python｜语音 / 音频
+   中文简介：开源本地语音AI工具，支持语音克隆、配音、转写、有声书制作，无需API密钥。
+   应用说明：在本地硬件上运行16种TTS和11种ASR引擎，实现语音克隆、设计、视频配音、听写、有声书创建和批量生成，支持646种语言。
+   典型用途：语音克隆与设计、视频配音与翻译、语音转文字与听写、有声书与故事生成
+   适合用户：需要本地化语音AI处理的开发者、内容创作者和隐私敏感用户
+
+2. [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
+   本期 +2.8k ⭐（约 +2.8k/周）｜总计 71.9k｜Python｜RAG / 知识库
+   中文简介：压缩发送给LLM的提示、日志、文件等，减少token消耗。
+   应用说明：为AI代理和LLM应用提供本地上下文压缩，支持库、代理、MCP服务器，可节省20%编码代理token，60-95% JSON token。
+   典型用途：减少编码代理的token成本、压缩JSON日志和工具输出、优化RAG块和对话历史、多代理共享记忆和去重
+   适合用户：使用LLM的开发者、AI代理用户、需要节省token成本的企业。
+
+3. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+   本期 +2.6k ⭐（约 +2.6k/周）｜总计 245.2k｜Python｜AI Agent
    中文简介：可自我改进的AI代理，具备学习循环与多平台支持。
    应用说明：提供终端界面、多平台消息集成、技能自建与记忆系统，支持计划任务和并行子代理。
    典型用途：个人助理、自动化任务、研究辅助、跨平台交互
    适合用户：开发者、研究人员及需要自动化任务的高级用户。
 
-2. [earendil-works/pi](https://github.com/earendil-works/pi)
-   本期 +3.0k ⭐（约 +3.0k/周）｜总计 102.4k｜TypeScript｜AI Agent
+4. [earendil-works/pi](https://github.com/earendil-works/pi)
+   本期 +2.3k ⭐（约 +2.3k/周）｜总计 104.7k｜TypeScript｜AI Agent
    中文简介：Pi 是一个AI智能体工具包，包含统一LLM API、智能体循环、终端UI和编程智能体CLI。
    应用说明：提供多提供商LLM统一接口，支持智能体工具调用和状态管理，内置交互式终端编程助手和可组合服务运行时。
    典型用途：构建AI编程助手、统一多模型API调用、开发终端交互应用、运行分布式服务
    适合用户：AI应用开发者、编程智能体用户
 
-3. [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)
-   本期 +2.8k ⭐（约 +2.8k/周）｜总计 34.8k｜PowerShell｜AI 编程
-   中文简介：AI驱动的逆向工程与安全研究技能路由包
-   应用说明：为AI编码客户端提供逆向、渗透测试和安全研究的自动化路由、工具链自举及知识库
-   典型用途：APK逆向分析、二进制漏洞研究、CTF竞赛辅助、渗透测试自动化
-   适合用户：安全研究员、逆向工程师、渗透测试人员
-
-4. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-   本期 +2.7k ⭐（约 +2.7k/周）｜总计 115.4k｜Python｜RAG / 知识库
-   原始简介：Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Curs…（配置 DeepSeek 后自动翻译）
-
 5. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
-   本期 +2.3k ⭐（约 +2.3k/周）｜总计 121.1k｜Python｜AI 工作流 / 语音 / 音频
-   中文简介：一键AI短视频生成工具，输入主题自动生成视频。
-   应用说明：根据主题或关键词自动生成视频脚本、匹配素材、添加字幕和背景音乐，合成高清短视频。
-   典型用途：生成YouTube Shorts、生成TikTok和Instagram Reels、自动创作营销视频、批量生产内容
-   适合用户：内容创作者、营销人员、社交媒体运营
+   本期 +2.1k ⭐（约 +2.1k/周）｜总计 123.3k｜Python｜AI 工作流 / 语音 / 音频
+   中文简介：利用AI大模型一键生成高清短视频的自动化工具
+   应用说明：根据主题或关键词自动生成视频脚本、匹配素材、生成字幕和背景音乐，合成高清短视频
+   典型用途：生成抖音/TikTok短视频、生成YouTube Shorts、生成Instagram Reels、批量内容创作
+   适合用户：短视频创作者、自媒体运营者、营销人员
 
 ## 🌱 近期新项目
 
-1. [XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)
-   创建 9 天｜2.6k ⭐｜TypeScript｜MCP 应用
-   中文简介：将ChatGPT网页版作为Codex的规划与审查大脑，实现思考与执行分离。
-   应用说明：通过只读MCP桥接，让ChatGPT读取代码进行规划和审查，Codex负责执行，节省API额度。
-   典型用途：编码任务规划、代码审查、自动化安装配置、节省API成本
-   适合用户：使用Codex和ChatGPT的开发者，尤其付费订阅用户
+1. [tigerless-labs/agent-memory](https://github.com/tigerless-labs/agent-memory)
+   创建 12 天｜1.3k ⭐｜Python｜AI Agent
+   中文简介：AI智能体长期记忆运行时，以Markdown文件为真相源，本地检索，无API密钥。
+   应用说明：为AI代理提供持久记忆存储，支持Claude Code和Codex共享，本地BM25/向量检索和睡眠时自动整理。
+   典型用途：AI助手跨会话记忆、多代理共享知识库、本地优先智能体记忆、代码助手上下文延续
+   适合用户：使用Claude Code或Codex的开发者
 
-2. [Player-YN/PawWork_ZhuaZhua](https://github.com/Player-YN/PawWork_ZhuaZhua)
-   创建 9 天｜1.5k ⭐｜JavaScript｜AI Agent
-   中文简介：爪爪是一款选择优先的Chrome网络代理，可在页面上选择内容并生成可编辑办公文件。
-   应用说明：用户在活动页面上选择元素，描述期望结果，获取可编辑的表格、幻灯片、文档或网站文件。支持实时画布编辑和计划审批，无服务器，自带模型密钥。
-   典型用途：对比表格生成、幻灯片制作、页面转可编辑网站、文档整理
-   适合用户：常在浏览器中办公、需快速提取网页内容并转成可编辑文件的知识工作者。
-
-3. [2akouwu/reverify](https://github.com/2akouwu/reverify)
-   创建 6 天｜965 ⭐｜Python｜MCP 应用
+2. [2akouwu/reverify](https://github.com/2akouwu/reverify)
+   创建 13 天｜1.2k ⭐｜Python｜MCP 应用
    中文简介：让AI提出主张，由确定性工具对照实际证据验证，防止AI幻觉。
    应用说明：通过MCP服务器和CLI，对二进制文件进行反汇编、模拟执行等确定性分析，验证AI关于结构或行为的声明，并支持源码等价性测试。
    典型用途：恶意软件分析、CTF竞赛、逆向工程、AI响应事实核查
    适合用户：安全研究人员、逆向工程师、AI开发者
+
+3. [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer)
+   创建 5 天｜1.2k ⭐｜TypeScript｜图像 / 视频
+   中文简介：将任意主题转为带旁白、字幕和进度条的代码绘制解说视频的AI技能
+   应用说明：输入话题或文档，AI代理研究、撰写解说词，生成语音和时间轴，用Remotion代码绘制每帧，多代理并行构建并QC，输出MP4视频及完整过程文档。
+   典型用途：知识科普视频、教育内容制作、技术概念演示、文章转视频
+   适合用户：教育者、内容创作者、技术传播者

@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "1f05a43af5737eb41ffb8bef921304c8b431f2d2",
+      "readme_sha": "50b33a736986b43a8d1f666a6e3389fcab99997c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:24.352154+00:00",
+      "analyzed_at": "2026-09-14T00:59:15.140202+00:00",
       "analysis": {
-        "summary_zh": "让 AI 代理像最懒的高级开发者一样，用最少代码完成任务。",
-        "application": "为 Claude Code 等 AI 代理提供技能提示，使其优先使用简单原生方案，减少过度构建，从而降低代码量、成本和耗时。",
+        "summary_zh": "Ponytail是一个AI编码技能包，让AI代理像懒惰高级开发者一样只写最必要代码。",
+        "application": "作为Claude Code等AI代理的插件或技能，通过提示工程让模型采用YAGNI原则，减少冗余代码生成，提升效率并降低成本。",
         "use_cases": [
-          "AI 辅助编程时减少冗余代码",
-          "优化 Claude Code 会话成本和速度",
-          "避免 AI 代理过度设计组件",
-          "团队引入 YAGNI 极简开发原则"
+          "减少AI生成代码量",
+          "优化编程助手输出",
+          "提升开发效率",
+          "降低AI使用成本"
         ],
-        "target_users": "使用 Claude Code 或 AI 辅助开发的程序员和团队。"
+        "target_users": "使用AI编程助手并希望减少冗余代码的开发者"
       }
     },
     "topoteretes/cognee": {
@@ -401,19 +401,19 @@
       }
     },
     "headroomlabs-ai/headroom": {
-      "readme_sha": "d1f67ed1834f7b3afe65813ec83b6859eb669558",
+      "readme_sha": "376a0d28c4feeb38323e193192b5732f6c7a7bf5",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-06T05:11:20.141813+00:00",
+      "analyzed_at": "2026-09-14T00:59:34.399880+00:00",
       "analysis": {
-        "summary_zh": "压缩工具输出、日志、文件等内容以减少LLM token用量，支持库、代理和MCP服务器模式。",
-        "application": "在AI代理与LLM之间对工具输出、日志、RAG块、文件和对话历史进行压缩，减少60-95% token用量，同时保持回答质量。提供Python/TypeScript库、代理服务器和MCP服务器三种集成方式。",
+        "summary_zh": "压缩发送给LLM的提示、日志、文件等，减少token消耗。",
+        "application": "为AI代理和LLM应用提供本地上下文压缩，支持库、代理、MCP服务器，可节省20%编码代理token，60-95% JSON token。",
         "use_cases": [
-          "减少AI代理的token消耗",
-          "压缩RAG检索块和对话历史",
-          "代理包装现有编码工具",
-          "通过MCP服务器集成压缩功能"
+          "减少编码代理的token成本",
+          "压缩JSON日志和工具输出",
+          "优化RAG块和对话历史",
+          "多代理共享记忆和去重"
         ],
-        "target_users": "AI应用开发者、使用LLM的代理构建者"
+        "target_users": "使用LLM的开发者、AI代理用户、需要节省token成本的企业。"
       }
     },
     "Kulaxyz/self-learning-skills": {
@@ -705,19 +705,19 @@
       }
     },
     "coreyhaines31/marketingskills": {
-      "readme_sha": "ce1229ce22126825ff4fcc5fba3fee2262af8c55",
+      "readme_sha": "92b3f28cabafc073c0dc810d4a3b434eba8d30c9",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-20T04:36:36.943003+00:00",
+      "analyzed_at": "2026-09-14T00:59:20.274481+00:00",
       "analysis": {
-        "summary_zh": "面向AI代理的营销技能集合，助力转换优化与增长。",
-        "application": "为技术营销人员提供AI代理可用的营销工作流与知识，覆盖CRO、SEO、广告、分析及增长工程等任务。",
+        "summary_zh": "面向AI代理的营销技能集合，涵盖CRO、文案、SEO、分析等。",
+        "application": "为Claude Code等AI代理提供营销任务的可复用技能和最佳实践，如转化优化、文案撰写、SEO和增长工程。",
         "use_cases": [
-          "利用AI代理进行转化率优化与A/B测试",
-          "自动化SEO审计与内容优化",
-          "生成并迭代广告创意",
-          "构建增长实验与分析体系"
+          "转化率优化",
+          "文案撰写",
+          "SEO审计",
+          "A/B测试"
         ],
-        "target_users": "技术营销人员、创业者及使用AI代理的开发者"
+        "target_users": "技术营销人员和创始人"
       }
     },
     "nexu-io/motion-anything": {
@@ -897,19 +897,19 @@
       }
     },
     "ayghri/i-have-adhd": {
-      "readme_sha": "00e1e05fb0ea2f9006027eccf78db0685524c868",
+      "readme_sha": "ade33c1c6ec46d8e45790e89dea567ec2618cbef",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-03T00:08:55.311845+00:00",
+      "analyzed_at": "2026-09-14T00:59:07.464175+00:00",
       "analysis": {
-        "summary_zh": "让AI助手输出直奔主题、步骤化、无废话的ADHD友好回复。",
-        "application": "作为编程AI插件，修改回复风格：操作先行，编号步骤，省略寒暄与总结，仅给出可执行的具体下一步。",
+        "summary_zh": "让编码助手输出更直接、适合ADHD用户的技能。",
+        "application": "作为Claude Code插件，通过规则约束AI回复，使其行动优先、步骤编号、无冗余，提升输出可读性。",
         "use_cases": [
-          "编程助手对话优化",
-          "ADHD用户信息获取",
-          "提高开发指令清晰度",
-          "减少AI无效输出"
+          "编程时获得直接答案",
+          "避免冗长AI回复",
+          "提高开发效率",
+          "定制个人编码助手风格"
         ],
-        "target_users": "偏好直接、简洁回复的开发者及ADHD人群。"
+        "target_users": "需要清晰输出的程序员，尤其ADHD人群。"
       }
     },
     "citrolabs/ego-lite": {
@@ -1137,19 +1137,19 @@
       }
     },
     "cathrynlavery/diagram-design": {
-      "readme_sha": "bec7834e2075b592868581c72d34339deb70d301",
+      "readme_sha": "a3d8d47863f50f74f2b31f5fac78adefef23c2d3",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-16T23:31:09.273247+00:00",
+      "analyzed_at": "2026-09-14T00:59:23.503774+00:00",
       "analysis": {
-        "summary_zh": "为Claude Code等AI编程助手提供29种编辑级图表生成技能，输出自包含HTML+SVG，无阴影，避免通用框图和Mermaid风格。",
-        "application": "作为AI编程助手的技能/插件，可生成多种静态HTML+SVG图表，支持品牌颜色匹配，可重绘draw.io或Mermaid源，提供明暗和编辑级样式。",
+        "summary_zh": "面向AI编码工具的38+编辑级图表设计技能，生成自包含HTML+SVG，无阴影、非Mermaid风格。",
+        "application": "为Claude Code、Codex等AI代理提供图表生成技能，支持架构图、流程图、序列图等39种编辑级图表，并可重绘draw.io/Mermaid源。",
         "use_cases": [
-          "技术架构图",
-          "流程图和时序图",
-          "数据模型和ER图",
-          "品牌内容配图"
+          "生成技术博客配图",
+          "创建软件架构图",
+          "制作流程图和序列图",
+          "将现有图表重绘为编辑级风格"
         ],
-        "target_users": "使用Claude Code等AI编程助手且需要高质量图表的开发者、技术作者。"
+        "target_users": "使用AI编码工具的技术作者、开发者、设计师"
       }
     },
     "semantica-agi/semantica": {
@@ -1281,19 +1281,19 @@
       }
     },
     "harry0703/MoneyPrinterTurbo": {
-      "readme_sha": "5eb2421a20171a41ab069bd0ca4f9ba8e27edce2",
+      "readme_sha": "acd89e6f2c341bf356c65859af660ae96e598096",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:39.063421+00:00",
+      "analyzed_at": "2026-09-14T00:59:37.304118+00:00",
       "analysis": {
-        "summary_zh": "一键AI短视频生成工具，输入主题自动生成视频。",
-        "application": "根据主题或关键词自动生成视频脚本、匹配素材、添加字幕和背景音乐，合成高清短视频。",
+        "summary_zh": "利用AI大模型一键生成高清短视频的自动化工具",
+        "application": "根据主题或关键词自动生成视频脚本、匹配素材、生成字幕和背景音乐，合成高清短视频",
         "use_cases": [
+          "生成抖音/TikTok短视频",
           "生成YouTube Shorts",
-          "生成TikTok和Instagram Reels",
-          "自动创作营销视频",
-          "批量生产内容"
+          "生成Instagram Reels",
+          "批量内容创作"
         ],
-        "target_users": "内容创作者、营销人员、社交媒体运营"
+        "target_users": "短视频创作者、自媒体运营者、营销人员"
       }
     },
     "volcengine/OpenViking": {
@@ -1473,19 +1473,19 @@
       }
     },
     "THU-MAIC/OpenMAIC": {
-      "readme_sha": "dbf6d5e387d53a4d0ff0045ccff4517f7a2ffe27",
+      "readme_sha": "d8d0c09b36cf26903f105029ebed351d4947263e",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:04.011796+00:00",
+      "analyzed_at": "2026-09-14T00:59:26.141202+00:00",
       "analysis": {
-        "summary_zh": "开源多智能体互动课堂，一键生成沉浸式学习体验。",
-        "application": "通过聊天工作台规划课程，从材料构建和修订页面，支持幻灯片、测验、互动内容、视频导出等。",
+        "summary_zh": "一键生成多智能体互动课堂的开源平台",
+        "application": "通过智能体工作台规划和构建课程，支持生成幻灯片、测验、互动内容和视频，并可从资料中学习。",
         "use_cases": [
-          "课程生成",
-          "互动学习",
-          "多智能体教学",
-          "学习者自主探索"
+          "课程自动生成",
+          "互动教学",
+          "多智能体学习",
+          "教育内容创作"
         ],
-        "target_users": "教育工作者、课程设计师、学习者"
+        "target_users": "教师、教育内容创作者和在线课程设计师"
       }
     },
     "duty1g/x64dbg-mcp-server": {
@@ -1553,19 +1553,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "a9213028caa55f7bdd244f911ab967265f5ea3c5",
+      "readme_sha": "cb8d6cdf297f4c34c333bcb43445e224e62db571",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:09.710898+00:00",
+      "analyzed_at": "2026-09-14T00:59:31.746846+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音AI应用，支持声音克隆、配音、转录等。",
-        "application": "提供16种TTS和11种ASR引擎，实现完全本地化的语音克隆、视频配音、听写、有声书制作等，支持646种语言。",
+        "summary_zh": "开源本地语音AI工具，支持语音克隆、配音、转写、有声书制作，无需API密钥。",
+        "application": "在本地硬件上运行16种TTS和11种ASR引擎，实现语音克隆、设计、视频配音、听写、有声书创建和批量生成，支持646种语言。",
         "use_cases": [
-          "声音克隆",
-          "视频配音",
-          "语音转录",
-          "有声书制作"
+          "语音克隆与设计",
+          "视频配音与翻译",
+          "语音转文字与听写",
+          "有声书与故事生成"
         ],
-        "target_users": "需要本地语音处理的内容创作者、开发者。"
+        "target_users": "需要本地化语音AI处理的开发者、内容创作者和隐私敏感用户"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -1585,19 +1585,19 @@
       }
     },
     "affaan-m/ECC": {
-      "readme_sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
+      "readme_sha": "86dba51207907b2e5de07d6b0579a681522cdc13",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:20.413139+00:00",
+      "analyzed_at": "2026-09-14T00:59:09.791891+00:00",
       "analysis": {
-        "summary_zh": "面向多AI编码代理的性能优化系统，提供技能、记忆与安全等功能。",
-        "application": "为Claude Code等AI编码工具提供技能、记忆、安全与研究优先开发支持，提升代理性能。",
+        "summary_zh": "ECC是面向AI编码代理的性能优化系统，提供技能、记忆和安全功能。",
+        "application": "为Claude Code等AI编码工具提供技能、记忆、安全及研究优先的开发增强，提升代理性能。",
         "use_cases": [
-          "Claude Code 插件安装",
-          "AI 代理性能优化",
-          "代码开发辅助",
-          "多代理技能管理"
+          "AI代理性能优化",
+          "代码生成增强",
+          "安全防护",
+          "开发工作流自动化"
         ],
-        "target_users": "使用AI编码代理的开发者"
+        "target_users": "使用Claude Code等AI编码工具的开发者"
       }
     },
     "Imbad0202/academic-research-skills": {
@@ -1646,6 +1646,86 @@
           "AI响应事实核查"
         ],
         "target_users": "安全研究人员、逆向工程师、AI开发者"
+      }
+    },
+    "mksglu/context-mode": {
+      "readme_sha": "b796169524473691594af24995d21ca94027f7c7",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-14T00:59:12.260046+00:00",
+      "analysis": {
+        "summary_zh": "AI编码代理的上下文窗口优化工具，通过沙盒输出、会话记忆和路由降低上下文消耗。",
+        "application": "作为MCP服务器，压缩工具输出、持久化会话数据、强制执行跨17平台的代码化分析路由，以减少上下文占用。",
+        "use_cases": [
+          "上下文窗口压缩",
+          "会话状态持久化",
+          "多平台AI代理路由",
+          "代码化分析"
+        ],
+        "target_users": "使用AI编码代理的开发者"
+      }
+    },
+    "obra/superpowers": {
+      "readme_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-14T00:59:17.829787+00:00",
+      "analysis": {
+        "summary_zh": "面向编码代理的软件开发方法论，基于可组合技能和初始指令。",
+        "application": "为编码代理提供规范工作流，自动触发技能，引导需求澄清、设计、TDD实现和子代理驱动开发。",
+        "use_cases": [
+          "需求澄清与规格书生成",
+          "设计评审与实施计划制定",
+          "红绿TDD与代码质量保障",
+          "子代理驱动的自主开发"
+        ],
+        "target_users": "使用编码代理的软件开发人员与团队"
+      }
+    },
+    "Tencent/WeKnora": {
+      "readme_sha": "cc51996dd8fd2c9cda97146f26d0ce2e11446eef",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-14T00:59:28.815071+00:00",
+      "analysis": {
+        "summary_zh": "腾讯开源的企业级LLM知识框架，支持RAG问答、自主Agent和自动维护的Wiki。",
+        "application": "将原始文档转化为可查询的RAG知识库、自主推理Agent和自维护Wiki，并支持多数据源同步。",
+        "use_cases": [
+          "企业知识库构建与问答",
+          "多步复杂任务自主代理",
+          "文档自动整理与Wiki生成",
+          "多租户企业级知识管理"
+        ],
+        "target_users": "需要构建知识库和智能问答的企业及开发者"
+      }
+    },
+    "tigerless-labs/agent-memory": {
+      "readme_sha": "ff2f6575358f186405aa8536dab4b100e2771623",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-14T00:59:39.501975+00:00",
+      "analysis": {
+        "summary_zh": "AI智能体长期记忆运行时，以Markdown文件为真相源，本地检索，无API密钥。",
+        "application": "为AI代理提供持久记忆存储，支持Claude Code和Codex共享，本地BM25/向量检索和睡眠时自动整理。",
+        "use_cases": [
+          "AI助手跨会话记忆",
+          "多代理共享知识库",
+          "本地优先智能体记忆",
+          "代码助手上下文延续"
+        ],
+        "target_users": "使用Claude Code或Codex的开发者"
+      }
+    },
+    "Vincentwei1021/anything2explainer": {
+      "readme_sha": "c6d167c3b5e8437e9b7d27c770feb570c893970e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-14T00:59:42.754118+00:00",
+      "analysis": {
+        "summary_zh": "将任意主题转为带旁白、字幕和进度条的代码绘制解说视频的AI技能",
+        "application": "输入话题或文档，AI代理研究、撰写解说词，生成语音和时间轴，用Remotion代码绘制每帧，多代理并行构建并QC，输出MP4视频及完整过程文档。",
+        "use_cases": [
+          "知识科普视频",
+          "教育内容制作",
+          "技术概念演示",
+          "文章转视频"
+        ],
+        "target_users": "教育者、内容创作者、技术传播者"
       }
     }
   }
