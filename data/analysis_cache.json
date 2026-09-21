@@ -81,35 +81,35 @@
       }
     },
     "stablyai/orca": {
-      "readme_sha": "0c8fb0454105d92a765b50aaf0c469b9c8bc5de5",
+      "readme_sha": "04f5e309da38036eb91172c2e59ffb20bc7ec3be",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:33.586529+00:00",
+      "analyzed_at": "2026-09-21T01:02:57.023940+00:00",
       "analysis": {
-        "summary_zh": "Orca是一体化AI代理编排工具，支持并行运行多个编码代理并管理其工作流程。",
-        "application": "并行运行Codex、ClaudeCode等AI代理，每个代理在独立Git工作树中执行，支持结果对比、远程SSH执行、移动端监控和设计模式。",
+        "summary_zh": "AI智能体编排环境，支持并行运行多个编码智能体。",
+        "application": "运行Codex、ClaudeCode等智能体，各用独立工作树并行处理任务，便于比较和合并。",
         "use_cases": [
-          "并行运行多个AI代理进行代码生成和任务执行",
-          "通过移动应用远程监控和引导代理工作",
-          "利用隔离Git工作树并发实验并合并最佳结果",
-          "管理和审查AI生成的代码差异"
+          "并行运行多个编码智能体",
+          "移动端监控智能体",
+          "终端分屏协作",
+          "远程SSH工作树"
         ],
-        "target_users": "需要高效管理多个AI编码代理的开发者"
+        "target_users": "AI开发者、编码智能体用户、分布式团队"
       }
     },
     "Panniantong/Agent-Reach": {
-      "readme_sha": "30f36b33569b4ac82f1ac28fc5717ad2dd89cc40",
+      "readme_sha": "5ef5446b64ae5a5c9931691e63566f0b3403ad2f",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:47.602948+00:00",
+      "analyzed_at": "2026-09-21T01:03:00.005370+00:00",
       "analysis": {
-        "summary_zh": "为AI代理提供免费、统一的互联网访问能力，涵盖Twitter、YouTube等多平台。",
-        "application": "通过CLI工具让AI代理无需API密钥即可搜索、抓取和阅读网页、社交媒体、视频平台等内容，并支持扩展配置。",
+        "summary_zh": "为AI智能体提供多平台互联网访问能力的命令行工具",
+        "application": "一个命令行工具，让AI智能体可读取和搜索Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等多个平台内容，无需API费用。",
         "use_cases": [
-          "社交媒体内容抓取",
-          "YouTube字幕提取",
-          "全网语义搜索",
-          "GitHub仓库分析"
+          "多平台内容抓取",
+          "AI助手网络搜索",
+          "数据采集自动化",
+          "平台信息监控"
         ],
-        "target_users": "需要为AI代理增强联网能力的开发者"
+        "target_users": "AI开发者、自动化脚本使用者、数据抓取爱好者"
       }
     },
     "jamiepine/voicebox": {
@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "50b33a736986b43a8d1f666a6e3389fcab99997c",
+      "readme_sha": "6b25e496dbb467bd4d8ed065ce10e13992790591",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:15.140202+00:00",
+      "analyzed_at": "2026-09-21T01:03:12.107290+00:00",
       "analysis": {
-        "summary_zh": "Ponytail是一个AI编码技能包，让AI代理像懒惰高级开发者一样只写最必要代码。",
-        "application": "作为Claude Code等AI代理的插件或技能，通过提示工程让模型采用YAGNI原则，减少冗余代码生成，提升效率并降低成本。",
+        "summary_zh": "让AI代理像最懒惰的资深开发者一样思考，用最少的代码完成任务。",
+        "application": "作为Claude Code等AI代理的技能插件，通过极简代码风格减少冗余，提升效率。",
         "use_cases": [
-          "减少AI生成代码量",
-          "优化编程助手输出",
-          "提升开发效率",
-          "降低AI使用成本"
+          "AI代理开发辅助",
+          "代码极简化",
+          "降低开发成本",
+          "提升编码速度"
         ],
-        "target_users": "使用AI编程助手并希望减少冗余代码的开发者"
+        "target_users": "使用AI代理进行软件开发的程序员"
       }
     },
     "topoteretes/cognee": {
@@ -529,19 +529,19 @@
       }
     },
     "addyosmani/agent-skills": {
-      "readme_sha": "f31b37f7fc881e76cf9ba9cedd74efad27d4d255",
+      "readme_sha": "6361def414ade46622e6cd527d1faeea2b234224",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-09T23:42:50.290660+00:00",
+      "analyzed_at": "2026-09-21T01:02:50.986014+00:00",
       "analysis": {
-        "summary_zh": "为AI编程代理提供生产级工程技能包",
-        "application": "通过预定义技能、质量门禁和最佳实践，引导AI代理在开发各阶段遵循一致的工作流程，提升代码质量与效率。",
+        "summary_zh": "面向AI编程代理的生产级工程技能集合。",
+        "application": "提供覆盖软件开发生命周期的技能包与命令，供AI编码代理遵循最佳实践。",
         "use_cases": [
-          "自动化软件开发生命周期管理",
-          "强化代码审查与质量保证",
-          "实施测试驱动开发流程",
-          "优化Web性能与代码简化"
+          "AI辅助软件开发",
+          "代码质量把关",
+          "测试驱动开发",
+          "工作流自动化"
         ],
-        "target_users": "使用AI编码代理的开发人员与团队"
+        "target_users": "使用AI编程代理的软件开发者与团队"
       }
     },
     "Graphify-Labs/graphify": {
@@ -689,19 +689,19 @@
       }
     },
     "earendil-works/pi": {
-      "readme_sha": "730033651bd95551b5e0c34189ec823d07a174b1",
+      "readme_sha": "04fc9f476a5965b330d28552014d6d7445b3f357",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:32.036224+00:00",
+      "analyzed_at": "2026-09-21T01:03:15.592919+00:00",
       "analysis": {
-        "summary_zh": "Pi 是一个AI智能体工具包，包含统一LLM API、智能体循环、终端UI和编程智能体CLI。",
-        "application": "提供多提供商LLM统一接口，支持智能体工具调用和状态管理，内置交互式终端编程助手和可组合服务运行时。",
+        "summary_zh": "Pi是一个AI编码代理工具包，提供统一LLM API、代理运行时和终端UI。",
+        "application": "用于构建和运行可自我扩展的编码代理，支持交互式CLI和统一多提供商LLM API。",
         "use_cases": [
-          "构建AI编程助手",
-          "统一多模型API调用",
-          "开发终端交互应用",
-          "运行分布式服务"
+          "编码代理CLI",
+          "统一多提供商LLM API",
+          "代理运行时与工具调用",
+          "终端UI渲染"
         ],
-        "target_users": "AI应用开发者、编程智能体用户"
+        "target_users": "需要AI编码代理和LLM集成的开发者"
       }
     },
     "coreyhaines31/marketingskills": {
@@ -769,19 +769,19 @@
       }
     },
     "bojieli/ai-agent-book": {
-      "readme_sha": "5c148dc00be954c632fbee28b46162a948f8e0ab",
+      "readme_sha": "f85fe7082c7a4a4c792f2338a261ccd9cbaefd42",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-23T23:32:05.456817+00:00",
+      "analyzed_at": "2026-09-21T01:03:18.773300+00:00",
       "analysis": {
-        "summary_zh": "《深入理解AI Agent》开源书籍，含正文、PDF及103个配套实验。",
-        "application": "提供AI Agent设计原理与工程实践知识，涵盖LLM、工具、多智能体、RAG等，附可运行实验。",
+        "summary_zh": "开源AI Agent书籍，含正文、PDF及配套代码。",
+        "application": "系统讲解AI Agent设计原理与工程实践，提供10章内容、109个实验和15种语言版本。",
         "use_cases": [
-          "学习AI Agent基础",
-          "获取工程实践指导",
-          "运行配套实验",
-          "多语言阅读"
+          "学习AI Agent原理",
+          "动手实践实验",
+          "多语言阅读",
+          "下载PDF/EPUB离线阅读"
         ],
-        "target_users": "AI开发者、学生及对智能体感兴趣者"
+        "target_users": "AI工程师、研究者及对Agent感兴趣的学习者"
       }
     },
     "koala73/worldmonitor": {
@@ -897,19 +897,18 @@
       }
     },
     "ayghri/i-have-adhd": {
-      "readme_sha": "ade33c1c6ec46d8e45790e89dea567ec2618cbef",
+      "readme_sha": "6acecf9600640c93503df0ed178a220d476e1197",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:07.464175+00:00",
+      "analyzed_at": "2026-09-21T01:03:02.935173+00:00",
       "analysis": {
-        "summary_zh": "让编码助手输出更直接、适合ADHD用户的技能。",
-        "application": "作为Claude Code插件，通过规则约束AI回复，使其行动优先、步骤编号、无冗余，提升输出可读性。",
+        "summary_zh": "面向ADHD的编码代理技能，让输出行动优先、条理清晰。",
+        "application": "插件通过规则限制AI回复格式，强调行动、编号步骤、具体时间，避免冗长铺垫，提高信息获取效率。",
         "use_cases": [
-          "编程时获得直接答案",
-          "避免冗长AI回复",
-          "提高开发效率",
-          "定制个人编码助手风格"
+          "优化AI编程助手的输出格式",
+          "减少冗余回复，快速获取答案",
+          "改善注意力不集中用户的体验"
         ],
-        "target_users": "需要清晰输出的程序员，尤其ADHD人群。"
+        "target_users": "使用AI编程工具且希望获得简洁输出的开发者"
       }
     },
     "citrolabs/ego-lite": {
@@ -1553,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "cb8d6cdf297f4c34c333bcb43445e224e62db571",
+      "readme_sha": "3ce27af103993bbf25616f5ba89644a23d25342c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:31.746846+00:00",
+      "analyzed_at": "2026-09-21T01:03:09.193238+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音AI工具，支持语音克隆、配音、转写、有声书制作，无需API密钥。",
-        "application": "在本地硬件上运行16种TTS和11种ASR引擎，实现语音克隆、设计、视频配音、听写、有声书创建和批量生成，支持646种语言。",
+        "summary_zh": "开源本地语音工具，支持语音克隆、配音、转录等，646种语言。",
+        "application": "提供语音克隆、设计、视频配音、听写、转录和有声书制作等功能，本地运行。",
         "use_cases": [
           "语音克隆与设计",
-          "视频配音与翻译",
-          "语音转文字与听写",
-          "有声书与故事生成"
+          "视频配音",
+          "听写与转录",
+          "有声书制作"
         ],
-        "target_users": "需要本地化语音AI处理的开发者、内容创作者和隐私敏感用户"
+        "target_users": "内容创作者、开发者、需要本地语音处理的用户"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -1585,19 +1584,19 @@
       }
     },
     "affaan-m/ECC": {
-      "readme_sha": "86dba51207907b2e5de07d6b0579a681522cdc13",
+      "readme_sha": "f9d202b28f3f5ae7e5f28bd7d3443f27fc804ad8",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:09.791891+00:00",
+      "analyzed_at": "2026-09-21T01:02:45.575137+00:00",
       "analysis": {
-        "summary_zh": "ECC是面向AI编码代理的性能优化系统，提供技能、记忆和安全功能。",
-        "application": "为Claude Code等AI编码工具提供技能、记忆、安全及研究优先的开发增强，提升代理性能。",
+        "summary_zh": "ECC是为AI编码代理打造的优化系统，提供技能、记忆、安全等功能。",
+        "application": "用于提升Claude Code、Codex等AI代理的性能，包含技能管理、本能自动化、持久记忆、安全防护和研发优先的开发工具。",
         "use_cases": [
-          "AI代理性能优化",
-          "代码生成增强",
-          "安全防护",
-          "开发工作流自动化"
+          "优化AI代码代理性能",
+          "管理代理技能与记忆",
+          "增强AI开发安全性",
+          "跨平台AI工具集成"
         ],
-        "target_users": "使用Claude Code等AI编码工具的开发者"
+        "target_users": "使用AI编码代理的开发者与团队"
       }
     },
     "Imbad0202/academic-research-skills": {
@@ -1681,19 +1680,19 @@
       }
     },
     "Tencent/WeKnora": {
-      "readme_sha": "cc51996dd8fd2c9cda97146f26d0ce2e11446eef",
+      "readme_sha": "7ffb788a430e7a657cddbaa15350e66f0b0dbb68",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:28.815071+00:00",
+      "analyzed_at": "2026-09-21T01:02:47.784514+00:00",
       "analysis": {
-        "summary_zh": "腾讯开源的企业级LLM知识框架，支持RAG问答、自主Agent和自动维护的Wiki。",
-        "application": "将原始文档转化为可查询的RAG知识库、自主推理Agent和自维护Wiki，并支持多数据源同步。",
+        "summary_zh": "开源 LLM 知识平台，将文档转化为可查询的 RAG、自主推理代理和自维护 Wiki。",
+        "application": "企业级知识管理：RAG 问答、ReAct 代理、Wiki 模式，支持多源数据接入和 10+ 文档格式解析。",
         "use_cases": [
-          "企业知识库构建与问答",
-          "多步复杂任务自主代理",
-          "文档自动整理与Wiki生成",
-          "多租户企业级知识管理"
+          "企业知识库问答",
+          "自动化知识整理",
+          "多源文档检索",
+          "智能代理任务"
         ],
-        "target_users": "需要构建知识库和智能问答的企业及开发者"
+        "target_users": "企业 IT 团队、知识管理者和 AI 开发者"
       }
     },
     "tigerless-labs/agent-memory": {
@@ -1713,19 +1712,99 @@
       }
     },
     "Vincentwei1021/anything2explainer": {
-      "readme_sha": "c6d167c3b5e8437e9b7d27c770feb570c893970e",
+      "readme_sha": "1f4a08908688c28fc2bf2ecae3a4eeda368e74d8",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:42.754118+00:00",
+      "analyzed_at": "2026-09-21T01:03:23.135191+00:00",
       "analysis": {
-        "summary_zh": "将任意主题转为带旁白、字幕和进度条的代码绘制解说视频的AI技能",
-        "application": "输入话题或文档，AI代理研究、撰写解说词，生成语音和时间轴，用Remotion代码绘制每帧，多代理并行构建并QC，输出MP4视频及完整过程文档。",
+        "summary_zh": "将任意主题转化为带旁白、字幕和进度条的黑底动态图形讲解视频的AI技能。",
+        "application": "为Claude Code或Codex设计的技能，输入话题后自动研究、写稿、生成语音和故事板，并并行构建代码绘制逐帧动画，输出MP4讲解视频。",
         "use_cases": [
-          "知识科普视频",
-          "教育内容制作",
-          "技术概念演示",
-          "文章转视频"
+          "生成教育讲解视频",
+          "将文章转为视频",
+          "制作产品说明视频",
+          "快速创建知识分享内容"
         ],
-        "target_users": "教育者、内容创作者、技术传播者"
+        "target_users": "内容创作者、教育工作者、开发者"
+      }
+    },
+    "anthropics/claude-code": {
+      "readme_sha": "80aa75edf74a5f9e1269811b4e8b5852be91e66e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-21T01:02:41.646941+00:00",
+      "analysis": {
+        "summary_zh": "Claude Code 是一款终端中的智能编程工具，能理解代码库并用自然语言执行任务。",
+        "application": "帮助开发者通过自然语言命令执行日常编码任务、解释复杂代码，以及处理 Git 工作流。",
+        "use_cases": [
+          "执行日常编码任务",
+          "解释复杂代码",
+          "处理 Git 工作流",
+          "在终端或 IDE 中辅助开发"
+        ],
+        "target_users": "需要在终端中提高编码效率的开发者"
+      }
+    },
+    "max-sixty/worktrunk": {
+      "readme_sha": "578d36a7afdf0121a908833cca266b18a02ff462",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-21T01:02:54.005005+00:00",
+      "analysis": {
+        "summary_zh": "Worktrunk 是一个 Git worktree 管理 CLI，简化并行工作流。",
+        "application": "为 AI 代理并行开发管理多个 Git worktree，提供切换、创建、清理和列表等简便命令，并支持挂钩自动化。",
+        "use_cases": [
+          "并行 AI 代理开发",
+          "Git worktree 管理",
+          "多分支工作简化",
+          "本地工作流自动化"
+        ],
+        "target_users": "使用 AI 编码代理并行处理多个任务的开发者"
+      }
+    },
+    "cline/cline": {
+      "readme_sha": "4327adec0c5498f311125b93446f8e161344f255",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-21T01:03:05.918557+00:00",
+      "analysis": {
+        "summary_zh": "开源AI编码代理，支持SDK、IDE扩展和CLI。",
+        "application": "可在IDE、终端和桌面中自主编辑代码、运行命令，支持计划模式和规则定制，适配多种AI模型。",
+        "use_cases": [
+          "自动化代码编辑",
+          "运行终端命令",
+          "计划与执行编码任务",
+          "集成到现有开发流程"
+        ],
+        "target_users": "软件开发者与AI代理集成商"
+      }
+    },
+    "mizorewww/laya-mlx": {
+      "readme_sha": "a91d4052686ba46842c1aa50b7fca4851f1bfe3a",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-21T01:03:26.209552+00:00",
+      "analysis": {
+        "summary_zh": "Laya-MLX 是苹果芯片上的本地类型化决策推理运行时，延迟 7-14ms。",
+        "application": "用于需要快速结构化决策的场景，如客服分类、评分、命题判断，适合集成到实时系统或游戏 AI 中。",
+        "use_cases": [
+          "客服工单分类",
+          "文本质量评分",
+          "实时游戏决策",
+          "本地 AI 推理"
+        ],
+        "target_users": "需要本地低延迟决策模型的开发者"
+      }
+    },
+    "agentverse-os/AgentVerse-OS": {
+      "readme_sha": "d1c348658056a1ca5b5336ff0e2aa4de4a611e39",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-21T01:03:29.236495+00:00",
+      "analysis": {
+        "summary_zh": "个人云操作系统，为开发者及AI代理提供单服务器上的浏览器桌面环境。",
+        "application": "一键安装于Ubuntu，提供窗口化桌面、含VS Code和AI代理的隔离工作区、944个自托管应用商店，通过Tailscale安全访问。",
+        "use_cases": [
+          "个人服务器环境搭建",
+          "AI代理工作区管理",
+          "自托管应用部署",
+          "跨设备开发"
+        ],
+        "target_users": "需要安全个人云环境的开发者"
       }
     }
   }
