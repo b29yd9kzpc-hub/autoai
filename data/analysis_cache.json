@@ -81,19 +81,19 @@
       }
     },
     "stablyai/orca": {
-      "readme_sha": "04f5e309da38036eb91172c2e59ffb20bc7ec3be",
+      "readme_sha": "98efc301c2f911a056e4cb28d249cf0381f996a4",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:02:57.023940+00:00",
+      "analyzed_at": "2026-09-28T01:35:33.692546+00:00",
       "analysis": {
-        "summary_zh": "AI智能体编排环境，支持并行运行多个编码智能体。",
-        "application": "运行Codex、ClaudeCode等智能体，各用独立工作树并行处理任务，便于比较和合并。",
+        "summary_zh": "Orca 是一个 AI 智能体编排的集成开发环境（ADE），用于并行运行多个编码智能体。",
+        "application": "支持 Codex、ClaudeCode、OpenCode 等智能体并行运行在独立工作树中，提供移动端监控、SSH 远程运行和设计模式等功能。",
         "use_cases": [
-          "并行运行多个编码智能体",
-          "移动端监控智能体",
-          "终端分屏协作",
-          "远程SSH工作树"
+          "并行运行多个 AI 编码智能体",
+          "从手机监控和控制智能体",
+          "在独立 git worktree 中比较结果",
+          "远程 SSH 运行智能体"
         ],
-        "target_users": "AI开发者、编码智能体用户、分布式团队"
+        "target_users": "需要高效管理和并行使用多个 AI 编码智能体的开发者。"
       }
     },
     "Panniantong/Agent-Reach": {
@@ -1552,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "3ce27af103993bbf25616f5ba89644a23d25342c",
+      "readme_sha": "01b36d48a7e11675f82c2dcff53aa5774bfc050f",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:03:09.193238+00:00",
+      "analyzed_at": "2026-09-28T01:35:40.792337+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音工具，支持语音克隆、配音、转录等，646种语言。",
-        "application": "提供语音克隆、设计、视频配音、听写、转录和有声书制作等功能，本地运行。",
+        "summary_zh": "开源本地语音克隆与合成工具，支持646种语言。",
+        "application": "提供语音克隆、设计、视频配音、听写、转录及有声书制作，支持本地运行与可选远程服务。",
         "use_cases": [
-          "语音克隆与设计",
+          "语音克隆",
           "视频配音",
-          "听写与转录",
-          "有声书制作"
+          "有声书制作",
+          "语音转文字"
         ],
-        "target_users": "内容创作者、开发者、需要本地语音处理的用户"
+        "target_users": "需要本地语音处理的内容创作者和开发者"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -1584,19 +1584,19 @@
       }
     },
     "affaan-m/ECC": {
-      "readme_sha": "f9d202b28f3f5ae7e5f28bd7d3443f27fc804ad8",
+      "readme_sha": "117552c2bc78b4ed5897eacec23a173b2b4e5e8e",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:02:45.575137+00:00",
+      "analyzed_at": "2026-09-28T01:35:36.329437+00:00",
       "analysis": {
-        "summary_zh": "ECC是为AI编码代理打造的优化系统，提供技能、记忆、安全等功能。",
-        "application": "用于提升Claude Code、Codex等AI代理的性能，包含技能管理、本能自动化、持久记忆、安全防护和研发优先的开发工具。",
+        "summary_zh": "AI智能体性能优化系统，提供技能、安全、记忆等功能。",
+        "application": "为Claude Code等AI编程工具提供技能、本能、记忆、安全及研究优先开发支持，提升智能体效率。",
         "use_cases": [
-          "优化AI代码代理性能",
-          "管理代理技能与记忆",
-          "增强AI开发安全性",
-          "跨平台AI工具集成"
+          "优化AI编程智能体性能",
+          "增强AI智能体安全性",
+          "跨多平台统一技能与记忆管理",
+          "提升开发工作流效率"
         ],
-        "target_users": "使用AI编码代理的开发者与团队"
+        "target_users": "使用Claude Code等AI编程工具的开发者"
       }
     },
     "Imbad0202/academic-research-skills": {
@@ -1680,19 +1680,19 @@
       }
     },
     "Tencent/WeKnora": {
-      "readme_sha": "7ffb788a430e7a657cddbaa15350e66f0b0dbb68",
+      "readme_sha": "4c97affaf8fc9959db05701ee43f2af61253ce2c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:02:47.784514+00:00",
+      "analyzed_at": "2026-09-28T01:35:27.407022+00:00",
       "analysis": {
-        "summary_zh": "开源 LLM 知识平台，将文档转化为可查询的 RAG、自主推理代理和自维护 Wiki。",
-        "application": "企业级知识管理：RAG 问答、ReAct 代理、Wiki 模式，支持多源数据接入和 10+ 文档格式解析。",
+        "summary_zh": "开源LLM知识平台，融合RAG检索、自主推理代理与自维护Wiki。",
+        "application": "将企业文档转化为可查询的RAG、多步骤任务代理和知识库Wiki，支持语义检索、引用和多种数据源同步。",
         "use_cases": [
-          "企业知识库问答",
-          "自动化知识整理",
-          "多源文档检索",
-          "智能代理任务"
+          "企业知识问答",
+          "文档语义检索",
+          "多步骤任务自动化",
+          "团队知识库构建"
         ],
-        "target_users": "企业 IT 团队、知识管理者和 AI 开发者"
+        "target_users": "企业团队、开发者、知识管理需求方"
       }
     },
     "tigerless-labs/agent-memory": {
@@ -1776,19 +1776,19 @@
       }
     },
     "mizorewww/laya-mlx": {
-      "readme_sha": "a91d4052686ba46842c1aa50b7fca4851f1bfe3a",
+      "readme_sha": "2364a382cda161b92e4afc0a719bcb5619d1e6a8",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:03:26.209552+00:00",
+      "analyzed_at": "2026-09-28T01:35:47.087621+00:00",
       "analysis": {
-        "summary_zh": "Laya-MLX 是苹果芯片上的本地类型化决策推理运行时，延迟 7-14ms。",
-        "application": "用于需要快速结构化决策的场景，如客服分类、评分、命题判断，适合集成到实时系统或游戏 AI 中。",
+        "summary_zh": "Laya-MLX：在Apple Silicon上原生运行的MLX推理引擎，用于Laya类型决策模型。",
+        "application": "提供高速本地推理，针对Laya类型决策模型，支持选择、评分和真假判断，延迟低至7-14ms。",
         "use_cases": [
-          "客服工单分类",
-          "文本质量评分",
-          "实时游戏决策",
-          "本地 AI 推理"
+          "实时游戏AI决策（如贪吃蛇）",
+          "文本分类与意图识别",
+          "退款请求处理路由",
+          "多语言决策推理"
         ],
-        "target_users": "需要本地低延迟决策模型的开发者"
+        "target_users": "需要本地低延迟决策模型的Apple Silicon开发者"
       }
     },
     "agentverse-os/AgentVerse-OS": {
@@ -1805,6 +1805,134 @@
           "跨设备开发"
         ],
         "target_users": "需要安全个人云环境的开发者"
+      }
+    },
+    "vectorize-io/hindsight": {
+      "readme_sha": "50346aa10e74ac9ed3af6eebe525a748bb7ba6dc",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:23.659822+00:00",
+      "analysis": {
+        "summary_zh": "面向AI代理的记忆系统，让代理从交互中持续学习。",
+        "application": "提供API和客户端，支持保留、回忆、反思等操作，集成多种LLM和平台，用于构建具备长期学习能力的智能代理。",
+        "use_cases": [
+          "构建个性化AI助手",
+          "客户服务聊天机器人",
+          "编码代理记忆",
+          "长期对话理解"
+        ],
+        "target_users": "AI代理开发者与研究者"
+      }
+    },
+    "davila7/claude-code-templates": {
+      "readme_sha": "ac7190181a68aa980d4b1521dac6fd332a4ab9bd",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:30.602541+00:00",
+      "analysis": {
+        "summary_zh": "Claude Code模板CLI工具，提供配置和监控功能",
+        "application": "安装和管理Claude Code的智能体、命令、MCP、设置等模板，支持实时监控开发会话。",
+        "use_cases": [
+          "安装开发团队智能体",
+          "添加自定义命令",
+          "集成外部服务MCP",
+          "实时监控会话"
+        ],
+        "target_users": "使用Claude Code的开发者"
+      }
+    },
+    "TencentCloud/Octop": {
+      "readme_sha": "7f3245670f534fcdc03595c43bb028617a5aa729",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:38.534828+00:00",
+      "analysis": {
+        "summary_zh": "自托管多用户多智能体AI助手平台",
+        "application": "提供家庭和小型团队使用的自托管AI助手，支持多用户、多智能体、记忆、知识库和多种IM集成",
+        "use_cases": [
+          "个人助理",
+          "家庭共享",
+          "团队协作",
+          "自动化任务"
+        ],
+        "target_users": "重视隐私的家庭和小型团队"
+      }
+    },
+    "hypit-ai/hypit": {
+      "readme_sha": "15f31267a99d7c4a520fcd3a8cc9e7c3f1bfc8c5",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:44.249257+00:00",
+      "analysis": {
+        "summary_zh": "用AI智能体克隆爆款视频，一条命令生成100个变体，实现1亿播放。",
+        "application": "提供SVML语言和工具链，让AI智能体自动完成视频克隆、换脸、改词、B-roll替换、生成大量变体，并可编译为最终视频。",
+        "use_cases": [
+          "爆款视频克隆与变体生成",
+          "AI驱动的视频自动化编辑",
+          "文字驱动的视频合成",
+          "无需模型服务的低成本视频生成"
+        ],
+        "target_users": "AI智能体开发者、视频创作者、营销团队"
+      }
+    },
+    "pacifio/atlas": {
+      "readme_sha": "f733d7e1bc4449838c7aebb0a1d0bf07c9293ee4",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:50.765053+00:00",
+      "analysis": {
+        "summary_zh": "面向编码智能体的源代码控制工具，记录智能体会话、提示和工具调用，并将提交链接到产生它的会话。",
+        "application": "Atlas 通过检查点将每次提交链接到产生它的智能体会话，记录提示、工具调用和代码更改，支持在多个智能体之间共享记忆和上下文，从而可追溯和查询智能体行为。",
+        "use_cases": [
+          "追踪多个编码智能体的更改",
+          "在智能体之间共享上下文和记忆",
+          "查询历史会话中的提示和工具调用",
+          "本地管理智能体会话记录"
+        ],
+        "target_users": "使用多个编码智能体协作开发和需要审计智能体决策的开发团队或个人开发者"
+      }
+    },
+    "mizorewww/laya-coreml": {
+      "readme_sha": "c7d2f92271086147095e863e40104517ac15b4f9",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:53.950824+00:00",
+      "analysis": {
+        "summary_zh": "在Apple芯片上用Core ML运行Laya模型，进行低延迟类型化决策",
+        "application": "本地运行Laya开放权重模型，通过Core ML和神经引擎执行分类、评分、布尔判断等类型化决策，无文本生成，可用Python库调用。",
+        "use_cases": [
+          "实时游戏AI决策",
+          "多语言意图分类",
+          "低功耗边缘推理",
+          "无生成式本地问答"
+        ],
+        "target_users": "需要在Apple设备上高效运行轻量级决策模型的开发者"
+      }
+    },
+    "freestylefly/WeChatBridge": {
+      "readme_sha": "579d823a612994dbc8eee392ce91e6c4b82422ce",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:35:57.131352+00:00",
+      "analysis": {
+        "summary_zh": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+        "application": "通过微信合并转发功能，将聊天记录打包成 ZIP，转发到 Codex、Claude、豆包等 AI Agent，或沉淀到 Obsidian，并支持自定义应用和剪贴板。",
+        "use_cases": [
+          "微信聊天记录归档到 Obsidian",
+          "转发聊天记录给 AI Agent 处理",
+          "自定义转发到任意 macOS 应用",
+          "从微信快速复制聊天记录到剪贴板"
+        ],
+        "target_users": "macOS 用户，需要将微信聊天记录与 AI 工具或知识库集成的用户"
+      }
+    },
+    "OnlistTeam/ai-manager": {
+      "readme_sha": "cf3b778ed5be4fc30cc4bb3e34840a18da690670",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-09-28T01:36:00.064056+00:00",
+      "analysis": {
+        "summary_zh": "AI编码工具桌面管理器，安装、更新、配置和修复本地CLI工具。",
+        "application": "管理Claude Code、Codex等AI编码命令行工具，处理安装更新、API端点配置、Skills与MCP设置，无需手动编辑配置文件。",
+        "use_cases": [
+          "管理AI编码CLI工具",
+          "配置API端点",
+          "管理Skills与MCP",
+          "管理全局提示词与会话"
+        ],
+        "target_users": "日常使用Claude Code、Codex等工具的开发者"
       }
     }
   }
