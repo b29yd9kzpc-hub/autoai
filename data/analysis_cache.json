@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "6b25e496dbb467bd4d8ed065ce10e13992790591",
+      "readme_sha": "58f56edc23a3c5af6e0ba94c1a7513d967831083",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:03:12.107290+00:00",
+      "analyzed_at": "2026-10-05T01:52:20.179461+00:00",
       "analysis": {
-        "summary_zh": "让AI代理像最懒惰的资深开发者一样思考，用最少的代码完成任务。",
-        "application": "作为Claude Code等AI代理的技能插件，通过极简代码风格减少冗余，提升效率。",
+        "summary_zh": "让AI代理像最懒惰的资深开发者一样思考，以最少代码完成任务。",
+        "application": "为Claude Code等AI编程代理注入极简主义风格，减少代码行数、令牌、成本和时间。",
         "use_cases": [
-          "AI代理开发辅助",
-          "代码极简化",
-          "降低开发成本",
-          "提升编码速度"
+          "减少AI代理生成的冗余代码",
+          "提升AI编程效率与成本控制",
+          "避免过度工程与不必要的依赖",
+          "优化AI代理的输出简洁性"
         ],
-        "target_users": "使用AI代理进行软件开发的程序员"
+        "target_users": "使用Claude Code等AI编程代理的开发者"
       }
     },
     "topoteretes/cognee": {
@@ -513,19 +513,19 @@
       }
     },
     "alirezarezvani/claude-skills": {
-      "readme_sha": "863f943addb24194868906d44c467c05106ca3a7",
+      "readme_sha": "c50f00b2a16dc17023368b070f0ffda8b12c0ba1",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-13T04:30:26.394471+00:00",
+      "analyzed_at": "2026-10-05T01:52:06.169165+00:00",
       "analysis": {
-        "summary_zh": "面向多AI编程工具的355个生产级技能、插件和代理合集",
-        "application": "提供覆盖工程、营销、合规、C级咨询、研究、生产力等领域的可复用技能包和代理，支持13种AI编码工具的原生集成与转换。",
+        "summary_zh": "Claude Code技能与插件库，提供388个技能、118个代理和150个命令。",
+        "application": "为AI编程助手提供模块化技能包，覆盖开发、营销、合规、C级咨询等领域，支持13种工具。",
         "use_cases": [
-          "为AI编码代理添加工程、DevOps等专业能力",
-          "通过代理实现安全审计、营销优化等任务",
-          "为Claude Code等工具安装C级顾问人格",
-          "跨工具转换共享技能库"
+          "代码开发与DevOps",
+          "营销与内容创作",
+          "安全与合规审计",
+          "研究与商业分析"
         ],
-        "target_users": "AI编码工具使用者、开发者、技术管理者"
+        "target_users": "开发者、技术负责人、企业决策者"
       }
     },
     "addyosmani/agent-skills": {
@@ -689,19 +689,19 @@
       }
     },
     "earendil-works/pi": {
-      "readme_sha": "04fc9f476a5965b330d28552014d6d7445b3f357",
+      "readme_sha": "799d9fea58308e5e15c44e9fd7e9d9b576d9d114",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:03:15.592919+00:00",
+      "analyzed_at": "2026-10-05T01:52:29.412556+00:00",
       "analysis": {
-        "summary_zh": "Pi是一个AI编码代理工具包，提供统一LLM API、代理运行时和终端UI。",
-        "application": "用于构建和运行可自我扩展的编码代理，支持交互式CLI和统一多提供商LLM API。",
+        "summary_zh": "可定制AI智能体工具包，提供统一LLM API、终端界面和编码CLI。",
+        "application": "用于构建和运行AI编码助手，支持交互、自动化、RPC和SDK集成，可通过扩展、技能和模板定制。",
         "use_cases": [
-          "编码代理CLI",
-          "统一多提供商LLM API",
-          "代理运行时与工具调用",
-          "终端UI渲染"
+          "AI编码助手",
+          "自动化任务",
+          "终端交互",
+          "LLM API集成"
         ],
-        "target_users": "需要AI编码代理和LLM集成的开发者"
+        "target_users": "希望定制AI智能体的开发者"
       }
     },
     "coreyhaines31/marketingskills": {
@@ -1280,19 +1280,19 @@
       }
     },
     "harry0703/MoneyPrinterTurbo": {
-      "readme_sha": "acd89e6f2c341bf356c65859af660ae96e598096",
+      "readme_sha": "1091c0b38f62f409680bc9a36ba7189a532b907c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:37.304118+00:00",
+      "analyzed_at": "2026-10-05T01:52:11.463813+00:00",
       "analysis": {
-        "summary_zh": "利用AI大模型一键生成高清短视频的自动化工具",
-        "application": "根据主题或关键词自动生成视频脚本、匹配素材、生成字幕和背景音乐，合成高清短视频",
+        "summary_zh": "AI短视频一键生成工具，输入主题自动生成脚本、素材和成片。",
+        "application": "根据主题或关键词自动生成视频脚本、匹配素材、生成字幕和背景音乐，合成高清短视频，支持WebUI和API。",
         "use_cases": [
-          "生成抖音/TikTok短视频",
-          "生成YouTube Shorts",
-          "生成Instagram Reels",
-          "批量内容创作"
+          "YouTube Shorts",
+          "Instagram Reels",
+          "TikTok短视频",
+          "内容营销"
         ],
-        "target_users": "短视频创作者、自媒体运营者、营销人员"
+        "target_users": "内容创作者、自媒体运营者、营销人员"
       }
     },
     "volcengine/OpenViking": {
@@ -1552,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "01b36d48a7e11675f82c2dcff53aa5774bfc050f",
+      "readme_sha": "e5367fb91bc05c4c7ab8d816d2c6146f2fcaf0cd",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-28T01:35:40.792337+00:00",
+      "analyzed_at": "2026-10-05T01:52:03.460162+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音克隆与合成工具，支持646种语言。",
-        "application": "提供语音克隆、设计、视频配音、听写、转录及有声书制作，支持本地运行与可选远程服务。",
+        "summary_zh": "开源本地语音处理工具，支持克隆、配音、转录等646种语言。",
+        "application": "提供语音克隆、设计、视频配音、听写、转录及有声书制作，完全本地运行。",
         "use_cases": [
           "语音克隆",
           "视频配音",
-          "有声书制作",
-          "语音转文字"
+          "语音转录",
+          "有声书制作"
         ],
-        "target_users": "需要本地语音处理的内容创作者和开发者"
+        "target_users": "需要本地语音处理的开发者、内容创作者"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -1808,19 +1808,19 @@
       }
     },
     "vectorize-io/hindsight": {
-      "readme_sha": "50346aa10e74ac9ed3af6eebe525a748bb7ba6dc",
+      "readme_sha": "250a2e8eca4fccae242a9b7c90ba5d17fe8f8919",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-28T01:35:23.659822+00:00",
+      "analyzed_at": "2026-10-05T01:52:00.892468+00:00",
       "analysis": {
-        "summary_zh": "面向AI代理的记忆系统，让代理从交互中持续学习。",
-        "application": "提供API和客户端，支持保留、回忆、反思等操作，集成多种LLM和平台，用于构建具备长期学习能力的智能代理。",
+        "summary_zh": "Hindsight 是让智能体学习而非仅记忆的代理记忆系统。",
+        "application": "用于构建随交互不断学习的智能体，支持记忆保留、回忆与反思，提供 API、多 LLM 集成及生产部署。",
         "use_cases": [
-          "构建个性化AI助手",
-          "客户服务聊天机器人",
-          "编码代理记忆",
-          "长期对话理解"
+          "长期对话记忆管理",
+          "个性化 AI 助手",
+          "企业知识代理",
+          "编码代理辅助"
         ],
-        "target_users": "AI代理开发者与研究者"
+        "target_users": "AI 开发者、构建智能体应用的研究人员和企业。"
       }
     },
     "davila7/claude-code-templates": {
@@ -1840,35 +1840,35 @@
       }
     },
     "TencentCloud/Octop": {
-      "readme_sha": "7f3245670f534fcdc03595c43bb028617a5aa729",
+      "readme_sha": "0908627d034d2c28cd84c5334408b489501d32c8",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-28T01:35:38.534828+00:00",
+      "analyzed_at": "2026-10-05T01:52:09.100711+00:00",
       "analysis": {
-        "summary_zh": "自托管多用户多智能体AI助手平台",
-        "application": "提供家庭和小型团队使用的自托管AI助手，支持多用户、多智能体、记忆、知识库和多种IM集成",
+        "summary_zh": "开源自托管多用户多智能体AI助手平台，保护隐私。",
+        "application": "用于个人助理、家庭共享及团队协作，支持通过网页、CLI及多个IM渠道交互，可扩展专家库、连接器和知识库。",
         "use_cases": [
           "个人助理",
           "家庭共享",
           "团队协作",
           "自动化任务"
         ],
-        "target_users": "重视隐私的家庭和小型团队"
+        "target_users": "注重隐私的个人、家庭和小型团队。"
       }
     },
     "hypit-ai/hypit": {
-      "readme_sha": "15f31267a99d7c4a520fcd3a8cc9e7c3f1bfc8c5",
+      "readme_sha": "668e62b1ad738476bb0b4558ce4f0e7bb98c27d6",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-28T01:35:44.249257+00:00",
+      "analyzed_at": "2026-10-05T01:52:32.104432+00:00",
       "analysis": {
-        "summary_zh": "用AI智能体克隆爆款视频，一条命令生成100个变体，实现1亿播放。",
-        "application": "提供SVML语言和工具链，让AI智能体自动完成视频克隆、换脸、改词、B-roll替换、生成大量变体，并可编译为最终视频。",
+        "summary_zh": "Hypit 是一个 AI 视频克隆工具，支持克隆病毒视频并批量生成变体。",
+        "application": "提供 SVML 语言和 AI 代理，克隆视频中的面部、台词、B-roll 并生成 100 个变体，用于病毒式传播。",
         "use_cases": [
-          "爆款视频克隆与变体生成",
-          "AI驱动的视频自动化编辑",
-          "文字驱动的视频合成",
-          "无需模型服务的低成本视频生成"
+          "克隆病毒视频",
+          "批量生成视频变体",
+          "替换面部和台词",
+          "生成 B-roll 素材"
         ],
-        "target_users": "AI智能体开发者、视频创作者、营销团队"
+        "target_users": "视频创作者、营销人员、AI 爱好者"
       }
     },
     "pacifio/atlas": {
@@ -1933,6 +1933,118 @@
           "管理全局提示词与会话"
         ],
         "target_users": "日常使用Claude Code、Codex等工具的开发者"
+      }
+    },
+    "NVIDIA/OpenShell": {
+      "readme_sha": "e0aaa43641b41a8e7cd4a2f8ffcb345a356e754b",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:14.133907+00:00",
+      "analysis": {
+        "summary_zh": "面向自主 AI 代理的安全私有运行时。",
+        "application": "通过内核级隔离、策略执行和形式化验证，为 AI 代理提供受限的文件、网络和凭据访问。",
+        "use_cases": [
+          "安全运行自主 AI 代理",
+          "管理 AI 代理权限",
+          "保护凭据和敏感数据",
+          "多代理部署治理"
+        ],
+        "target_users": "需要安全运行自主 AI 代理的开发者和企业。"
+      }
+    },
+    "mvschwarz/openrig": {
+      "readme_sha": "c3128b88ed1631afb844fc1ae9bcc8164cbe230e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:17.062512+00:00",
+      "analysis": {
+        "summary_zh": "OpenRig 是一个开源多智能体编排工具，支持在统一系统中管理 Claude Code 和 Codex 等 AI 编码代理。",
+        "application": "通过 YAML 定义代理团队，一键启动，实现持久化角色、共享上下文和任务分配，适用于多代理协作编码和自动化开发流程。",
+        "use_cases": [
+          "多 AI 编码代理协作",
+          "自动化代码审查",
+          "仓库任务分配与跟踪",
+          "AI 文明实验"
+        ],
+        "target_users": "使用 Claude Code 或 Codex 的开发者、多代理系统研究者"
+      }
+    },
+    "spinabot/brigade": {
+      "readme_sha": "cdea09022e418488b2bffa70b1e54aeadd625f40",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:24.067890+00:00",
+      "analysis": {
+        "summary_zh": "Brigade 是一个企业级个人智能助手，由 AI 智能体组成，支持多模型与长期记忆。",
+        "application": "提供可自托管的 AI 智能体团队，通过终端、WhatsApp、Telegram 等多种渠道交互，支持 1000+ 应用连接器，可用于自动化任务、信息整合与个人助理场景。",
+        "use_cases": [
+          "个人智能助理",
+          "多智能体协作",
+          "应用集成自动化",
+          "自托管 AI 服务"
+        ],
+        "target_users": "技术用户、开发者、企业用户，需要自托管 AI 解决方案的个人或团队"
+      }
+    },
+    "VectifyAI/PageIndex": {
+      "readme_sha": "05457ee57115bfffe5cec2ff1490d3f894e2240f",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:26.650219+00:00",
+      "analysis": {
+        "summary_zh": "PageIndex 是一种无向量、基于推理的 RAG 引擎，模拟人类阅读方式处理长文档。",
+        "application": "通过为文档生成树状索引并由 LLM 推理检索，无需向量数据库或分块，适用于金融、法律等长复杂文档的信息查询。",
+        "use_cases": [
+          "长文档问答",
+          "专业报告检索",
+          "文档分析",
+          "智能客服"
+        ],
+        "target_users": "需要高精度检索长文档的研究者、分析师、开发者。"
+      }
+    },
+    "feder-cr/dots": {
+      "readme_sha": "49d5359eff8dfb9ae21d2dd1e0b29686915d9dab",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:34.202077+00:00",
+      "analysis": {
+        "summary_zh": "开源AI网页代理，基于修改版Firefox，避免被网站检测。",
+        "application": "通过本地Web界面与AI对话，控制防指纹浏览器执行网页自动化任务，如抓取数据、预订等。",
+        "use_cases": [
+          "网页自动化",
+          "数据抓取",
+          "自动预订",
+          "AI浏览器助手"
+        ],
+        "target_users": "需要避免反爬检测的开发者、自动化测试人员。"
+      }
+    },
+    "kaankiziltug/logo-design-skill": {
+      "readme_sha": "b6f19ffb77ea81d559b859eb77365ec1fb2be1f4",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:37.301991+00:00",
+      "analysis": {
+        "summary_zh": "面向AI代理的开源Logo设计技能，含原则、流程、SVG制作与1400+参考库。",
+        "application": "将Claude、Gemini CLI、Codex等AI代理转变为品牌Logo设计器，从需求简报、概念生成到SVG交付，并提供测试工具与参考库。",
+        "use_cases": [
+          "AI辅助Logo概念设计",
+          "SVG标志制作与检测",
+          "品牌规范与演示板生成",
+          "标志参考库检索与分类"
+        ],
+        "target_users": "使用AI代理的设计师、开发者及品牌相关从业者。"
+      }
+    },
+    "edenfunf/reelmimic": {
+      "readme_sha": "aefacca1d9fbf9dc07beb6f3b74e8ce5b6db0f1b",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-05T01:52:39.994985+00:00",
+      "analysis": {
+        "summary_zh": "AI驱动的视频风格模仿工具，输入参考视频即可生成同风格新视频。",
+        "application": "分析参考视频的剪辑节奏、运镜、色彩等，规划后由多个AI代理分工生成2D动画视频，支持交互修改。",
+        "use_cases": [
+          "2D动画风格迁移",
+          "多代理AI视频生成",
+          "视频风格分析与规划",
+          "自定义风格开发"
+        ],
+        "target_users": "需要快速制作风格化动画视频的创作者和开发者"
       }
     }
   }
