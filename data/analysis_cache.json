@@ -2,19 +2,19 @@
   "version": 1,
   "repositories": {
     "calesthio/OpenMontage": {
-      "readme_sha": "0dae0149c8a92482d51d31b22428bf6eb95446c9",
+      "readme_sha": "b4612e95d34f3820253c96e48582a9c3a8113815",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:23:13.716147+00:00",
+      "analyzed_at": "2026-10-12T02:19:19.752581+00:00",
       "analysis": {
-        "summary_zh": "开源智能视频制作系统，将AI编程助手变为完整视频工作室。",
-        "application": "通过自然语言描述，代理完成研究、脚本、素材生成、剪辑和合成，支持图像视频和真实素材视频制作。",
+        "summary_zh": "开源智能视频制作系统，将AI编码助手变成完整视频工作室。",
+        "application": "通过自然语言指令，驱动AI助手完成研究、脚本、素材生成、剪辑和合成，支持图像视频和真实视频制作。",
         "use_cases": [
-          "影视预告片制作",
-          "动画短片生成",
-          "产品宣传视频",
-          "社交媒体视频"
+          "自动生成营销视频",
+          "制作动画短片",
+          "剪辑真实素材视频",
+          "创建音乐视频"
         ],
-        "target_users": "视频创作者、开发者、AI爱好者"
+        "target_users": "使用AI编码助手的开发者、视频创作者和营销人员"
       }
     },
     "DeusData/codebase-memory-mcp": {
@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "58f56edc23a3c5af6e0ba94c1a7513d967831083",
+      "readme_sha": "5c55c68317ad27e585194266f0807608f2c1b11c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-05T01:52:20.179461+00:00",
+      "analyzed_at": "2026-10-12T02:19:07.383751+00:00",
       "analysis": {
-        "summary_zh": "让AI代理像最懒惰的资深开发者一样思考，以最少代码完成任务。",
-        "application": "为Claude Code等AI编程代理注入极简主义风格，减少代码行数、令牌、成本和时间。",
+        "summary_zh": "Ponytail 是面向 AI 编程代理的技能包，倡导极简编码和 YAGNI 原则。",
+        "application": "通过注入提示和规则，让 AI 代理模仿资深工程师，只写必要代码，减少冗余、时间和成本，同时保持测试覆盖率。",
         "use_cases": [
-          "减少AI代理生成的冗余代码",
-          "提升AI编程效率与成本控制",
-          "避免过度工程与不必要的依赖",
-          "优化AI代理的输出简洁性"
+          "减少 AI 生成代码量",
+          "提高 AI 代理编码效率",
+          "集成到 Cursor、Claude Code 等工具",
+          "在保持安全性的前提下简化实现"
         ],
-        "target_users": "使用Claude Code等AI编程代理的开发者"
+        "target_users": "使用 AI 编程代理的开发者，追求高效精简代码。"
       }
     },
     "topoteretes/cognee": {
@@ -529,19 +529,19 @@
       }
     },
     "addyosmani/agent-skills": {
-      "readme_sha": "6361def414ade46622e6cd527d1faeea2b234224",
+      "readme_sha": "fd5d76fdd774c0d7437e8b59cd1f884a5ece9a25",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-21T01:02:50.986014+00:00",
+      "analyzed_at": "2026-10-12T02:19:14.133610+00:00",
       "analysis": {
-        "summary_zh": "面向AI编程代理的生产级工程技能集合。",
-        "application": "提供覆盖软件开发生命周期的技能包与命令，供AI编码代理遵循最佳实践。",
+        "summary_zh": "AI编码智能体的生产级工程技能集合",
+        "application": "提供覆盖软件开发生命周期的技能与命令，指导AI代理按规范完成规格、计划、构建、测试、审查、性能优化和部署。",
         "use_cases": [
           "AI辅助软件开发",
-          "代码质量把关",
-          "测试驱动开发",
-          "工作流自动化"
+          "代码质量门禁",
+          "自动化工作流",
+          "开发流程标准化"
         ],
-        "target_users": "使用AI编程代理的软件开发者与团队"
+        "target_users": "使用AI编码智能体的开发者和工程团队"
       }
     },
     "Graphify-Labs/graphify": {
@@ -928,19 +928,19 @@
       }
     },
     "earthtojake/text-to-cad": {
-      "readme_sha": "4275d40c9b0130080ca4fa9a0d2a271a0ea798c1",
+      "readme_sha": "2cd09ec3c928459c1072a001bd3d62cfec25b27c",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-03T00:09:12.850036+00:00",
+      "analyzed_at": "2026-10-12T02:18:57.691795+00:00",
       "analysis": {
-        "summary_zh": "面向CAD/CAE/CAM的AI代理技能库",
-        "application": "为AI代理提供生成、检查、切片和交付CAD及机器人描述文件的工作流，支持STEP/STL等格式输出。",
+        "summary_zh": "为AI代理提供生成CAD模型的本地工作流",
+        "application": "将文本转换为3D模型，输出STEP、GLB、STL或3MF文件，并执行制造检查、工程图生成，连接3D打印和CNC服务",
         "use_cases": [
-          "文本或图像生成3D模型",
-          "机器人URDF/SDF建模",
-          "DXF工程图生成",
-          "3D打印切片与打印"
+          "文本生成3D模型",
+          "制造可行性检查",
+          "生成工程图纸",
+          "连接3D打印服务"
         ],
-        "target_users": "CAD工程师、机器人开发者、硬件设计团队"
+        "target_users": "CAD工程师、AI代理开发者、机器人研究者"
       }
     },
     "drumih/turbo-fieldfare": {
@@ -1552,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "e5367fb91bc05c4c7ab8d816d2c6146f2fcaf0cd",
+      "readme_sha": "6e281d91e881b6b07d60b57d7fb5f51b0076e8e1",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-05T01:52:03.460162+00:00",
+      "analyzed_at": "2026-10-12T02:19:10.390988+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音处理工具，支持克隆、配音、转录等646种语言。",
-        "application": "提供语音克隆、设计、视频配音、听写、转录及有声书制作，完全本地运行。",
+        "summary_zh": "开源本地语音处理应用，支持克隆、配音、转录等",
+        "application": "供本地语音克隆、设计、视频配音、听写、转录和有声书制作的多语言工具",
         "use_cases": [
           "语音克隆",
           "视频配音",
-          "语音转录",
-          "有声书制作"
+          "语音转文字",
+          "有声书生成"
         ],
-        "target_users": "需要本地语音处理的开发者、内容创作者"
+        "target_users": "内容创作者、播客制作者、开发者及本地处理需求用户"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -1952,19 +1952,19 @@
       }
     },
     "mvschwarz/openrig": {
-      "readme_sha": "c3128b88ed1631afb844fc1ae9bcc8164cbe230e",
+      "readme_sha": "15dfd8e8500082f2b18f7175c09aa4eced2c490e",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-05T01:52:17.062512+00:00",
+      "analyzed_at": "2026-10-12T02:19:00.943423+00:00",
       "analysis": {
-        "summary_zh": "OpenRig 是一个开源多智能体编排工具，支持在统一系统中管理 Claude Code 和 Codex 等 AI 编码代理。",
-        "application": "通过 YAML 定义代理团队，一键启动，实现持久化角色、共享上下文和任务分配，适用于多代理协作编码和自动化开发流程。",
+        "summary_zh": "OpenRig是一个开源的多AI代理编排系统，可将Claude Code和Codex等代理组织成持久团队。",
+        "application": "通过YAML定义代理团队，一键启动，由主导代理协调各专家代理，在共享上下文中协作完成代码任务。",
         "use_cases": [
-          "多 AI 编码代理协作",
-          "自动化代码审查",
-          "仓库任务分配与跟踪",
-          "AI 文明实验"
+          "AI编程代理团队管理",
+          "多代理任务协调",
+          "代码变更与审查",
+          "代理上下文持久化"
         ],
-        "target_users": "使用 Claude Code 或 Codex 的开发者、多代理系统研究者"
+        "target_users": "需要多AI代理协作的开发者和小型团队"
       }
     },
     "spinabot/brigade": {
@@ -2032,19 +2032,83 @@
       }
     },
     "edenfunf/reelmimic": {
-      "readme_sha": "aefacca1d9fbf9dc07beb6f3b74e8ce5b6db0f1b",
+      "readme_sha": "01c2a900957ea447e4a7ddc23125809734717d37",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-05T01:52:39.994985+00:00",
+      "analyzed_at": "2026-10-12T02:19:28.975767+00:00",
       "analysis": {
-        "summary_zh": "AI驱动的视频风格模仿工具，输入参考视频即可生成同风格新视频。",
-        "application": "分析参考视频的剪辑节奏、运镜、色彩等，规划后由多个AI代理分工生成2D动画视频，支持交互修改。",
+        "summary_zh": "ReelMimic 是一个利用 AI 代理分析参考视频风格并生成新动画视频的工具。",
+        "application": "用户提供参考视频和简短描述，系统分解节奏、镜头、色彩等要素，生成计划并经多代理并行制作、审查和修正，最终产出同风格的新动画视频。",
         "use_cases": [
-          "2D动画风格迁移",
-          "多代理AI视频生成",
-          "视频风格分析与规划",
-          "自定义风格开发"
+          "音乐视频风格模仿",
+          "动画短片生成",
+          "教学演示视频制作",
+          "风格转换与再创作"
         ],
-        "target_users": "需要快速制作风格化动画视频的创作者和开发者"
+        "target_users": "动画师、内容创作者、AI 爱好者"
+      }
+    },
+    "thedotmack/claude-mem": {
+      "readme_sha": "2cb9e7eeae5c0139f024e336c179a930e9d99d8f",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-12T02:18:54.579987+00:00",
+      "analysis": {
+        "summary_zh": "为AI代理提供跨会话持久记忆的压缩系统",
+        "application": "自动捕获代理行为并用AI压缩，再将相关上下文注入未来会话，支持多个AI代理",
+        "use_cases": [
+          "跨会话上下文保持",
+          "AI代理记忆管理",
+          "工具使用观察总结",
+          "多代理集成"
+        ],
+        "target_users": "使用Claude Code等AI代理的开发者"
+      }
+    },
+    "danyuchn/asd-ste100-skill": {
+      "readme_sha": "b98db5fb1230c670ea0e92f6a646766d2afb4c25",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-12T02:19:04.167045+00:00",
+      "analysis": {
+        "summary_zh": "将ASD-STE100简化技术英语规则转化为Claude Code技能，用于改写模糊的智能体英语输出。",
+        "application": "作为Claude Code技能，将AI智能体输出、工具描述、错误消息等重写为符合STE规则的清晰文本，支持严格和STE风格模式，并附带规则检查器。",
+        "use_cases": [
+          "改写智能体间通信",
+          "简化工具描述",
+          "澄清错误消息",
+          "生成合规技术文本"
+        ],
+        "target_users": "开发AI智能体系统的工程师和需要清晰技术沟通的团队。"
+      }
+    },
+    "QingYunA/answer-me-with-html": {
+      "readme_sha": "f424ecf9fa0255b159ff2c86996e73029864a947",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-12T02:19:22.831155+00:00",
+      "analysis": {
+        "summary_zh": "让AI Agent用一页HTML回答复杂问题的技能。",
+        "application": "安装后，AI助手将回答转换为单文件HTML页面，含SVG图表和CSS，速度快且token消耗低。",
+        "use_cases": [
+          "解释TCP三次握手",
+          "梳理代码库模块关系",
+          "比较Redis与Memcached",
+          "生成可离线观看的讲解视频"
+        ],
+        "target_users": "使用Claude Code等AI编程助手的开发者"
+      }
+    },
+    "feder-cr/invisible_playwright_mcp": {
+      "readme_sha": "a0684d127784405660580b2f1af3ef5addd2c1f5",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-12T02:19:25.876405+00:00",
+      "analysis": {
+        "summary_zh": "隐形Playwright MCP服务器，抗反爬虫与验证码的AI浏览器代理",
+        "application": "AI代理通过MCP控制隐形Firefox浏览器，绕过反爬虫和验证码，执行网页自动化、数据抓取和任务操作",
+        "use_cases": [
+          "AI代理网页自动化",
+          "反检测浏览器自动化",
+          "网页抓取",
+          "求职搜索"
+        ],
+        "target_users": "需要AI浏览器自动化的开发者、爬虫工程师、求职者"
       }
     }
   }
