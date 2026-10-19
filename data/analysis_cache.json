@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "5c55c68317ad27e585194266f0807608f2c1b11c",
+      "readme_sha": "79529b3c536ff31540714deb0ebcd32f24ae6ef9",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-12T02:19:07.383751+00:00",
+      "analyzed_at": "2026-10-19T01:06:51.969047+00:00",
       "analysis": {
-        "summary_zh": "Ponytail 是面向 AI 编程代理的技能包，倡导极简编码和 YAGNI 原则。",
-        "application": "通过注入提示和规则，让 AI 代理模仿资深工程师，只写必要代码，减少冗余、时间和成本，同时保持测试覆盖率。",
+        "summary_zh": "Ponytail 是一个让 AI 编程代理像最懒的资深开发者一样思考的技能包。",
+        "application": "通过 Prompt 工程优化 AI 代理（如 Claude Code）的代码生成，减少冗余代码，同时提高测试覆盖率，降低成本与时间。",
         "use_cases": [
-          "减少 AI 生成代码量",
-          "提高 AI 代理编码效率",
-          "集成到 Cursor、Claude Code 等工具",
-          "在保持安全性的前提下简化实现"
+          "AI 辅助编程",
+          "代码精简",
+          "降低 token 消耗",
+          "提高测试覆盖率"
         ],
-        "target_users": "使用 AI 编程代理的开发者，追求高效精简代码。"
+        "target_users": "使用 AI 编程代理的开发者"
       }
     },
     "topoteretes/cognee": {
@@ -529,19 +529,19 @@
       }
     },
     "addyosmani/agent-skills": {
-      "readme_sha": "fd5d76fdd774c0d7437e8b59cd1f884a5ece9a25",
+      "readme_sha": "7f610b8ca80ff9bc7ba7f95f3209430c3481891d",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-12T02:19:14.133610+00:00",
+      "analyzed_at": "2026-10-19T01:07:00.879726+00:00",
       "analysis": {
-        "summary_zh": "AI编码智能体的生产级工程技能集合",
-        "application": "提供覆盖软件开发生命周期的技能与命令，指导AI代理按规范完成规格、计划、构建、测试、审查、性能优化和部署。",
+        "summary_zh": "提供AI编程代理所需的工程技能集，覆盖开发全流程。",
+        "application": "以技能形式编码资深工程师的工作流、质量门禁和最佳实践，通过9个斜杠命令和25个技能指导AI代理完成规范、规划、构建、测试、评审和发布。",
         "use_cases": [
-          "AI辅助软件开发",
-          "代码质量门禁",
-          "自动化工作流",
-          "开发流程标准化"
+          "规范产品需求",
+          "规划开发任务",
+          "执行测试驱动开发",
+          "代码审查与质量门禁"
         ],
-        "target_users": "使用AI编码智能体的开发者和工程团队"
+        "target_users": "AI编程代理及使用它们的开发者"
       }
     },
     "Graphify-Labs/graphify": {
@@ -1136,19 +1136,19 @@
       }
     },
     "cathrynlavery/diagram-design": {
-      "readme_sha": "a3d8d47863f50f74f2b31f5fac78adefef23c2d3",
+      "readme_sha": "974bba8513dba31a11581c6e111c7f7de26a3632",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:23.503774+00:00",
+      "analyzed_at": "2026-10-19T01:06:42.767273+00:00",
       "analysis": {
-        "summary_zh": "面向AI编码工具的38+编辑级图表设计技能，生成自包含HTML+SVG，无阴影、非Mermaid风格。",
-        "application": "为Claude Code、Codex等AI代理提供图表生成技能，支持架构图、流程图、序列图等39种编辑级图表，并可重绘draw.io/Mermaid源。",
+        "summary_zh": "为Claude Code、Codex等多款AI编码助手设计的图表生成技能，输出自包含HTML+SVG，无阴影，45种图型。",
+        "application": "作为Agent Skills插件安装到AI编码助手中，用自然语言生成编辑级图表，支持品牌样式定制、导入导出及45种图表类型。",
         "use_cases": [
-          "生成技术博客配图",
-          "创建软件架构图",
-          "制作流程图和序列图",
-          "将现有图表重绘为编辑级风格"
+          "生成架构图",
+          "象限分析图",
+          "时序图",
+          "自动匹配品牌风格"
         ],
-        "target_users": "使用AI编码工具的技术作者、开发者、设计师"
+        "target_users": "使用Claude Code、Cursor等AI编码助手的开发者和设计师"
       }
     },
     "semantica-agi/semantica": {
@@ -1408,19 +1408,19 @@
       }
     },
     "MadsLorentzen/ai-job-search": {
-      "readme_sha": "770bdc71f0f49f94de9993b8394675894ba07b55",
+      "readme_sha": "c41999477105cbd924bef07412cb5eb0d6d62a9a",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-31T01:22:52.660773+00:00",
+      "analyzed_at": "2026-10-19T01:06:46.281915+00:00",
       "analysis": {
-        "summary_zh": "基于 Claude Code 的 AI 求职框架，可自动评估职位、定制简历并撰写求职信。",
-        "application": "通过 Claude Code 实现职位抓取、匹配评分、定制 LaTeX 简历与求职信、面试准备的全流程自动化。",
+        "summary_zh": "基于Claude Code的AI求职框架，自动化评估职位、定制简历、写求职信和准备面试。",
+        "application": "提供/setup、/scrape、/apply、/interview等命令，自动搜索职位、评估匹配度、生成LaTeX简历和求职信，并支持面试准备。",
         "use_cases": [
-          "自动化职位搜索与评估",
-          "生成定制化简历和求职信",
-          "模拟面试准备",
-          "求职流程管理"
+          "自动搜索并筛选职位",
+          "定制简历和求职信",
+          "生成面试准备材料",
+          "评估职位匹配度"
         ],
-        "target_users": "求职者，尤其是技术岗位和丹麦市场求职者"
+        "target_users": "求职者，尤其是技术岗位求职者和希望自动化求职流程的人群。"
       }
     },
     "anthropics/claude-plugins-official": {
@@ -1440,19 +1440,19 @@
       }
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "readme_sha": "8ce09b450241568839fd2e3aa3f5a658f40f889a",
+      "readme_sha": "3fcebf5c0e49e39dc87e5b577d0368d313124862",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-07T00:55:12.988893+00:00",
+      "analyzed_at": "2026-10-19T01:06:57.752310+00:00",
       "analysis": {
-        "summary_zh": "将 AI 代理转化为 AI 科学家的开源技能库",
-        "application": "提供 163 个科学技能和 100+ 数据库，支持生物信息学、药物发现等多领域复杂工作流。",
+        "summary_zh": "收集177个科研技能和100+数据库，将AI代理转化为AI科学家。",
+        "application": "为AI代理提供生物学、化学、医学等领域的特定软件、数据库和工作流程的指导与验证，提升科研任务的可靠性和效率。",
         "use_cases": [
-          "生物信息学与基因组分析",
+          "生物信息学与基因组学",
           "化学信息学与药物发现",
-          "临床研究与数据分析",
-          "科学可视化与计算"
+          "蛋白质组学与质谱分析",
+          "数据分析和科学可视化"
         ],
-        "target_users": "科研人员、AI 开发者、数据科学家"
+        "target_users": "科研人员、数据科学家、AI应用开发者"
       }
     },
     "Alishahryar1/free-claude-code": {
@@ -1552,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "6e281d91e881b6b07d60b57d7fb5f51b0076e8e1",
+      "readme_sha": "52869fe6735b9d0623c16c5c73febb4917972d23",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-12T02:19:10.390988+00:00",
+      "analyzed_at": "2026-10-19T01:06:48.911937+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音处理应用，支持克隆、配音、转录等",
-        "application": "供本地语音克隆、设计、视频配音、听写、转录和有声书制作的多语言工具",
+        "summary_zh": "开源的本地语音生成工具，支持声音克隆、设计、配音和转录等",
+        "application": "提供语音克隆、设计、视频配音、听写、转录和有声书制作，支持646种语言，本地运行",
         "use_cases": [
           "语音克隆",
           "视频配音",
-          "语音转文字",
-          "有声书生成"
+          "语音设计",
+          "听写与转录"
         ],
-        "target_users": "内容创作者、播客制作者、开发者及本地处理需求用户"
+        "target_users": "需要本地语音合成和克隆的内容创作者、开发者"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -2109,6 +2109,86 @@
           "求职搜索"
         ],
         "target_users": "需要AI浏览器自动化的开发者、爬虫工程师、求职者"
+      }
+    },
+    "morluto/rea": {
+      "readme_sha": "31238bae529b49f6068361e6efa3c120bcc28d80",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-19T01:06:39.463472+00:00",
+      "analysis": {
+        "summary_zh": "基于MCP的逆向工程智能体工具，支持二进制、应用与运行时行为分析。",
+        "application": "让智能体无需源码即可调查应用功能，解释实现原理并生成证据，支持原生二进制、JavaScript/Electron、.NET和网站分析。",
+        "use_cases": [
+          "逆向应用功能",
+          "分析原生二进制",
+          "静态分析JavaScript/Electron应用",
+          "生成证据与报告"
+        ],
+        "target_users": "逆向工程师、安全研究员、开发者。"
+      }
+    },
+    "vxcontrol/pentagi": {
+      "readme_sha": "731dfe269aabcfbdd01a2dd7c8c0b5b1b07542ae",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-19T01:06:54.852296+00:00",
+      "analysis": {
+        "summary_zh": "开源自主渗透测试多智能体系统",
+        "application": "用户描述目标后，AI智能体在隔离Docker沙箱中自动调用nmap、Metasploit等20+工具，并生成报告",
+        "use_cases": [
+          "自主漏洞评估",
+          "自动化安全测试",
+          "红队演练",
+          "安全研究"
+        ],
+        "target_users": "安全工程师、渗透测试人员、红队"
+      }
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "readme_sha": "6bf435beba21a490c33255e30244683cd552f003",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-19T01:07:03.999586+00:00",
+      "analysis": {
+        "summary_zh": "用7美元ESP32让AI代理操控真实iPhone，无需电脑或越狱。",
+        "application": "ESP32作AirPlay接收器和USB HID鼠标键盘，iPhone应用解码画面并调用视觉模型规划执行点击滑动等操作。",
+        "use_cases": [
+          "语音设置闹钟",
+          "自动化操作手机应用",
+          "AI助手执行手机任务",
+          "远程控制iPhone"
+        ],
+        "target_users": "AI开发者、自动化爱好者、iPhone用户"
+      }
+    },
+    "feder-cr/git-ai": {
+      "readme_sha": "7097b9abd3886352130767216d6647fec9c0aa09",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-19T01:07:06.417867+00:00",
+      "analysis": {
+        "summary_zh": "面向AI智能体的Git系统，支持大规模并发代码变更与快速落地。",
+        "application": "为AI编程智能体设计的高性能版本控制服务器，支持稀疏检出、自动冲突解决、变更日志和水平扩展。",
+        "use_cases": [
+          "多AI智能体并行编码",
+          "自动合并与冲突解决",
+          "大规模代码变更落地",
+          "智能体代码审查"
+        ],
+        "target_users": "开发AI编程智能体的团队或个人。"
+      }
+    },
+    "rociiu/talorys": {
+      "readme_sha": "52d39ab1d9e4657c0c58dcbecb1f02243bceb780",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-19T01:07:09.009811+00:00",
+      "analysis": {
+        "summary_zh": "在个人Cloudflare账户中运行的开源AI助手。",
+        "application": "提供聊天、记忆、任务、笔记和定时提醒功能，通过一条命令部署。",
+        "use_cases": [
+          "个人任务管理",
+          "定时提醒与自动化",
+          "私有AI聊天",
+          "记忆与笔记存储"
+        ],
+        "target_users": "注重隐私、喜欢自托管的个人用户。"
       }
     }
   }
