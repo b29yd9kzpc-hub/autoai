@@ -81,19 +81,19 @@
       }
     },
     "stablyai/orca": {
-      "readme_sha": "98efc301c2f911a056e4cb28d249cf0381f996a4",
+      "readme_sha": "dc6b13791676eaf8b8896ba2896d34eb1139e701",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-28T01:35:33.692546+00:00",
+      "analyzed_at": "2026-10-26T01:07:50.121066+00:00",
       "analysis": {
-        "summary_zh": "Orca 是一个 AI 智能体编排的集成开发环境（ADE），用于并行运行多个编码智能体。",
-        "application": "支持 Codex、ClaudeCode、OpenCode 等智能体并行运行在独立工作树中，提供移动端监控、SSH 远程运行和设计模式等功能。",
+        "summary_zh": "AI代理编排工具，支持并行运行多个编码代理。",
+        "application": "在桌面、移动及远程运行时运行多个AI编码代理，每个代理有独立工作树，支持统一跟踪管理。",
         "use_cases": [
-          "并行运行多个 AI 编码智能体",
-          "从手机监控和控制智能体",
-          "在独立 git worktree 中比较结果",
-          "远程 SSH 运行智能体"
+          "并行运行多个AI编码代理",
+          "从移动设备监控和控制代理",
+          "在远程服务器上运行代理",
+          "比较不同代理的代码结果"
         ],
-        "target_users": "需要高效管理和并行使用多个 AI 编码智能体的开发者。"
+        "target_users": "需要高效管理多个AI编码代理的开发者"
       }
     },
     "Panniantong/Agent-Reach": {
@@ -193,19 +193,19 @@
       }
     },
     "hugohe3/ppt-master": {
-      "readme_sha": "c843ec2a64e2f9ed2b7b4056628a534a5a5d0cf9",
+      "readme_sha": "f6e5b495886447a5831e5b521f8822326bbf7711",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-16T23:31:50.136677+00:00",
+      "analyzed_at": "2026-10-26T01:08:05.959520+00:00",
       "analysis": {
-        "summary_zh": "AI将文档或主题转为原生PPT，支持形状、动画、图表与自定义模板。",
-        "application": "从PDF、DOCX或网页等材料中提取关键信息，组织叙事结构，生成可在PowerPoint中编辑的原生PPTX，包含原生形状、过渡动画、数据驱动的图表表格及基于演讲备注的音频旁白。",
+        "summary_zh": "AI将文档或主题生成为原生PowerPoint演示文稿",
+        "application": "将文档或主题转换为原生PPTX，包含原生形状、过渡、动画、图表和旁白。",
         "use_cases": [
-          "自动生成演示文稿",
           "文档转PPT",
-          "数据图表报告",
-          "自定义模板生成"
+          "主题生成演示",
+          "数据图表制作",
+          "语音旁白添加"
         ],
-        "target_users": "需要快速制作专业演示文稿的商务人士、教育者及开发者。"
+        "target_users": "需要高效生成专业PPT的个人和团队"
       }
     },
     "NousResearch/hermes-agent": {
@@ -545,19 +545,19 @@
       }
     },
     "Graphify-Labs/graphify": {
-      "readme_sha": "36a2235ba94c0d8d36e6bc5bc679b348710144db",
+      "readme_sha": "a2240fea8f624fe86467911821cb9a55cede4e26",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-08-03T00:09:15.473295+00:00",
+      "analyzed_at": "2026-10-26T01:07:55.573513+00:00",
       "analysis": {
-        "summary_zh": "将代码库及其文档、配置、PDF等转换为可查询的知识图谱。",
-        "application": "通过本地AST解析生成代码知识图谱，支持在AI编码助手中查询代码关系，无需向量存储。",
+        "summary_zh": "将任意代码库（含文档、SQL、配置、PDF）转换为可查询的知识图谱。",
+        "application": "通过本地AST解析生成知识图谱，支持查询而非文件搜索，用于AI编程助手。",
         "use_cases": [
-          "代码关系查询",
-          "知识图谱生成",
-          "代码文档分析",
-          "AI辅助开发"
+          "代码库知识图谱构建",
+          "AI助手集成查询",
+          "文档与代码关联分析",
+          "代码理解与导航"
         ],
-        "target_users": "使用AI编码工具的开发者"
+        "target_users": "使用Claude Code、Cursor等AI编程助手的开发者"
       }
     },
     "synthetic-sciences/openscience": {
@@ -1552,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "52869fe6735b9d0623c16c5c73febb4917972d23",
+      "readme_sha": "f90d8accfb8bccfa61c744d5d3f502edc9a8a179",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-19T01:06:48.911937+00:00",
+      "analyzed_at": "2026-10-26T01:08:03.575611+00:00",
       "analysis": {
-        "summary_zh": "开源的本地语音生成工具，支持声音克隆、设计、配音和转录等",
-        "application": "提供语音克隆、设计、视频配音、听写、转录和有声书制作，支持646种语言，本地运行",
+        "summary_zh": "开源本地语音AI应用，支持语音克隆、设计、配音等，替代ElevenLabs。",
+        "application": "提供语音克隆、语音设计、视频配音、听写、转录和有声书创建，支持646种语言。",
         "use_cases": [
           "语音克隆",
           "视频配音",
-          "语音设计",
-          "听写与转录"
+          "有声书制作",
+          "语音转文字"
         ],
-        "target_users": "需要本地语音合成和克隆的内容创作者、开发者"
+        "target_users": "内容创作者、开发者、需要本地语音处理的用户"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -2112,19 +2112,19 @@
       }
     },
     "morluto/rea": {
-      "readme_sha": "31238bae529b49f6068361e6efa3c120bcc28d80",
+      "readme_sha": "8d8fff00f277173199af3f0cc2a374c193108ec4",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-19T01:06:39.463472+00:00",
+      "analyzed_at": "2026-10-26T01:08:00.935224+00:00",
       "analysis": {
-        "summary_zh": "基于MCP的逆向工程智能体工具，支持二进制、应用与运行时行为分析。",
-        "application": "让智能体无需源码即可调查应用功能，解释实现原理并生成证据，支持原生二进制、JavaScript/Electron、.NET和网站分析。",
+        "summary_zh": "REA 是一个基于 MCP 的逆向工程代理工具。",
+        "application": "连接 AI 代理分析原生二进制、JavaScript、Electron 应用、.NET 程序集和网站，提供证据和局限。",
         "use_cases": [
-          "逆向应用功能",
-          "分析原生二进制",
-          "静态分析JavaScript/Electron应用",
-          "生成证据与报告"
+          "分析应用功能实现",
+          "逆向原生二进制",
+          "提取 JavaScript 应用逻辑",
+          "构建强化学习环境"
         ],
-        "target_users": "逆向工程师、安全研究员、开发者。"
+        "target_users": "逆向工程师、安全研究人员和开发者"
       }
     },
     "vxcontrol/pentagi": {
@@ -2160,19 +2160,19 @@
       }
     },
     "feder-cr/git-ai": {
-      "readme_sha": "7097b9abd3886352130767216d6647fec9c0aa09",
+      "readme_sha": "a5598e4c1bb427f9e580ed3617821deba1fc8bf5",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-19T01:07:06.417867+00:00",
+      "analyzed_at": "2026-10-26T01:08:18.613196+00:00",
       "analysis": {
-        "summary_zh": "面向AI智能体的Git系统，支持大规模并发代码变更与快速落地。",
-        "application": "为AI编程智能体设计的高性能版本控制服务器，支持稀疏检出、自动冲突解决、变更日志和水平扩展。",
+        "summary_zh": "面向AI智能体的Git版本控制系统，实现Anthropic Scion设计。",
+        "application": "为AI编码代理提供高效版本控制，支持并发变更、自动冲突解决、变更日志，基于服务器API架构。",
         "use_cases": [
-          "多AI智能体并行编码",
-          "自动合并与冲突解决",
-          "大规模代码变更落地",
-          "智能体代码审查"
+          "AI编码代理并发协作",
+          "自动化冲突解决与验证",
+          "高并发代码落地",
+          "代理操作审计与策略控制"
         ],
-        "target_users": "开发AI编程智能体的团队或个人。"
+        "target_users": "使用AI代理进行软件开发的团队和个人。"
       }
     },
     "rociiu/talorys": {
@@ -2189,6 +2189,118 @@
           "记忆与笔记存储"
         ],
         "target_users": "注重隐私、喜欢自托管的个人用户。"
+      }
+    },
+    "ruvnet/ruflo": {
+      "readme_sha": "56654bc4da60150973301a18f6c826236898869e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:07:44.844682+00:00",
+      "analysis": {
+        "summary_zh": "Ruflo是一个AI智能体元框架，用于Claude Code等工具，部署多智能体群体并协调自主工作流。",
+        "application": "提供100+专业智能体、群体协调、自学习记忆、跨机器联邦通信及企业安全护栏，支持Claude Code、Codex等集成。",
+        "use_cases": [
+          "构建对话式AI系统",
+          "协调自主工作流",
+          "部署多智能体群体",
+          "增强AI助手能力"
+        ],
+        "target_users": "开发者、AI工程师、企业团队"
+      }
+    },
+    "anomalyco/opencode": {
+      "readme_sha": "a8551f97c57f9140c4c2ce9f7c004dc4bc21954b",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:07:46.749928+00:00",
+      "analysis": {
+        "summary_zh": "开源 AI 编码代理，提供终端和桌面应用。",
+        "application": "用于开发任务，内置构建和规划代理，支持代码探索、分析和多步骤搜索。",
+        "use_cases": [
+          "代码开发",
+          "代码分析",
+          "任务规划",
+          "复杂搜索"
+        ],
+        "target_users": "开发者和编程人员"
+      }
+    },
+    "heygen-com/hyperframes": {
+      "readme_sha": "9090da4ac27bb90d21c93d2db2b95215a952619e",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:07:52.693777+00:00",
+      "analysis": {
+        "summary_zh": "将HTML/CSS转为确定性MP4视频的开源框架，专为AI代理设计。",
+        "application": "使用HTML、CSS、媒体和可搜索动画生成MP4视频，支持CLI、AI编码代理技能及托管工作流。",
+        "use_cases": [
+          "AI代理驱动的视频生成",
+          "产品宣传视频制作",
+          "数据可视化动画",
+          "自动化视频编辑"
+        ],
+        "target_users": "AI开发者、编码代理用户和视频创作者"
+      }
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "readme_sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:07:58.298807+00:00",
+      "analysis": {
+        "summary_zh": "基于Karpathy观点的Claude Code行为优化指南",
+        "application": "提供CLAUDE.md文件，含四条原则（先思考、简化、精准修改、目标驱动），以改善Claude Code的编码行为",
+        "use_cases": [
+          "减少AI编码中的错误假设",
+          "避免过度复杂化代码",
+          "确保代码修改最小化",
+          "通过测试循环实现目标"
+        ],
+        "target_users": "使用Claude Code的开发者"
+      }
+    },
+    "lemomo-ai/lemo-opuscar": {
+      "readme_sha": "ba8ff031d31d92cd53146a1481b5a78a5676c3f8",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:08:09.017088+00:00",
+      "analysis": {
+        "summary_zh": "一套代码生成影片风格的AI工具箱，含59种现成风格，由Claude Code驱动。",
+        "application": "通过Claude Code和提示词，用canvas/WebGL/ffmpeg/Three.js等代码生成短片，支持自定义风格、故事板和配音。",
+        "use_cases": [
+          "AI短片制作",
+          "创意编码",
+          "风格化视频生成",
+          "教育演示"
+        ],
+        "target_users": "使用Claude Code的创作者、AI视频爱好者"
+      }
+    },
+    "zhuyansen/new-term-radar": {
+      "readme_sha": "302cc33ac61919fd7423986ad6a3176438f18763",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:08:12.336922+00:00",
+      "analysis": {
+        "summary_zh": "每日捕捉AI领域新术语和产品名的雷达工具，早于关键词工具。",
+        "application": "从X、Hugging Face、GitHub、网站地图等来源检测新AI模型、产品和仓库名称，生成日报，用于SEO、新闻和目录。",
+        "use_cases": [
+          "AI工具站SEO关键词发现",
+          "新闻简报选题",
+          "AI产品目录更新",
+          "趋势追踪与市场分析"
+        ],
+        "target_users": "AI内容创作者、SEO从业者、产品经理和分析师。"
+      }
+    },
+    "cranebeaker/coop-anything": {
+      "readme_sha": "271b482dd920ee68bf5d08b119e0d41c9b565458",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-10-26T01:08:15.503345+00:00",
+      "analysis": {
+        "summary_zh": "将任意单机游戏改造为可联机合作的AI代理工具集",
+        "application": "提供MCP服务器和技能指引，让AI代理逆向工程游戏、修复或构建合作模式，并自动测试、打包分享，支持Steam联机",
+        "use_cases": [
+          "单机游戏多人化",
+          "合作模式开发",
+          "逆向工程自动化",
+          "游戏模组测试"
+        ],
+        "target_users": "游戏模组开发者与AI代理技术爱好者"
       }
     }
   }
