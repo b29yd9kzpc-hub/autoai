@@ -161,19 +161,19 @@
       }
     },
     "DietrichGebert/ponytail": {
-      "readme_sha": "79529b3c536ff31540714deb0ebcd32f24ae6ef9",
+      "readme_sha": "ff6a92573ef6412495055d979cff1d7464e1fa65",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-19T01:06:51.969047+00:00",
+      "analyzed_at": "2026-11-02T02:24:08.787979+00:00",
       "analysis": {
-        "summary_zh": "Ponytail 是一个让 AI 编程代理像最懒的资深开发者一样思考的技能包。",
-        "application": "通过 Prompt 工程优化 AI 代理（如 Claude Code）的代码生成，减少冗余代码，同时提高测试覆盖率，降低成本与时间。",
+        "summary_zh": "将AI代理塑造成最懒散资深开发者的技能包，倡导YAGNI原则。",
+        "application": "提供prompt工程规则和代理技能，使Claude等编码代理用最少代码完成任务，减少代码量、时间和成本。",
         "use_cases": [
-          "AI 辅助编程",
-          "代码精简",
-          "降低 token 消耗",
-          "提高测试覆盖率"
+          "AI编码代理优化",
+          "LLM提示工程",
+          "减少无效代码",
+          "提升开发效率"
         ],
-        "target_users": "使用 AI 编程代理的开发者"
+        "target_users": "使用AI编码代理的开发者和团队"
       }
     },
     "topoteretes/cognee": {
@@ -545,19 +545,19 @@
       }
     },
     "Graphify-Labs/graphify": {
-      "readme_sha": "a2240fea8f624fe86467911821cb9a55cede4e26",
+      "readme_sha": "432a25d53fe47153f24766cf7179abbe34d48406",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-26T01:07:55.573513+00:00",
+      "analyzed_at": "2026-11-02T02:24:12.403743+00:00",
       "analysis": {
-        "summary_zh": "将任意代码库（含文档、SQL、配置、PDF）转换为可查询的知识图谱。",
-        "application": "通过本地AST解析生成知识图谱，支持查询而非文件搜索，用于AI编程助手。",
+        "summary_zh": "将代码库及其文档、SQL schema、配置和PDF转换为可查询的知识图谱。",
+        "application": "通过本地AST解析生成知识图谱，支持Claude Code、Cursor等AI编程助手查询代码关系，降低token消耗。",
         "use_cases": [
           "代码库知识图谱构建",
-          "AI助手集成查询",
-          "文档与代码关联分析",
-          "代码理解与导航"
+          "AI编程助手集成",
+          "代码关系查询与追踪",
+          "文档与代码统一分析"
         ],
-        "target_users": "使用Claude Code、Cursor等AI编程助手的开发者"
+        "target_users": "使用AI编程助手的开发者与团队"
       }
     },
     "synthetic-sciences/openscience": {
@@ -609,33 +609,33 @@
       }
     },
     "Nutlope/hallmark": {
-      "readme_sha": "a615a8007804ee0912c2a94a4d987acdd75c3cbe",
+      "readme_sha": "2568bb6f51284bc3feeea6a3098d31f6743ec623",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-20T04:35:51.518228+00:00",
+      "analyzed_at": "2026-11-02T02:23:30.953909+00:00",
       "analysis": {
-        "summary_zh": "一款避免AI感的设计技能，集成于Claude Code等编程助手。",
-        "application": "为编程助手提供设计技能，通过宏结构、主题、反模因检测和自审，产出多样化非模板UI。",
+        "summary_zh": "AI设计技能，避免生成AI感页面，提供50种主题与检查。",
+        "application": "为Claude Code等工具提供设计技能，自动生成网页并检查AI痕迹，支持自定义、重设计。",
         "use_cases": [
-          "生成非模板化 Web 界面",
-          "审计代码中的设计反模因",
-          "基于截图提取设计 DNA",
-          "自定义创意设计无预设主题"
+          "快速搭建营销页面",
+          "生成独特设计的网站",
+          "检查并修正AI生成设计",
+          "重设计现有页面"
         ],
-        "target_users": "使用AI编程助手、追求独特设计的开发者"
+        "target_users": "使用AI编码工具的开发者和设计师"
       }
     },
     "HKUDS/DeepTutor": {
-      "readme_sha": "a2fa6c5a647531af11c1e56ab44bc777d7e5812c",
+      "readme_sha": "7fd1e39a9dc1b1907cb9dfa230ce6321fe25656a",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-07-27T00:11:29.303604+00:00",
+      "analyzed_at": "2026-11-02T02:24:05.031493+00:00",
       "analysis": {
-        "summary_zh": "终身个性化AI导师，支持多模态交互与知识管理。",
-        "application": "提供个性化学习辅导，利用AI智能体、RAG和多模型协作实现交互式教学、知识库构建与自适应学习路径。",
+        "summary_zh": "DeepTutor：终身个性化AI辅导系统",
+        "application": "基于多智能体和RAG的交互式学习平台，支持CLI和Web界面，提供个性化辅导、笔记、视频课程等",
         "use_cases": [
           "个性化学习辅导",
-          "交互式知识问答",
-          "知识库创建与管理",
-          "代码学习辅助"
+          "课程内容生成",
+          "学习进度追踪",
+          "交互式问答"
         ],
         "target_users": "学生、自学者及教育工作者"
       }
@@ -1552,19 +1552,19 @@
       }
     },
     "debpalash/VoiceStudio": {
-      "readme_sha": "f90d8accfb8bccfa61c744d5d3f502edc9a8a179",
+      "readme_sha": "d34d1b10f50857223890a9de8dc63264670c38dc",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-26T01:08:03.575611+00:00",
+      "analyzed_at": "2026-11-02T02:24:01.925149+00:00",
       "analysis": {
-        "summary_zh": "开源本地语音AI应用，支持语音克隆、设计、配音等，替代ElevenLabs。",
-        "application": "提供语音克隆、语音设计、视频配音、听写、转录和有声书创建，支持646种语言。",
+        "summary_zh": "VoiceStudio 是本地 AI 语音工作室，替代 ElevenLabs。",
+        "application": "在本地设备上进行语音克隆、设计、视频配音、听写、转录及有声书制作，支持 646 种语言。",
         "use_cases": [
           "语音克隆",
           "视频配音",
-          "有声书制作",
-          "语音转文字"
+          "语音设计",
+          "听写与转录"
         ],
-        "target_users": "内容创作者、开发者、需要本地语音处理的用户"
+        "target_users": "需要本地处理多语言语音内容的创作者和开发者"
       }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
@@ -1584,19 +1584,19 @@
       }
     },
     "affaan-m/ECC": {
-      "readme_sha": "117552c2bc78b4ed5897eacec23a173b2b4e5e8e",
+      "readme_sha": "d8017086ca85d2e851ef2e0c88470b0b09dc3d4d",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-28T01:35:36.329437+00:00",
+      "analyzed_at": "2026-11-02T02:23:58.556229+00:00",
       "analysis": {
-        "summary_zh": "AI智能体性能优化系统，提供技能、安全、记忆等功能。",
-        "application": "为Claude Code等AI编程工具提供技能、本能、记忆、安全及研究优先开发支持，提升智能体效率。",
+        "summary_zh": "开源AI代理性能优化系统，提供技能、记忆、安全等模块。",
+        "application": "为Claude Code、Codex等AI编码代理提供技能管理、记忆存储、安全防护和研发优先开发支持。",
         "use_cases": [
-          "优化AI编程智能体性能",
-          "增强AI智能体安全性",
-          "跨多平台统一技能与记忆管理",
-          "提升开发工作流效率"
+          "AI代理性能优化",
+          "编码代理技能管理",
+          "代理安全防护",
+          "研发优先开发"
         ],
-        "target_users": "使用Claude Code等AI编程工具的开发者"
+        "target_users": "使用Claude Code、Codex等AI代理的开发者。"
       }
     },
     "Imbad0202/academic-research-skills": {
@@ -1664,19 +1664,19 @@
       }
     },
     "obra/superpowers": {
-      "readme_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
+      "readme_sha": "c5bb59fdaf17ba154e803c549cd71a73ef36c24b",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-09-14T00:59:17.829787+00:00",
+      "analyzed_at": "2026-11-02T02:23:43.363194+00:00",
       "analysis": {
-        "summary_zh": "面向编码代理的软件开发方法论，基于可组合技能和初始指令。",
-        "application": "为编码代理提供规范工作流，自动触发技能，引导需求澄清、设计、TDD实现和子代理驱动开发。",
+        "summary_zh": "面向编程代理的可组合技能框架与软件开发方法论",
+        "application": "为编码智能体提供技能与初始指令，使其自动进行需求澄清、规格设计、TDD实现和子代理驱动的开发流程",
         "use_cases": [
-          "需求澄清与规格书生成",
-          "设计评审与实施计划制定",
-          "红绿TDD与代码质量保障",
-          "子代理驱动的自主开发"
+          "自动化需求澄清与设计",
+          "子代理驱动的任务分解与执行",
+          "测试驱动开发(TDD)实施",
+          "多编码代理集成与扩展"
         ],
-        "target_users": "使用编码代理的软件开发人员与团队"
+        "target_users": "使用AI编码代理的开发者与团队"
       }
     },
     "Tencent/WeKnora": {
@@ -2048,19 +2048,19 @@
       }
     },
     "thedotmack/claude-mem": {
-      "readme_sha": "2cb9e7eeae5c0139f024e336c179a930e9d99d8f",
+      "readme_sha": "e6095776b1697376286db94962ccf52d17a2687a",
       "model": "deepseek-v4-pro",
-      "analyzed_at": "2026-10-12T02:18:54.579987+00:00",
+      "analyzed_at": "2026-11-02T02:23:40.030040+00:00",
       "analysis": {
-        "summary_zh": "为AI代理提供跨会话持久记忆的压缩系统",
-        "application": "自动捕获代理行为并用AI压缩，再将相关上下文注入未来会话，支持多个AI代理",
+        "summary_zh": "为AI代理提供跨会话持久记忆，自动捕获、压缩并注入上下文。",
+        "application": "自动捕获代理会话中的工具观察，生成语义摘要，并在未来会话中注入相关上下文，实现跨会话连续性。",
         "use_cases": [
-          "跨会话上下文保持",
-          "AI代理记忆管理",
-          "工具使用观察总结",
-          "多代理集成"
+          "跨会话记忆持久化",
+          "自动上下文压缩",
+          "多AI代理集成",
+          "语义检索注入"
         ],
-        "target_users": "使用Claude Code等AI代理的开发者"
+        "target_users": "需要跨会话记忆的AI代理开发者或使用者。"
       }
     },
     "danyuchn/asd-ste100-skill": {
@@ -2301,6 +2301,150 @@
           "游戏模组测试"
         ],
         "target_users": "游戏模组开发者与AI代理技术爱好者"
+      }
+    },
+    "pbakaus/impeccable": {
+      "readme_sha": "8f27aa965cb56ab578d637e53f0392ae4e2d06db",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:23:34.137559+00:00",
+      "analysis": {
+        "summary_zh": "为编程代理提供的设计词汇与审查工具。",
+        "application": "通过命令如polish、bolder、critique、audit等，指导AI代理改进界面设计，检测并修正常见设计俗套。",
+        "use_cases": [
+          "界面设计改进",
+          "AI生成代码审查",
+          "设计质量提升",
+          "检测设计俗套"
+        ],
+        "target_users": "使用AI编程代理的前端开发者与设计师"
+      }
+    },
+    "AgriciDaniel/claude-seo": {
+      "readme_sha": "70b98e1ad7cd3aa7228781bbd12458e1a15577ce",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:23:37.116834+00:00",
+      "analysis": {
+        "summary_zh": "Claude SEO是Claude Code的免费开源SEO审计插件，含26子技能和19代理。",
+        "application": "对网站进行技术SEO、内容、结构化数据、AI搜索、本地及电商SEO审计，提供优先行动计划和报告。",
+        "use_cases": [
+          "全站SEO审计",
+          "技术SEO检查",
+          "Schema标记生成",
+          "AI搜索优化"
+        ],
+        "target_users": "SEO从业者、数字营销机构、网站所有者"
+      }
+    },
+    "JetBrains/thinkrail": {
+      "readme_sha": "7594cab8513d03f0b699bb225a78322ad89ac0bc",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:23:46.870254+00:00",
+      "analysis": {
+        "summary_zh": "ThinkRail是一个基于pi编码代理的智能IDE，通过工作区隔离和动态规格提升开发体验。",
+        "application": "为开发者提供隔离的git工作树、并行代理会话、规范驱动的开发以及可复用技能，支持快速迭代和PR管理。",
+        "use_cases": [
+          "并行处理多分支任务",
+          "规范驱动开发",
+          "自动生成PR描述",
+          "管理代理技能"
+        ],
+        "target_users": "需要高效编码和自动化工作流的开发者"
+      }
+    },
+    "TauricResearch/TradingAgents": {
+      "readme_sha": "a9ddf10db162f608af4d3387b8a7dd35bc4d1a13",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:23:49.990042+00:00",
+      "analysis": {
+        "summary_zh": "基于多智能体LLM的金融交易框架",
+        "application": "利用多个智能体模拟不同角色进行市场分析，支持数据获取、回测和交易决策",
+        "use_cases": [
+          "股票分析",
+          "回测验证",
+          "组合管理",
+          "交易信号"
+        ],
+        "target_users": "量化交易者和金融研究人员"
+      }
+    },
+    "Leonxlnx/taste-skill": {
+      "readme_sha": "8efa355f7d03ada51edccea568dccf26e628b511",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:23:54.141770+00:00",
+      "analysis": {
+        "summary_zh": "赋予编码代理设计品味的Agent技能，提供艺术指导、真实图片和浏览器自检，避免通用AI页面。",
+        "application": "用于让AI编码代理设计高质量网页和应用界面，通过艺术指导、开源图片引用和浏览器截图自检提升视觉效果。",
+        "use_cases": [
+          "生成独特设计的落地页",
+          "为应用设计界面",
+          "自动审查并修正设计问题",
+          "从简短提示创建设计作品"
+        ],
+        "target_users": "使用Claude Code、Codex等AI编码代理的开发者。"
+      }
+    },
+    "Orkas-AI/Orkas": {
+      "readme_sha": "2c422ae04c36e1aae9dfba0332834317e07c17a9",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:24:16.740705+00:00",
+      "analysis": {
+        "summary_zh": "Orkas 是开源本地优先的多智能体桌面应用，将目标拆解为任务并协调16个内置专家智能体与外部编码智能体。",
+        "application": "通过指挥官智能体将用户目标分解为待办事项，调度内置专家智能体及 Claude Code、Codex 等外部智能体协作执行，支持项目记忆、定时自动化和文件交付，适用于多种办公任务。",
+        "use_cases": [
+          "内容生成（视频、文章、PPT）",
+          "研究与分析（SEO、市场、股票）",
+          "电商运营（选品、评论分析、销售分析）",
+          "办公文档处理与网页/UI开发"
+        ],
+        "target_users": "需要自动化办公和多智能体协作的 macOS/Windows 个人或团队。"
+      }
+    },
+    "rddmwmddr/android-ad-cleaner": {
+      "readme_sha": "6f75a6c9077180145590cda0eedd640e510c7a86",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:24:20.428313+00:00",
+      "analysis": {
+        "summary_zh": "关掉国产安卓手机系统广告、热搜、资讯推荐和营销推送，不 root，可还原。",
+        "application": "通过 adb 连接安卓设备，自动关闭系统广告、热搜资讯、推广位、营销通知，并可挂起广告组件和关闭快应用。",
+        "use_cases": [
+          "关闭系统广告",
+          "关闭热搜和资讯推荐",
+          "按渠道关闭营销推送",
+          "挂起广告组件"
+        ],
+        "target_users": "想去除国产安卓手机广告和推送的普通用户"
+      }
+    },
+    "ccch1mneyyy/dsh-Go": {
+      "readme_sha": "95505400fc9ece987c79b906f117e3569d5a018d",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:24:22.902038+00:00",
+      "analysis": {
+        "summary_zh": "DeepSeek Harness 的 Android 客户端，本机运行或遥控电脑。",
+        "application": "手机端运行 DSH，内置 Linux 环境免 Root，可远程连接电脑 DSH，支持原生/网页界面。",
+        "use_cases": [
+          "手机运行 AI 编码代理",
+          "远程控制电脑 DSH",
+          "对话插话与立即发送",
+          "对话分享与回放"
+        ],
+        "target_users": "DeepSeek Harness 用户、移动 AI 开发者。"
+      }
+    },
+    "wangzan101/Mika": {
+      "readme_sha": "f72a26da5c0ba6c8c4632739977f0b73c192e279",
+      "model": "deepseek-v4-pro",
+      "analyzed_at": "2026-11-02T02:24:28.892252+00:00",
+      "analysis": {
+        "summary_zh": "Mika是一款Android端AI代理，可在后台操作应用和网页完成任务。",
+        "application": "用户用一句话下达指令，Mika在隐藏后台屏幕上自动打开应用、点击、输入和滚动，完成微信消息、购物比价、信息摘要等任务，支持任意应用和网页。",
+        "use_cases": [
+          "自动发送微信消息",
+          "购物筛选并加购",
+          "总结聊天或帖子内容",
+          "后台操作应用和网页"
+        ],
+        "target_users": "希望自动化手机操作、提高效率的Android用户"
       }
     }
   }
