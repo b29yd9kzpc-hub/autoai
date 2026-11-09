@@ -1,135 +1,114 @@
-# AI GitHub 周报｜2026-11-02
+# AI GitHub 周报｜2026-11-09
 
 口语任意｜编程语言任意｜GitHub Trending 本周榜
 
 ## 🔥 GitHub 官方本周 AI 应用榜
 
-1. [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
-   官网第 1 名｜本周 +11.6k ⭐｜总计 45.0k｜CSS｜AI 编程
+1. [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)
+   官网第 1 名｜本周 +9.3k ⭐｜总计 10.5k｜Python｜AI 工作流
+   中文简介：构建语义知识图谱层，为LLM和智能体提供可靠上下文与推理。
+   应用说明：从企业元数据生成本体，统一指标定义，校验SQL查询，通过MCP/API服务智能体。
+   典型用途：自然语言转SQL查询、企业数据目录与语义建模、智能体上下文检索与推理、数据血缘与查询验证
+   适合用户：需要为智能体构建可信数据上下文的开发者
+
+2. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
+   官网第 2 名｜本周 +6.4k ⭐｜总计 115.0k｜TypeScript｜RAG / 知识库 / AI Agent
+   中文简介：为 AI 编码代理提供跨会话持久记忆的工具，通过捕获、压缩并注入上下文避免重复工作。
+   应用说明：在会话中记录代理活动，用AI压缩存储，在未来会话中注入相关上下文，支持Claude Code、Codex、Cursor等15+代理。
+   典型用途：跨会话保持项目上下文、自动索引代理工作记录、按需检索历史决策、减少重复文件读取
+   适合用户：使用AI编码代理且希望保持上下文的开发者
+
+3. [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk)
+   官网第 3 名｜本周 +2.3k ⭐｜总计 12.1k｜Rust｜AI Agent / AI 工作流
+   中文简介：Worktrunk 是一个用于 Git worktree 管理的 CLI，专为并行 AI 代理工作流设计。
+   应用说明：通过三个核心命令（switch、remove、list）简化 Git worktree 操作，支持为 AI 代理并行创建和管理多个工作树，并提供钩子和构建缓存等高级功能。
+   典型用途：并行运行多个 AI 代理、简化 Git worktree 管理、自动化本地工作流、复制构建缓存
+   适合用户：需要并行处理多个任务的 AI 代理开发者
+
+4. [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
+   官网第 5 名｜本周 +5.2k ⭐｜总计 37.0k｜Shell｜AI Agent / AI 编程
+   中文简介：将Claude Code转化为完整游戏开发工作室，含49个AI角色和74项技能。
+   应用说明：提供模拟真实工作室层级的AI代理、工作流命令、钩子与模板，用于游戏设计、编程、美术、QA等全流程协作。
+   典型用途：游戏设计文档生成、代码与资源开发、自动化质量保证、项目管理与冲刺规划
+   适合用户：独立游戏开发者、AI辅助开发爱好者
+
+5. [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+   官网第 6 名｜本周 +7.6k ⭐｜总计 18.4k｜TypeScript｜AI Agent
+   中文简介：开源Grok Bot替代品，在聊天应用中运行本地AI代理团队。
+   应用说明：提供类似Telegram的聊天界面，每个机器人为独立AI代理，可使用本地或云虚拟机及500+应用。
+   典型用途：管理多个AI代理、本地优先AI助手、自动化计算机操作、定制代理引擎
+   适合用户：需要本地运行和自定义AI代理的开发者与高级用户。
+
+6. [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
+   官网第 8 名｜本周 +6.4k ⭐｜总计 51.0k｜CSS｜AI 编程
    中文简介：AI设计技能，避免生成AI感页面，提供50种主题与检查。
    应用说明：为Claude Code等工具提供设计技能，自动生成网页并检查AI痕迹，支持自定义、重设计。
    典型用途：快速搭建营销页面、生成独特设计的网站、检查并修正AI生成设计、重设计现有页面
    适合用户：使用AI编码工具的开发者和设计师
 
-2. [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
-   官网第 2 名｜本周 +12.0k ⭐｜总计 99.4k｜Rust｜AI 编程
-   中文简介：为编程代理提供的设计词汇与审查工具。
-   应用说明：通过命令如polish、bolder、critique、audit等，指导AI代理改进界面设计，检测并修正常见设计俗套。
-   典型用途：界面设计改进、AI生成代码审查、设计质量提升、检测设计俗套
-   适合用户：使用AI编程代理的前端开发者与设计师
-
-3. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)
-   官网第 3 名｜本周 +5.0k ⭐｜总计 25.6k｜Python｜AI Agent / AI 编程
-   中文简介：Claude SEO是Claude Code的免费开源SEO审计插件，含26子技能和19代理。
-   应用说明：对网站进行技术SEO、内容、结构化数据、AI搜索、本地及电商SEO审计，提供优先行动计划和报告。
-   典型用途：全站SEO审计、技术SEO检查、Schema标记生成、AI搜索优化
-   适合用户：SEO从业者、数字营销机构、网站所有者
-
-4. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-   官网第 4 名｜本周 +5.9k ⭐｜总计 109.4k｜TypeScript｜RAG / 知识库 / AI Agent
-   中文简介：为AI代理提供跨会话持久记忆，自动捕获、压缩并注入上下文。
-   应用说明：自动捕获代理会话中的工具观察，生成语义摘要，并在未来会话中注入相关上下文，实现跨会话连续性。
-   典型用途：跨会话记忆持久化、自动上下文压缩、多AI代理集成、语义检索注入
-   适合用户：需要跨会话记忆的AI代理开发者或使用者。
-
-5. [obra/superpowers](https://github.com/obra/superpowers)
-   官网第 6 名｜本周 +5.9k ⭐｜总计 310.7k｜Shell｜AI Agent
-   中文简介：面向编程代理的可组合技能框架与软件开发方法论
-   应用说明：为编码智能体提供技能与初始指令，使其自动进行需求澄清、规格设计、TDD实现和子代理驱动的开发流程
-   典型用途：自动化需求澄清与设计、子代理驱动的任务分解与执行、测试驱动开发(TDD)实施、多编码代理集成与扩展
-   适合用户：使用AI编码代理的开发者与团队
-
-6. [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
-   官网第 7 名｜本周 +5.8k ⭐｜总计 7.0k｜TypeScript｜AI Agent
-   中文简介：ThinkRail是一个基于pi编码代理的智能IDE，通过工作区隔离和动态规格提升开发体验。
-   应用说明：为开发者提供隔离的git工作树、并行代理会话、规范驱动的开发以及可复用技能，支持快速迭代和PR管理。
-   典型用途：并行处理多分支任务、规范驱动开发、自动生成PR描述、管理代理技能
-   适合用户：需要高效编码和自动化工作流的开发者
-
-7. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
-   官网第 9 名｜本周 +4.5k ⭐｜总计 228.0k｜未知｜AI 编程
-   中文简介：基于Karpathy观点的Claude Code行为优化指南
-   应用说明：提供CLAUDE.md文件，含四条原则（先思考、简化、精准修改、目标驱动），以改善Claude Code的编码行为
-   典型用途：减少AI编码中的错误假设、避免过度复杂化代码、确保代码修改最小化、通过测试循环实现目标
-   适合用户：使用Claude Code的开发者
-
-8. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
-   官网第 11 名｜本周 +5.4k ⭐｜总计 119.6k｜Python｜AI Agent
-   中文简介：基于多智能体LLM的金融交易框架
-   应用说明：利用多个智能体模拟不同角色进行市场分析，支持数据获取、回测和交易决策
-   典型用途：股票分析、回测验证、组合管理、交易信号
-   适合用户：量化交易者和金融研究人员
-
-9. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-   官网第 12 名｜本周 +5.3k ⭐｜总计 107.9k｜JavaScript｜AI Agent / AI 编程
-   中文简介：赋予编码代理设计品味的Agent技能，提供艺术指导、真实图片和浏览器自检，避免通用AI页面。
-   应用说明：用于让AI编码代理设计高质量网页和应用界面，通过艺术指导、开源图片引用和浏览器截图自检提升视觉效果。
-   典型用途：生成独特设计的落地页、为应用设计界面、自动审查并修正设计问题、从简短提示创建设计作品
-   适合用户：使用Claude Code、Codex等AI编码代理的开发者。
-
-10. [affaan-m/ECC](https://github.com/affaan-m/ECC)
-   官网第 14 名｜本周 +6.3k ⭐｜总计 294.9k｜JavaScript｜AI Agent / AI 编程
-   中文简介：开源AI代理性能优化系统，提供技能、记忆、安全等模块。
-   应用说明：为Claude Code、Codex等AI编码代理提供技能管理、记忆存储、安全防护和研发优先开发支持。
-   典型用途：AI代理性能优化、编码代理技能管理、代理安全防护、研发优先开发
-   适合用户：使用Claude Code、Codex等AI代理的开发者。
+7. [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+   官网第 11 名｜本周 +2.2k ⭐｜总计 47.7k｜Rust｜AI Agent
+   中文简介：AI智能体浏览器自动化CLI，用快照与引用驱动网页操作。
+   应用说明：为AI智能体提供命令式浏览器控制，通过返回带引用的可达性树快照来执行点击、填写、导航等操作，状态在命令间保持。
+   典型用途：AI智能体网页交互、自动化网页测试、网页数据抓取、浏览器任务自动化
+   适合用户：开发AI智能体的工程师与自动化测试人员。
 
 ## 🚀 AI 应用升星补充榜
 
-1. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-   本期 +11.2k ⭐（约 +11.1k/周）｜总计 98.0k｜Python｜语音 / 音频
-   中文简介：VoiceStudio 是本地 AI 语音工作室，替代 ElevenLabs。
-   应用说明：在本地设备上进行语音克隆、设计、视频配音、听写、转录及有声书制作，支持 646 种语言。
-   典型用途：语音克隆、视频配音、语音设计、听写与转录
-   适合用户：需要本地处理多语言语音内容的创作者和开发者
+1. [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)
+   本期 +8.1k ⭐（约 +8.1k/周）｜总计 99.9k｜Python｜MCP 应用
+   中文简介：现代网页抓取框架，支持快速请求、隐身浏览器和并发爬取。
+   应用说明：可从静态页面、JavaScript渲染站点及API提取数据，构建带会话、代理轮换和自动重试的爬虫。
+   典型用途：数据提取与采集、网站监控、自动化测试、AI数据获取
+   适合用户：Python开发者、数据工程师、爬虫爱好者
 
-2. [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
-   本期 +11.1k ⭐（约 +11.0k/周）｜总计 53.7k｜Python｜RAG / 知识库
-   中文简介：DeepTutor：终身个性化AI辅导系统
-   应用说明：基于多智能体和RAG的交互式学习平台，支持CLI和Web界面，提供个性化辅导、笔记、视频课程等
-   典型用途：个性化学习辅导、课程内容生成、学习进度追踪、交互式问答
-   适合用户：学生、自学者及教育工作者
+2. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+   本期 +7.1k ⭐（约 +7.1k/周）｜总计 105.1k｜Python｜语音 / 音频
+   中文简介：本地运行的AI语音工作室，支持646种语言的克隆、配音等
+   应用说明：用于声音克隆、设计、视频配音、听写、转录及有声书制作，完全本地运行
+   典型用途：声音克隆、视频配音、语音转录、有声书制作
+   适合用户：需要本地处理多种语音任务的开发者、创作者
 
 3. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-   本期 +6.0k ⭐（约 +5.9k/周）｜总计 182.2k｜JavaScript｜AI Agent
+   本期 +4.8k ⭐（约 +4.8k/周）｜总计 187.0k｜JavaScript｜AI Agent
    中文简介：将AI代理塑造成最懒散资深开发者的技能包，倡导YAGNI原则。
    应用说明：提供prompt工程规则和代理技能，使Claude等编码代理用最少代码完成任务，减少代码量、时间和成本。
    典型用途：AI编码代理优化、LLM提示工程、减少无效代码、提升开发效率
    适合用户：使用AI编码代理的开发者和团队
 
 4. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-   本期 +5.3k ⭐（约 +5.3k/周）｜总计 140.6k｜Python｜RAG / 知识库
-   中文简介：将代码库及其文档、SQL schema、配置和PDF转换为可查询的知识图谱。
-   应用说明：通过本地AST解析生成知识图谱，支持Claude Code、Cursor等AI编程助手查询代码关系，降低token消耗。
-   典型用途：代码库知识图谱构建、AI编程助手集成、代码关系查询与追踪、文档与代码统一分析
-   适合用户：使用AI编程助手的开发者与团队
+   本期 +4.0k ⭐（约 +4.0k/周）｜总计 144.5k｜Python｜RAG / 知识库
+   中文简介：将代码库和文档等转化为可查询的知识图谱，支持多种AI编码助手。
+   应用说明：通过AST解析代码，结合文档、SQL模式等构建知识图谱，提供查询和导航，替代传统搜索。
+   典型用途：代码理解和导航、知识图谱查询、AI助手集成、代码分析
+   适合用户：AI编码助手用户和开发者
 
-5. [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
-   本期 +5.2k ⭐（约 +5.2k/周）｜总计 7.4k｜JavaScript｜AI Agent / AI 工作流
-   中文简介：Orkas 是开源本地优先的多智能体桌面应用，将目标拆解为任务并协调16个内置专家智能体与外部编码智能体。
-   应用说明：通过指挥官智能体将用户目标分解为待办事项，调度内置专家智能体及 Claude Code、Codex 等外部智能体协作执行，支持项目记忆、定时自动化和文件交付，适用于多种办公任务。
-   典型用途：内容生成（视频、文章、PPT）、研究与分析（SEO、市场、股票）、电商运营（选品、评论分析、销售分析）、办公文档处理与网页/UI开发
-   适合用户：需要自动化办公和多智能体协作的 macOS/Windows 个人或团队。
+5. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+   本期 +3.9k ⭐（约 +3.9k/周）｜总计 141.1k｜Python｜AI 工作流 / 语音 / 音频
+   中文简介：AI短视频自动生成工具，输入主题即可生成高清视频
+   应用说明：自动生成视频脚本、匹配素材、添加字幕和背景音乐，合成高清短视频，支持WebUI和API
+   典型用途：短视频批量制作、社交媒体内容生成、自动化视频工作流、抖音/TikTok视频创作
+   适合用户：内容创作者、自媒体、营销人员、开发者
 
 ## 🌱 近期新项目
 
-1. [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner)
-   创建 8 天｜5.7k ⭐｜Python｜AI Agent
-   中文简介：关掉国产安卓手机系统广告、热搜、资讯推荐和营销推送，不 root，可还原。
-   应用说明：通过 adb 连接安卓设备，自动关闭系统广告、热搜资讯、推广位、营销通知，并可挂起广告组件和关闭快应用。
-   典型用途：关闭系统广告、关闭热搜和资讯推荐、按渠道关闭营销推送、挂起广告组件
-   适合用户：想去除国产安卓手机广告和推送的普通用户
+1. [wangzan101/Mika](https://github.com/wangzan101/Mika)
+   创建 10 天｜7.8k ⭐｜Kotlin｜AI Agent
+   中文简介：Mika是安卓端AI代理，可在后台操作应用和网页完成任务。
+   应用说明：用户用一句话下达指令，Mika在独立后台屏幕打开应用、点击、输入和滚动，执行如发消息、比价、总结内容等任务，支持任意应用和网页。
+   典型用途：自动发送微信消息、购物网站筛选并加购商品、总结聊天群或社交媒体内容、查找并预订航班
+   适合用户：希望手机自动执行任务、节省时间的普通安卓用户。
 
-2. [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go)
-   创建 7 天｜4.8k ⭐｜Dart｜AI Agent
-   中文简介：DeepSeek Harness 的 Android 客户端，本机运行或遥控电脑。
-   应用说明：手机端运行 DSH，内置 Linux 环境免 Root，可远程连接电脑 DSH，支持原生/网页界面。
-   典型用途：手机运行 AI 编码代理、远程控制电脑 DSH、对话插话与立即发送、对话分享与回放
-   适合用户：DeepSeek Harness 用户、移动 AI 开发者。
+2. [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video)
+   创建 10 天｜4.6k ⭐｜Python｜图像 / 视频
+   中文简介：逆向分析视频，逐镜头判断实拍、AI生成或代码制作，并提供复刻方案。
+   应用说明：面向AI代理和创作者的视频解析工具，可生成镜头报告、复刻计划和证据提示。
+   典型用途：视频来源检测、AI视频复刻、镜头内容分析、多模态提示生成
+   适合用户：视频创作者、AI爱好者、技术研究者
 
-3. [wangzan101/Mika](https://github.com/wangzan101/Mika)
-   创建 3 天｜4.0k ⭐｜Kotlin｜AI Agent
-   中文简介：Mika是一款Android端AI代理，可在后台操作应用和网页完成任务。
-   应用说明：用户用一句话下达指令，Mika在隐藏后台屏幕上自动打开应用、点击、输入和滚动，完成微信消息、购物比价、信息摘要等任务，支持任意应用和网页。
-   典型用途：自动发送微信消息、购物筛选并加购、总结聊天或帖子内容、后台操作应用和网页
-   适合用户：希望自动化手机操作、提高效率的Android用户
+3. [modelflare-ai/AnyModelBot](https://github.com/modelflare-ai/AnyModelBot)
+   创建 12 天｜2.7k ⭐｜Python｜AI Agent
+   中文简介：开源本地优先AI机器人，支持任意模型按量付费
+   应用说明：本地AI智能体应用，可在桌面、微信、飞书等平台聊天，执行文件操作和命令，支持多模型接入
+   典型用途：个人AI助手、多模型聊天、后台任务自动化、跨平台集成
+   适合用户：需要本地运行、跨模型灵活使用的开发者与高级用户
